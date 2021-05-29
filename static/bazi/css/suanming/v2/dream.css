@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/*
+
+ * @Created: 20130327
+
+ * @Author : leony
+
+ */
+
+/* dream_women */
+
+.dream_women{margin:30px -8px 0;padding:0 0 10px;font-size:14px;}
+
+.dream_women h3{font-weight:bold;border-bottom:1px dashed #C8C8C8;padding-bottom:8px;zoom:1;padding-left:15px;color: #333333;background: url(../../../images/suanming/v2/common.png) no-repeat -153px -455px;}
+
+.dream_women h3 a{float:right;font-weight:normal;font-size:12px;margin-top:4px;}
+
+.dream_women li{float:left;width:162px;height:26px;line-height:26px;padding-left:10px;background:url(../../../images/suanming/v2/common.png) no-repeat -147px -4px;}
+
+.dream_women li a{color:#915133;}
+
+.dream_women li a:hover{color:#fd5151;}
+
+.dream_women_spe h3{color:#894915;font-size:16px;}
+
+/* intro_tab */
+
+.intro_tab li{float:left;width:64px;height:32px;padding:0 0 0 4px;line-height:32px;text-align:center;}
+
+.intro_tab li a{display:block;height:32px;color:#89492D;font-size:14px;background:url(../../../images/suanming/v2/zhgjm_sprite.png) no-repeat;}
+
+.intro_tab li a:hover{color:#89492D;}
+
+.intro_tab li a.current{background-position:0 -37px;color:#fff;font-weight:bold;}
+
+.intro_tab li a.current:hover{color:#fff;}
+
+.intro_tab{margin:10px -2px 10px -2px;}
+
+.intro_tab li.nopl{padding-left:0;}
+
+.intro_tab_cont{width:672px;margin:0 auto;padding-bottom:10px;}
+
+.intro_tab_cont a{color:#894915;}
+
+.intro_tab_cont a:hover{color:#fd5151;}
+
+.intro_subtab{padding:0 10px;height:26px;line-height:26px;color:#CF9D73;background:#FDF5E6;font-size:12px;}
+
+.intro_subtab a.current{font-weight:bold;}
+
+.intro_tab_cont li{float:left;width:206px;padding-left:17px;height:22px;line-height:22px;font-size:14px;}
+
+.intro_tab_cont ul{border-top:1px dotted #C8C8C8;padding-top:8px;margin-top:8px;}
+
+.intro_tab_cont ul.nobt{border-top:0 none;padding-top:0;}
+
+/* page */
+
+.page{margin-bottom:0;}
+
+/* dream_result */
+
+.dream_result h4{padding-top:15px;text-align:center;font-size:28px;}
+
+.dream_rlist{margin-bottom:30px;}
+
+.dream_rlist li{margin-bottom:3px;}
+
+.dream_rlist li h6{height:28px;line-height:28px;border:1px solid #FDD7C1;padding:0 10px 0 28px;background:url(../../../images/suanming/v2/zhgjm_sprite.png) no-repeat -78px -2px;cursor:pointer;background-color:#FFFBF2;}
+
+.dream_rlist li h6.current{background-position:-78px -33px;}
+
+.dream_rlist li h6 a{float:right;color:#894915;font-size:12px;}
+
+.dream_rlist li h6 a:hover, .dream_rtxt a, .dream_rtxt a:hover{color:#fd5151;}
+
+.dream_rtxt{padding:10px 30px;color:#894915;line-height:22px;}
+
+.dream_rtxt p{text-indent:2em;}
+
+.dream_other{margin-top:10px;color:#894915;}
+
+
+.dream_other a{color:#894915;}
+
+.dream_other a:hover{color:#fd5151;}
+
+.dream_other p{padding:4px 12px;height:26px;line-height:32px;font-size:12px;font-weight:bold;background:#F9F4EB;}
+
+.dream_other_a{line-height:24px;padding:0 10px;}
+
+.dream_other_a a{font-size:14px;margin-right:10px;white-space:nowrap;}
+
+.share{border-bottom:1px dotted #C8C8C8;}
+
+.share .total{font-size:12px;color:#999;}
+
+/* dream_detail */
+
+.dream_detail{margin-bottom:30px;}
+
+.dream_detail p{margin-top:20px;color:#894915;line-height:26px;}
+
+.dream_source{font-size:12px;color:#999;text-align:right;}
+
+.dream_source a{color:#fd5151;}
+
+/*7-31*/
+.intro_tab_content{width:672px;margin:0 auto;padding-bottom:10px;}
+.intro_tab_content a{color:#894915;}
+.intro_tab_content a:hover{color:#fd5151;}
+.intro_tab_content h2{font-weight:bold; font-size:16px;}
+.intro_tab_list{width:672px; margin-top:8px; overflow:hidden;}
+.intro_tab_list ul{width:720px;}
+.intro_tab_list li{width:310px; height:30px; line-height:30px; float:left; margin-right:50px; display:inline; font-size:14px;}
+.intro_tab_list li a{width:232px; float:left; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.intro_tab_list li span{float:right; font-size:12px; color:#999; width:65px; height:30px; overflow:hidden;}
+
+.dream_ad{margin-top:20px;}
+.dream_detail_dl{margin-top:10px; border:1px solid #ccc;}
+.dream_detail_dl dt{padding:10px; background-color:#fff7e8; border-bottom:1px solid #ccc;}
+.dream_detail_dl dt a{color:#a4672e;}
+.dream_detail_dl dd{padding:10px;}
+.dream_detail_yi .name{color:#6BC30D;}
+.dream_detail_chong{margin-top:10px; padding-top:10px; border-top:1px dashed #ccc;}
+.dream_detail_chong .name{color:#FD5151;}
+
+
+/*dream_search*/
+.fn_box{margin:10px 0;}
+.fn_zgjm_search{z-index:10;margin:10px 0 10px;}
+.fn_zgjm_search .flag_tl_t1,.fn_zgjm_search .flag_tr_t1,.fn_zgjm_search .flag_bl_t1,.fn_zgjm_search .flag_br_t1{background: url(../../../images/suanming/v2/zgjm/zgjm_sprite.png) no-repeat;}
+.fn_zgjm_search .flag_tl_t1{top:4px;left:3px;background-position:0 -134px;}
+.fn_zgjm_search .flag_tr_t1{top:4px;right:3px;background-position:-45px -134px;}
+.fn_zgjm_search .flag_bl_t1{bottom:4px;left:3px;background-position:0 -179px;}
+.fn_zgjm_search .flag_br_t1{bottom:4px;right:3px;background-position:-45px -179px;}
+.dream_search{padding:27px 0 22px;position:relative;}
+.dream_search p{padding:8px 0 0 328px;font-size:12px;}
+.dream_search p a{margin-left:10px;color:#8F451F;}
+.dream_search p a:hover{color:#8F451F;}
+.dream_search .title-pic{width:194px;height: 106px;vertical-align: baseline;position:absolute;left:71px;bottom:-1px;_bottom:-2px;display:block;}
+.dream_sc{padding:0 0 0 328px;z-index:88;}
+.dream_sc .search-text{float: left;height:32px;line-height:32px;border:2px solid #b27f4f;border-right: 0 none;}
+.dream_sc .search-text span{float: left;width: 65px;height: 32px;text-align: center;font:16px/32px 'Microsoft YaHei'; color:#b07052;border-right: 1px solid #d4b9a1;background: #fff3d3;}
+.dream_sc input{float:left;}
+.dream_sc .dream_txt{padding:0 12px;width:249px;height:32px;border:0 none;line-height:32px;color:#999;font-size:14px;}
+.dream_sc .dream_txt_hover{color:#333;}
+.dream_sc .btn_search{width:121px;height:36px;line-height: 36px;text-align: center;font-size: 14px;color:#fff;border:0 none;background: url(../../../images/suanming/v2/zgjm/zgjm_sprite.png) no-repeat 0 0;cursor:pointer;}
+.dream_sc .btn_search_hover{background-position: 0 -37px;}
+
+.dream_think{position:absolute;left:395px;width:271px;padding:0 1px;border:1px solid #b27f4f;border-top: 0 none;background:#fff;z-index:100;font-size:12px;top:61px;}
+.dream_think a{display:block;padding:0 14px;height:24px;line-height:24px;color:#999;}
+.dream_think a:hover,.dream_think a.current{color:#999;text-decoration:none;background:#f0f0f0;}
+.dream_think a span{color:#ff8500;}
+.dream_think a strong{color:#FF8500;font-weight:normal;}
+
+/* dream_cate */
+
+.dream_cate{padding:10px 0;font-size:14px;line-height:24px;position: relative;z-index:3;}
+
+.dream_cate dt{text-align: right;padding:13px 0 15px;position:relative;}
+
+.dream_cate dt h3{color:#7c4328;font-size:20px;font-family: 'Microsoft YaHei';float: left;margin-left:-10px;}
+
+
+/*.dream_cate dt .view_all,*/.dream_cate dt .view_all span{padding-left:10px;height:22px;line-height: 22px;display:inline-block;background: url(../../../images/suanming/v2/zgjm/re_sprite.png) repeat-x left 0;font-size: 12px;color:#7c4328;cursor: pointer;}
+
+.dream_cate dt .view_all span{padding-right:10px;padding-left: 0;background-position: 100% 0;margin-right: -10px;position:relative;}
+
+.dream_cate dt .view_all strong{color:#ff820a;}
+
+.dream_cate dt a.view_all:hover{background-position: left -23px;}
+
+.dream_cate dt a.view_all:hover span{background-position: 100% -23px;text-decoration: underline;}
+
+.dream_cate dd ul{margin-right:-40px;}
+
+.dream_cate li{float:left;width:118px;height:26px;line-height: 26px;overflow:hidden;}
+
+.dream_cate li a{color:#915133;}
+
+.dream_cate li a.more{color:#333;font-weight:bold;}
+
+.dream_cate li a:hover{color:#fd5151;}
+
+.dream_cate_bg{background:#FDF5E6;}
+
+.yunfu_ul{margin-right:0;}
+
+.yunfu_ul li{width:168px;}
+
+.dream_cate dt .view_all{position:absolute;right:-10px;top:11px;background:#fff1d6;padding:4px 7px;border:1px solid #d0ad9a;line-height:1;font-size:12px;color:#915133;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;}
+
+
+.col_left .mod_box_t1 .bd{padding:0 26px 30px;}
+
+ .col_left .dream-detail .bd{padding-bottom:20px;}
+
+.nomt{margin-top:0 !important;}
+
+.jm_hr{border:0 none;height:2px;overflow: hidden;background: #efded5;color:#efded5;margin:0 -28px;}
+
+.art_title{font:22px/1.5 'Microsoft YaHei';color:#7c4328;text-align: center;padding:14px 0;}
+
+/**百科**/
+.titleLink a,.titleLink span{font-size:12px; font-weight:normal; margin:0 3px;}
+.titleLink_more{position:absolute; top:0; right:20px; color:#a4672e;}

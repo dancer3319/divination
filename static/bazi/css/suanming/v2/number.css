@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* @Created: 20130319 @Author : luyujun */
+
+.clearAll { clear: both; }
+
+
+
+.fn_part h1 { height: 28px; background-position: 0 0; background-repeat: no-repeat; }
+
+.fn_part .st_outer {float: left;border: 1px solid #ffa73e;background-color: white;margin-right: 22px;padding: 10px 48px 10px 10px;border-radius: 36px;}
+
+.fn_part .st_inner {overflow: hidden;height: 18px;}
+
+.fn_part .st_inner select { display: block; height: 20px; margin-top: -1px; margin-left: -1px; }
+
+.fn_part .ipt_text {width: 340px;height: 48px;border: 1px solid #f1dbb1;border-radius: 24px;padding: 0 10px;font-size: 16px;margin-right: 20px;}
+
+.fn_part .btn_orange_1 {margin: 0 auto;width: 143px;height: 48px;line-height: 48px;text-align: center;background: #cc9952;border-radius: 36px;font-size: 24px;color: #fff;cursor: pointer;border: none;margin-top: 40px;margin-bottom: 40px;}
+
+.fn_part .flag_tl_t3 { clear: both; }
+
+.fn_part .mod_box_t3 { height: 150px; }
+
+.fn_part .fn_box { background-image: url(../../../images/suanming/v2/bg_num.png); background-repeat: no-repeat; background-position: right top; }
+
+.fn_part .fn_box .mod_form {/* padding-top: 50px; */margin: 0 auto;text-align: center;}
+
+.fn_part .fn_box .remark { color: red; font-size: 12px; line-height: 24px; }
+
+.fn_part .fn_box .help_area { text-align: right; padding-right: 12px; }
+
+.fn_part .intro_area {color: #8a4626;padding: 10px;line-height: 29px;}
+
+.fn_part .intro_area p { padding-top: 8px; }
+
+.fn_part .result_area { padding: 0 50px 30px 54px; font-size: 14px; }
+
+.fn_part .result_area p { overflow: hidden; zoom: 1; line-height: 24px; padding: 6px 0; }
+
+.fn_part .result_area p strong { float: left; width: 78px; color: #333333; }
+
+.fn_part .result_area p span { float: left; width: 546px; color: #8a4626; }
+
+.fn_part .result_area p span .c_333 { color: #333333; }
+
+.fn_part .result_area p span .owner { display: inline-block; width: 78px; height: 23px; line-height: 23px; color: #813d20; font-size: 12px; text-align: center; background: url(../../../images/suanming/v2/haoma_sprites.png) 0 0 no-repeat; margin-left: 15px; }
+
+.fn_part .result_area p span .owner:hover { background-position: -100px 0; text-decoration: none; }
+
+.fn_part .result_area p span .good { color: red; font-weight: bold; }
+
+.fn_part .result_area p span .bad { color: #fd5151; font-weight: bold; }
+
+
+
+/*.fn_haoma h1 { width: 140px; background-image: url(../../../images/suanming/v2/tit_haoma.png); }*/
+
+.fn_haoma .form_sj, .fn_haoma .form_cp, .fn_haoma .form_qq { margin-right: 8px; }
+
+.fn_haoma .ipt_text { width: 188px; }
+
+.fn_haoma .btn_orange_1 { float: left; }
+
+.fn_haoma .form_item { float: left; width: 290px; height: 86px; padding: 10px 20px; margin-bottom: 10px; }
+
+.fn_haoma .form_item h3 { color: #813d20; font-size: 14px; font-weight: bold; height: 24px; line-height: 24px; padding: 10px 0 5px 0; }
+
+.fn_haoma .form_cp .st_inner { width: 42px; }
+
+.fn_haoma .form_cp .st_inner select { width: 44px; }
+
+.fn_haoma .form_cp .ipt_text { width: 78px; }
+
+.fn_haoma .form_remark p { font-size: 12px; height: 88px; line-height: 22px; overflow: hidden; color: #813d20; }
+
+
+/*
+.fn_sj h1 { width: 194px; background-image: url(../../../images/suanming/v2/tit_haoma_sj.png); }
+
+
+
+.fn_dh h1 { width: 194px; background-image: url(../../../images/suanming/v2/tit_haoma_dh.png); }
+
+
+
+.fn_cp h1 { width: 194px; background-image: url(../../../images/suanming/v2/tit_haoma_cp.png); }
+*/
+
+.fn_cp .fn_box .st_inner {width: 45px;margin: 0 1px;}
+
+.fn_cp .fn_box .st_inner select { width: 50px; }
+
+.fn_cp .fn_box .ipt_text { width: 153px; }
+
+.fn_cp .fn_box .remark { padding-left: 122px; }
+
+/*
+
+.fn_sfz h1 { width: 220px; background-image: url(../../../images/suanming/v2/tit_haoma_sfz.png); }
+
+
+
+.fn_qq h1 { width: 180px; background-image: url(../../../images/suanming/v2/tit_haoma_qq.png); }
+*/

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>2345网址导航 - 错误页面提示</TITLE>
+<meta http-equiv="refresh" content="3;URL=http://tools.2345.com" />
+<META http-equiv=Content-Type content="text/html; charset=gb2312" />
+<link type="text/css" rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/tool.css" />
+<link type="text/css" rel="stylesheet" href="css/toolTop.css" />
+</HEAD>
+<BODY>
+
+<base target=_self />
+<!-- top -->
+<div class="toolTop">
+  <div class="topBar">
+    <div class="topBar_in"><script type="text/javascript" src="js/newtop_index120224.js"></script></div>
+  </div>
+  <div class="head"><script type="text/javascript" src="js/logobanner120224.js"></script></div>
+</div>
+<!-- top end --> 
+<!-- maenu -->
+<div class="menu clearfix">
+  <ul>
+    <li class="curr"><a href="/" target="_parent"><b>查询首页</b></a></li>
+    <li><a href="life.htm"><b>生活服务</b></a></li>
+    <li><a href="jiaotong.htm"><b>交通出行</b></a></li>
+    <li><a href="xingzuo.htm"><b>星座命理</b></a></li>
+    <li><a href="licai.htm"><b>金融理财</b></a></li>
+    <li><a href="xuexi.htm"><b>教育学习</b></a></li>
+    <li><a href="yule.htm"><b>休闲娱乐</b></a></li>
+    <li><a href="jiankang.htm"><b>健康养生</b></a></li>
+    <li><a href="network.htm"><b>上网工具</b></a></li>
+    <script type="text/javascript" src="js/hiscx120224.js"></script>
+  </ul>
+</div>
+<!-- menu end -->
+<table width="746" border="0" align="center" cellpadding="0" cellspacing="0">
+ <tr align="left" bgcolor="#ffffff">
+ <td height="2"></td>
+ </tr>
+</table>
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+ <tr align="left" bgcolor="#ffffff">
+ <td height="21" class="tbl_head">&nbsp;您当前位置：<a href="index.htm" target="_self" class="blacktop">实用查询首页</A> &gt; 出错信息</td>
+ </tr>
+</table>
+<table width="611" height="392" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr align="left" bgcolor="#ffffff">
+    <td align="center" background="images/404.jpg"><table width="65%"  border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://tools.2345.com/" style="font-size:14px; font-weight:bold; text-decoration:underline">此页面不存在，点此处可以<span style="color:red;">返回</span>实用查询首页！</a></td>
+        </tr>
+        <tr>
+          <td align="center"><p>&nbsp;</p>
+              <p><a href="http://tools.2345.com/" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage(this.href);return(false);" style="font-size:16px;"><img src="images/home.gif" width="19" height="20" border="0" />&nbsp;&nbsp;<strong>设实用查询为主页</strong></a></p></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<!-- foot -->
+<script type="text/javascript" src="js/footer120224.js"></script>
+</BODY>
+</HTML>

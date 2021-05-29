@@ -1,0 +1,363 @@
+@charset "utf-8";
+/* @Created: 20130315 
+ * @Author : Kevin 
+ * @Update : Rambo on 20130528
+ */
+.clearAll { clear: both; }
+
+.Cfixed, .fn_zxqm_result .fn_noresult a, .fn_zxqm_result .fn_tab, .fn_zxqm_result .fn_tab span, .fn_zxqm_result .fn_subtab a, .fn_zxqm_result .fn_result_list li, .fn_tmtx .fn_search_detail h3, .fn_tmtx .fn_search_detail h3 span { background-image: url(../../../images/suanming/fixed.png); background-repeat: no-repeat; }
+
+.CsxSprites, .fn_tmtx .fn_search_detail .fn_search .btn, .fn_sxyc .sx_fortune_intro .intro_tab li a, .fn_sxxg .mod_zodiac_txt a,.sx_fortune_txt li,.fn_sxyc .birthday_fortune_box .sx_fortune_dl dt,.fn_sxyc .birthday_fortune_box .sx_fortune_dl dd h5{ background-image: url(../../../images/suanming/v2/sx_sprites.png); background-repeat: no-repeat; }
+
+.fn_part .cur_info {position: relative; *zoom: 1;background: #eedcb8;height: 100px;padding: 10px;}
+.fn_part .cur_info h6 {font-size: 20px;font-weight: bold;text-align: center;height: 40px;line-height: 40px;color: #444444;}
+.fn_part .cur_info .a_retest {position: absolute;top: 10px;right: 11px;padding: 0 0 0 27px;line-height: 18px;height: 30px;color: #00b98b;font-size: 17px;background: url(/static/img/sx.png)  no-repeat;background-size: 20px 20px;}
+.fn_part .cur_info .a_retest:hover { background-position: -145px -584px; color: #ff8b00; }
+.fn_part .info_prop {padding: 8px 0 0;overflow: hidden; *zoom: 1;}
+.fn_part .info_prop span { float: left; color: #666666; }
+.fn_part .info_prop strong {margin-left: 5px;margin-right: 20px;color: #444;}
+.fn_part .cut_tit { margin: 5px 0; padding-left: 10px; color: #333333; font-weight: bold; background: url(../../../images/suanming/v2/common.png) no-repeat -155px -455px; }
+.fn_part .btn_tool_retest {text-align: center;}
+
+/*八字测算 */
+/*
+.fn_cs h1 { width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_cs.png) no-repeat; }
+*/
+.fn_cs .fn_box {}
+.fn_cs .ret_con { padding: 20px 38px; color: #904520; }
+.fn_cs .ret_con p { line-height: 30px; }
+.fn_cs .guw { padding: 4px 0; font-weight: bold; }
+.fn_cs .cut_tit { margin-top: 12px; }
+.fn_cs .tips_area { margin-bottom: -20px; }
+
+/*生辰八字 */
+.fn_bz_result { /* mod_square */ }
+.fn_bz_result .mod_box_t3 {margin-bottom: 10px;border-color: #ebdbd3;background-image: none;margin: 10px;border: 1px solid #ebdbd3;}
+.fn_bz_result .mod_box_t3 .box_con {padding: 0;color: #ce7f15;}
+.fn_bz_result .mod_box_t3 .info_table {text-align: center;table-layout: fixed;}
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_1st {width: 16px;padding: 5px 15px;}
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_2nd {width: 68px;font-size: 16px;}
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_3rd { width: 50px; font-size: 12px; }
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_4th { width: 72px; }
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_5th { width: 72px; }
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_6th { width: 72px; }
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_7th { width: 72px; }
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_8th {width: 180px;padding: 20px 10px 10px 10px;font-size: 14px;}
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_8th p { line-height: 22px; text-align: left; }
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_8th p em {display: block;padding-top: 20px;color: #FF5722;line-height: 18px;}
+.fn_bz_result .mod_box_t3 .info_table_col8 .sort_8th p.tc { text-align: center; }
+.fn_bz_result .mod_box_t3 .info_table_col8 th span { color: #656565; font-weight: normal; }
+.fn_bz_result .mod_box_t3 .info_table_col8 td {line-height: 30px;border-left: 1px solid #ebdbd3;border-top: 1px solid #ebdbd3;}
+.fn_bz_result .mod_box_t3 .info_table_col2 { text-align: left; }
+.fn_bz_result .mod_box_t3 .info_table_col2 th { width: 83px; color: #666666; font-weight: normal; padding: 10px 14px 10px 20px; text-align: center; }
+.fn_bz_result .mod_box_t3 .info_table_col2 td {width: 550px;border-left: 1px solid #ebdbd3;}
+.fn_bz_result .mod_box_t3 .info_table_col2 h4 { padding-left: 16px; padding-top: 5px; line-height: 22px; margin-bottom: -2px; }
+.fn_bz_result .mod_box_t3 .info_table_col2 .info_table_list { padding: 5px 10px; line-height: 22px; }
+.fn_bz_result .mod_box_t3 .info_table_col2 .info_table_list li {padding-left: 13px;background: url(../../../images/suanming/v2/dot.png) 0 13px no-repeat;padding: 4px 0 4px 13px;}
+.fn_bz_result .mod_box_t3 .info_table_col2 .info_table_list li .ord { display: block; padding-top: 4px; }
+.fn_bz_result .mod_box_t3 .info_table_col2 .info_table_list li .ord-0 { padding: 0; }
+.fn_bz_result .mod_box_t3 .sum { padding: 12px 30px; line-height: 22px; }
+.fn_bz_result .mod_box_t3 .sum li { overflow: hidden; zoom: 1; padding: 3px 0; }
+.fn_bz_result .mod_box_t3 .sum em, .fn_bz_result .mod_box_t3 .sum strong { float: left; }
+.fn_bz_result .mod_box_t3 .sum div { overflow: hidden; zoom: 1; }
+.fn_bz_result .sum_bb li { padding: 10px 0; border-top: 1px dashed #c8c8c8; }
+.fn_bz_result .sum_bb li.nobt { border-top: 0 none; }
+.fn_bz_result .mod_square_simple, .fn_bz_result .mod_square_complex, .fn_bz_result .mod_square_sc { font-size: 14px; color: #8f451f; }
+.fn_bz_result .mod_square_simple { padding: 30px 55px; line-height: 30px; }
+.fn_bz_result .mod_square_simple h3 { font-weight: bold; color: #8f451f; }
+.fn_bz_result .mod_square_sc h3 { font-weight: bold; color: #8f451f; }
+.fn_bz_result .mod_square_simple h4, .fn_bz_result .mod_square_sc h4 { padding-left: 15px; font-weight: bold; color: #333333; background-position: -195px -157px; }
+.fn_bz_result .dear { margin-bottom: 15px; color: #656565; }
+.fn_bz_result .dear span { color: #8f451f; font-weight: bold; }
+.fn_bz_result .refer_eg { color: #656565; }
+.fn_bz_result .refer { margin: 10px 0; border-top: 1px dashed #904520; border-bottom: 1px dashed #904520; padding: 15px 0; }
+.fn_bz_result .refer p { text-align: center; font-weight: bold; }
+.fn_bz_result .mod_square_sc { padding: 0 25px; line-height: 30px; padding: 15px 25px; zoom: 1; }
+.fn_bz_result .temper_cate { padding: 10px 0; border-top: 2px solid #f4cab2; }
+.fn_bz_result .temper_cate_nobt { border-top: 0 none; }
+.fn_bz_result .bbg { padding: 3px 0 5px; border-bottom: 1px dashed #c8c8c8; }
+
+/*日干论命 */
+
+.fn_rg .fn_box {}
+
+.fn_rg_result .mod_box_t3 { margin-bottom: 10px; border-color: #ebdbd3; background-image: none; }
+.fn_rg_result .mod_box_t3 .box_con { padding: 0; color: #8a492e; }
+.fn_rg_result .mod_box_t3 .info_table { text-align: center; margin-bottom: -1px; table-layout: fixed; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_1st { width: 16px; padding: 5px 15px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_2nd { width: 68px; font-size: 12px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_3rd { width: 50px; font-size: 12px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_4th { width: 72px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_5th { width: 72px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_6th { width: 72px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_7th { width: 72px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_8th { width: 180px; padding: 20px 10px 10px 10px; font-size: 12px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_8th p { line-height: 22px; text-align: left; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_8th p em { display: block; padding-top: 20px; color: #999999; line-height: 18px; }
+.fn_rg_result .mod_box_t3 .info_table_col8 .sort_8th p.tc { text-align: center; }
+.fn_rg_result .mod_box_t3 .info_table_col8 th span { color: #656565; font-weight: normal; }
+.fn_rg_result .mod_box_t3 .info_table_col8 td { line-height: 30px; border-left: 1px solid #ebdbd3; border-bottom: 1px solid #ebdbd3; }
+.fn_rg_result .mod_box_t3 .info_table_col2 { text-align: left; }
+.fn_rg_result .mod_box_t3 .info_table_col2 th { width: 83px; color: #666666; font-weight: normal; padding: 10px 14px 10px 20px; text-align: center; }
+.fn_rg_result .mod_box_t3 .info_table_col2 td { width: 550px; border-left: 1px solid #ebdbd3; border-bottom: 1px solid #ebdbd3; }
+.fn_rg_result .mod_box_t3 .info_table_col2 h4 { padding-left: 16px; padding-top: 5px; line-height: 22px; margin-bottom: -2px; }
+.fn_rg_result .mod_box_t3 .info_table_col2 .info_table_list { padding: 5px 10px; line-height: 22px; }
+.fn_rg_result .mod_box_t3 .info_table_col2 .info_table_list li { padding-left: 13px; background: url(../../../images/suanming/v2/dot.png) 0 13px no-repeat; padding: 4px 0 4px 13px; }
+.fn_rg_result .mod_box_t3 .info_table_col2 .info_table_list li .ord { display: block; padding-top: 4px; }
+.fn_rg_result .mod_box_t3 .info_table_col2 .info_table_list li .ord-0 { padding: 0; }
+.fn_rg_result .mod_box_t3 .sum { padding: 12px 30px; line-height: 22px; }
+.fn_rg_result .mod_box_t3 .sum li { overflow: hidden; zoom: 1; padding: 3px 0; }
+.fn_rg_result .mod_box_t3 .sum em, .fn_rg_result .mod_box_t3 .sum strong { float: left; }
+.fn_rg_result .mod_box_t3 .sum div { overflow: hidden; zoom: 1; }
+
+/*称骨论命 */
+/*
+.fn_cg h1 { width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_cg.png) no-repeat; }
+*/
+.fn_cg .fn_box {}
+
+.fn_cg_result .fn_box { background-image: none; }
+.fn_cg_result .ret_con { padding: 20px 38px; color: #904520; }
+.fn_cg_result .bone_weight { color: #666666; line-height: 30px; }
+.fn_cg_result .bone_weight b { color: #904520; font-weight: bold; }
+.fn_cg_result .bone_book { color: #666666; line-height: 30px; padding: 18px 0 10px; }
+.fn_cg_result .bone_book_list { border: dashed #904520; border-width: 1px 0; padding: 30px 0; line-height: 30px; text-align: center; font-weight: bold; }
+.fn_cg_result .cut_tit { margin-top: 20px; }
+.fn_cg_result .bone_analysis { line-height: 22px; }
+.fn_cg_result .tips_area { margin-bottom: -20px; }
+
+/*生肖运程 */
+.mod_zodiac_pure{*zoom:1;}
+.mod_zodiac_pure a{background:url(../../../images/suanming/v2/sx_sprites.png) no-repeat 0 0;width:49px;height:32px;margin:4px 0 0 8px; text-indent:0;line-height:32px;text-align:center;color:#925335;}
+.mod_zodiac_pure a.first{margin-left:0;}
+.mod_zodiac_pure a:hover,.mod_zodiac_pure a.cur{background-position:-50px 0;color:#fff; text-decoration:none;}
+
+/*
+.fn_sxyc h1 { width: 148px; height: 25px; background: url(../../../images/suanming/v2/shengxiao/tit_sxyc.png) no-repeat; }
+*/
+.fn_sxyc2014 h1 { width: 288px; height: 25px; background: url(../../../images/suanming/v2/shengxiao/tit_sxyc2014.png) no-repeat; }
+.fn_sxyc2015 h1 { width: 288px; height: 25px; background: url(../../../images/suanming/v2/shengxiao/tit_sxyc2015.png) no-repeat; }
+.fn_sxyc .mod_box_t3 { border-color: #ebdbd3; }
+.fn_sxyc .mod_zodiac { margin: 0 -2px 20px -10px; padding-top: 10px; }
+.fn_sxyc .sx_fortune_intro { font-size: 12px; padding:0 26px;}
+.fn_sxyc .sx_fortune_intro .sx_selected { padding: 20px 83px 35px; height: 117px; text-align: center; color: #333;font-size:13px;position:relative; }
+.fn_sxyc .sx_fortune_intro .sx_selected .sx_fortune_txt {margin-left:158px;}
+.fn_sxyc .sx_fortune_intro .sx_selected .sx_fortune_txt li{height:20px;line-height:20px;background-position:-247px -171px;padding-left:15px;text-align:left;}
+.fn_sxyc .sx_fortune_intro .sx_selected .sx_fortune_txt em { padding-right: 23px; color: #904520; }
+.fn_sxyc .sx_fortune_intro .sx_selected .sx_fortune_txt em.age{font-weight:700;}
+.fn_sxyc .sx_fortune_intro .sx_selected .sx_fortune_txt em.last{padding-right:0;}
+.fn_sxyc .sx_fortune_intro .sx_animal { margin-left:6px;float:left;display:inline-block; background: url(../../../images/suanming/v2/sx_iconMap.png) 0 0 no-repeat; width: 100px; height: 100px; }
+.fn_sxyc .sx_fortune_intro .sx_animal_1 { background-position: 0 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_2 { background-position: -100px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_3 { background-position: -200px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_4 { background-position: -300px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_5 { background-position: -400px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_6 { background-position: -500px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_7 { background-position: -600px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_8 { background-position: -700px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_9 { background-position: -800px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_10 { background-position: -900px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_11 { background-position: -1000px 0; }
+.fn_sxyc .sx_fortune_intro .sx_animal_12 { background-position: -1100px 0; }
+.fn_sxyc .sx_fortune_intro .sx_fortune_time { position:absolute; left:85px;top:22px;font:bold 14px/20px \5FAE\8F6F\96C5\9ED1;width:113px;height:20px;display:block;color: #fff; text-align:center;}
+.fn_sxyc .sx_fortune_intro .intro_tab_outer { border-bottom: 1px solid #ccae99; height: 31px; margin-top: -21px; }
+.fn_sxyc .sx_fortune_intro .intro_tab { width: 456px; margin: 0 auto; height: 31px; overflow: hidden; }
+.fn_sxyc .sx_fortune_intro .intro_tab li { float: left; width: 104px; height: 35px; padding: 0 5px; line-height: 34px; text-align: center; }
+.fn_sxyc .sx_fortune_intro .intro_tab li a { display: block; height: 34px; color: #89492d; font-size: 14px; background-position: 0 -100px; }
+.fn_sxyc .sx_fortune_intro .intro_tab li a:hover { color: #89492d; }
+.fn_sxyc .sx_fortune_intro .intro_tab li a.current { background-position: -125px -100px; color: white; font-weight: bold; }
+.fn_sxyc .sx_fortune_intro .intro_tab li a.current:hover { color: white; }
+.fn_sxyc .sx_fortune_intro .sx_fortune_dl{}
+.fn_sxyc .sx_fortune_intro .sx_fortune_dl dt { height: 36px; line-height: 36px; font-size: 14px; padding: 3px 0 0; }
+.fn_sxyc .sx_fortune_intro .sx_fortune_dl dt img { float: left; padding: 8px 5px 0 0; }
+.fn_sxyc .sx_fortune_intro .sx_fortune_dl dt span { float: left; color: #333;}
+.fn_sxyc .sx_fortune_intro .sx_fortune_dl dd { padding: 0 20px 10px 25px; line-height: 28px;font-size:14px; text-indent:2em; color:#904520}
+
+.fn_sxyc .birthday_fortune_box{margin-top:5px;}
+.fn_sxyc .birthday_fortune_box .sx_fortune_dl{padding-top:7px;}
+.fn_sxyc .birthday_fortune_box dl.first{border-top:none;}
+.fn_sxyc .birthday_fortune_box .sx_fortune_dl dt{background-position:-243px -131px;padding-left:14px;font-weight:bold;}
+.fn_sxyc .birthday_fortune_box .sx_fortune_dl dd{padding-left:15px;}
+.fn_sxyc .birthday_fortune_box .sx_fortune_dl dd h5{font-weight:bold;background-position:-247px -167px;padding-left:15px;}
+.fn_sxyc .birthday_fortune_box dl.month_dl{border-top:none;}
+.fn_sxyc .birthday_fortune_box dl.month_dl dt{ height: 25px; line-height: 25px;background-position:-243px -135px;}
+.fn_sxyc .birthday_fortune_box dl.month_dl dd{text-indent:0;border-bottom:1px dashed #c8c8c8;padding-top:10px;}
+.fn_sxyc .birthday_fortune_box dl.month_dl dd.last{border-bottom:none;}
+
+.sx_fortune_table{border:2px solid #c08b5a;border-radius:3px;width:539px;margin:20px auto 26px;}
+.sx_fortune_table th,.sx_fortune_table td{border-top:1px solid #e8cfb7;border-left:1px solid #e8cfb7;height:23px;line-height:23px;}
+.sx_fortune_table th{background:#c28f5f;color:#fff;font-weight:normal;border:none;}
+.sx_fortune_table .nobl{border-left:none;}
+.sx_fortune_table td{text-align:center;color:#925335;font-size:14px;}
+.forTable_div{padding-bottom:3px;}
+.forTable_div,.forTable_div span{color:#a4560f;font-size:16px;font-family:\5FAE\8F6F\96C5\9ED1;}
+.forTable_div span{font-size:21px;margin-left:15px;}
+.sxyc_tit{background:url(../../../images/suanming/v2/sx_ttbg.png) no-repeat;padding:5px 40px;height:30px;color:#925335;font:18px/27px \5FAE\8F6F\96C5\9ED1;width:357px;margin:15px auto ;text-align:center; }
+
+.fn_sxyc .sx_fortune_intro .noBorder { border: 0 none; }
+.fn_sxyc .sx_fortune_intro .ul_Star li { width: 215px; float: left; line-height: 32px; height: 32px; }
+.fn_sxyc .sx_fortune_intro .ul_Star li span { float: left; }
+.fn_sxyc .sx_fortune_intro .ul_Star li span img { float: left; margin: 5px 2px 0 0; }
+.fn_sxyc .sx_feature_result { padding-bottom: 50px; }
+.fn_sxyc .sx_feature_result .sTit { color: #333333; font-size: 16px; font-weight: 700; line-height: 36px; display: block; text-align: center; padding: 22px 0 13px; }
+.fn_sxyc .sx_feature_result .pic { float: left; width: 130px; text-align: center; padding: 7px 0 0 15px; }
+.fn_sxyc .sx_feature_result .pic .sx_animal { margin: 0 auto 12px; display: block; }
+.fn_sxyc .sx_feature_result .pic a { color: #925335; text-decoration: underline; }
+.fn_sxyc .sx_feature_result .pic a:hover { color: #fd5151; }
+.fn_sxyc .sx_feature_result .txt_list { width: 610px; float: right; padding-right: 32px; }
+.fn_sxyc .sx_feature_result .txt_list li { background: url(../../images/suanming/sx_iconMap.png) -1376px -266px no-repeat; line-height: 24px; color: #925335; padding: 0 0 5px 11px; }
+/*zodiac_itemWrap*/
+.zodiac_itemWrap{}
+.zodiac_itemWrap a{float: left;height:89px;width:90px;background:url(../../../images/suanming/v2/shengxiao/zodiac_v3.png) no-repeat;margin:26px 11px;}
+.zodiac_itemWrap .z_itemA1{background-position: 0 0;}
+.zodiac_itemWrap .z_itemA2{background-position: -90px 0;}
+.zodiac_itemWrap .z_itemA3{background-position: -180px 0;}
+.zodiac_itemWrap .z_itemA4{background-position: -270px 0;}
+.zodiac_itemWrap .z_itemA5{background-position: -360px 0;}
+.zodiac_itemWrap .z_itemA6{background-position: -450px 0;}
+.zodiac_itemWrap .z_itemA7{background-position: -540px 0;}
+.zodiac_itemWrap .z_itemA8{background-position: -630px 0;}
+.zodiac_itemWrap .z_itemA9{background-position: -720px 0;}
+.zodiac_itemWrap .z_itemA10{background-position: -810px 0;}
+.zodiac_itemWrap .z_itemA11{background-position: -900px 0;}
+.zodiac_itemWrap .z_itemA12{background-position: -990px 0;}
+.zodiac_itemWrap .z_itemA1:hover{background-position: 0 -89px;}
+.zodiac_itemWrap .z_itemA2:hover{background-position: -90px -89px;}
+.zodiac_itemWrap .z_itemA3:hover{background-position: -180px -89px;}
+.zodiac_itemWrap .z_itemA4:hover{background-position: -270px -89px;}
+.zodiac_itemWrap .z_itemA5:hover{background-position: -360px -89px;}
+.zodiac_itemWrap .z_itemA6:hover{background-position: -450px -89px;}
+.zodiac_itemWrap .z_itemA7:hover{background-position: -540px -89px;}
+.zodiac_itemWrap .z_itemA8:hover{background-position: -630px -89px;}
+.zodiac_itemWrap .z_itemA9:hover{background-position: -720px -89px;}
+.zodiac_itemWrap .z_itemA10:hover{background-position: -810px -89px;}
+.zodiac_itemWrap .z_itemA11:hover{background-position: -900px -89px;}
+.zodiac_itemWrap .z_itemA12:hover{background-position: -990px -89px;}
+.sx_fortune_hdTab{color:#dfb389;text-align: center;margin-top: 20px;}
+.sx_fortune_hdTab a{display:inline-block;width:93px;height:25px;line-height: 25px;color:#a4672e;font-size: 14px;text-align: center;margin:0 12px;}
+.sx_fortune_hdTab a:hover{background: url(../../../images/suanming/v2/shengxiao/s_btn.png) no-repeat;color:#fff;text-decoration: none;}
+
+.adsDiv{text-align: center;font-size: 14px;}
+.adsDiv a{color:red;text-decoration: underline;}
+
+/*生肖性格 */
+.fn_sxxg { min-height: 742px; height: auto !important; _height: 742px; }
+/*
+.fn_sxxg h1 { width: 190px; height: 28px; background: url(../../../images/suanming/v2/tit_sxxg.png) no-repeat; }
+*/
+.fn_sxxg .fn_box {}
+.fn_sxxg .ipt_text { width: 220px; height: 22px; line-height: 22px; font-size: 12px; float: left; margin-top: 1px; margin-right: 5px; _display: inline; }
+.fn_sxxg .ipt_text.init { color: #999999; }
+.fn_sxxg .mod_form { padding-bottom: 20px; }
+.fn_sxxg .form_item { padding-left: 110px; margin-bottom: 16px; }
+.fn_sxxg .num_result { font-size: 14px; line-height: 36px; padding-left: 110px; }
+.fn_sxxg .num_result em { padding: 0 35px 0 5px; font-weight: bold; }
+.fn_sxxg .num_result a { font-size: 12px; color: #925234; text-decoration: underline; }
+.fn_sxxg .num_result a:hover { color: #fd5151; }
+.fn_sxxg .onlyh3 { color: #813d20; font-size: 16px; font-weight: bold; }
+.fn_sxxg .mod_zodiac { width: 672px; height: 258px; padding-top: 10px; }
+.fn_sxxg .mod_zodiac .list { width: 696px; height: 258px; margin-left: -24px; }
+.fn_sxxg .mod_zodiac a { margin: 0px 0 22px 25px; _display: inline; }
+.fn_sxxg .mod_zodiac_txt { overflow: hidden; width: 666px; padding-top: 10px; }
+.fn_sxxg .mod_zodiac_txt .list { margin-left: -7px; width: 672px; overflow: hidden; }
+.fn_sxxg .mod_zodiac_txt a { float: left; width: 49px; height: 32px; line-height: 32px; color: #925335; font-size: 14px; margin-left: 7px; text-align: center; _display: inline; background-position: 0 0; }
+.fn_sxxg .mod_zodiac_txt a:hover, .fn_sxxg .mod_zodiac_txt a.current { color: white; background-position: -50px 0; text-decoration: none; }
+
+.zodiac_years{margin-bottom:20px;}
+.zodiac_years p{font-size:14px;color:#333;padding-bottom:10px;}
+.zodiac_years .zodiac_years_table td,.zodiac_years .zodiac_years_table th{border:1px solid #ebdbd3;height:27px;line-height:27px;font-size:14px;text-align:center;background-color:#fffcf7;}
+.zodiac_years .zodiac_years_table th{background-color:#fff7e8;color:#333;font-weight:normal;}
+.zodiac_years .zodiac_years_table th.zy_th{background-color:#fff7e8;color:#8c2b00;font-weight:bold;}
+
+.fn_sxxg_result .sx_feature_result { padding-top: 10px; border-top: 2px solid #f4cab2; margin-top: 22px; font-size: 12px; }
+.fn_sxxg_result .sx_feature_result .sTit { color: #333333; font-size: 16px; font-weight: bold; height: 36px; line-height: 36px; text-align: center; }
+.fn_sxxg_result .sx_feature_result .pic { float: left; width: 150px; padding-top: 10px; text-align: center; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal { display: block; width: 91px; height: 107px; margin: 0 auto 5px; overflow: hidden; text-indent: -9999px; background: url(../../../images/suanming/v2/zodiac.png) no-repeat; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_1 { background-position: 0 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_2 { background-position: -96px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_3 { background-position: -192px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_4 { background-position: -288px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_5 { background-position: -384px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_6 { background-position: -480px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_7 { background-position: -576px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_8 { background-position: -672px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_9 { background-position: -768px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_10 { background-position: -864px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_11 { background-position: -960px 0; }
+.fn_sxxg_result .sx_feature_result .pic .sx_animal_12 { background-position: -1056px 0; }
+.fn_sxxg_result .sx_feature_result .pic .pair { display: block; color: #7c4328; height: 26px; line-height: 26px; }
+.fn_sxxg_result .sx_feature_result .pic .pair:hover { color: #fd5151; }
+.fn_sxxg_result .sx_feature_result .txt_list { width: 510px; float: right; }
+.fn_sxxg_result .sx_feature_result .txt_list li { line-height: 22px; padding: 4px 0 4px 13px; background: url(../../../images/suanming/v2/dot.png) 0 13px no-repeat; color: #925335; }
+
+/*出生时间推算 */
+/*
+.fn_cssjts h1 { width: 194px; height: 28px; background: url(../../../images/suanming/v2/tit_cssjts.png) no-repeat; }
+*/
+.fn_cssjts .cut_tit { margin-top: 12px; font-size: 16px; color: #813d20; height: 26px; line-height: 26px; background-position: -155px -452px; }
+.fn_cssjts .cut_con { line-height: 26px; }
+.fn_cssjts ol { padding: 10px 0 20px 0; }
+.fn_cssjts li { line-height: 22px; padding: 4px 0; }
+.fn_cssjts li b { color: #813d20; font-weight: bold; }
+
+/****/
+/*
+.fn_bz2 h1{width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_sc2.png) no-repeat;}
+.fn_bz6 h1{width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_sc3.png) no-repeat;}
+.fn_bz1 h1{width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_sc3.png) no-repeat;}
+.fn_bz3 h1{width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_sc5.png) no-repeat;}
+.fn_bz5 h1{width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_sc6.png) no-repeat;}
+.fn_bz8 h1{width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_sc8.png) no-repeat;}
+.fn_bz4 h1{width: 144px; height: 28px; background: url(../../../images/suanming/v2/tit_sc7.png) no-repeat;}
+*/
+/*
+.fn_xms h1 {
+width: 144px;
+height: 28px;
+background: url(../../../images/suanming/v2/tit_xms.png) no-repeat;
+}
+*/
+/* 风水测算 */
+/*
+.fn_fengshui h1{width:140px;height:28px;background:url(../../../images/suanming/v2/tit_fengshui.png) no-repeat;}
+*/
+.fn_fengshui .fn_box{}
+.fn_fengshui .mod_form .form_item { padding-left:140px}
+.fn_fengshui .mod_form .form_item .wA { width:60px}
+.fn_fengshui .mod_form .form_item .wB { width:90px}
+.fn_fengshui .mod_form .form_item .wC { width:90px}
+.fn_fengshui .mod_form .btn_item { padding-left:0}
+.fn_fengshui .mod_form .btn_item .jiaju{color:#813D20;font-size: 12px;position:relative;top:10px;left:10px;}
+.fn_fengshui .mod_form .btn_item .jiaju:hover{color:#fd5151;}
+.fn_fengshui .introWord { font-size:12px; line-height:22px; color:#8a4626; padding:10px 10px 0 10px}
+.fn_fengshui .introWord p { padding-top:10px}
+/* 风水测算结果页 */
+.fengshui_result { line-height:30px; font-size:12px; color:#925234}
+.fengshui_result .tit { font-size:14px; text-align:center; line-height:26px; height:26px; font-weight:700; padding-bottom:10px}
+.fengshui_result dt { font-size:14px; color:#333; font-weight:700; padding-top:5px}
+.fengshui_result dd em { color:#f00}
+.fengshui_result .sTips { color:#666; display:block; padding-bottom:15px}
+
+/*shengxiao xingge jieguoye modify*/
+.mod-zodiac{margin:20px 0 10px;}
+.mod-zodiac .box_con{padding:4px 28px 0;}
+.age-list{font-size:14px;line-height:28px;color:#904520;text-align:center;border-bottom:1px dashed #c8c8c8;padding-bottom:13px;}
+.age-list p span{margin-left:22px;}
+.age-list .remind{line-height:26px;margin-top:5px;}
+.age-list .remind a{text-decoration:underline;color:#904520;}
+.age-list .remind a:hover{color:#fd5151;}
+.other-zodiac{font-size:0;text-align:center;padding:10px 22px;*padding:10px 21px;}
+.other-zodiac a{color:#904520;margin:0 17px;font-size:12px;line-height:26px;}
+.other-zodiac a:hover{color:#fd5151;}
+.mod-xghp{margin-bottom:10px;}
+.mod-xghp .box_con{padding:4px 28px 0;}
+.xghp-con{color:#904520;font-size:14px;}
+.xghp-con h4{font-weight:bold;padding-left:8px;height:16px;line-height:16px;border-left:4px solid #d09970;margin-bottom:10px;}
+.xghp-con p{line-height:28px;margin-bottom:14px;text-indent:2em;}
+.mod-gyear .box_con{padding:4px 28px 5px;}
+.gyear-art p{color:#904520;font-size:14px;line-height:28px;margin-bottom:10px;text-indent:2em;}
+.mod-zodiac .sxyc_tit,.mod-xghp .sxyc_tit,.mod-gyear .sxyc_tit{padding-top:7px;margin-bottom:13px;}
+
+/**首页**/
+.info_area.ss_xz_txt{padding:4px; position:relative;}
+.info_area .info_areaLogo{width:150px; margin-left:15px; float:right;}

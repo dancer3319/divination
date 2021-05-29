@@ -1,0 +1,50 @@
+@charset "gb2312";
+/*
+ * @Created: 20120718
+ * @Author : Kevin
+ */
+a{color:#656565;}
+a:hover{color:#fd5151;}
+.mt5{margin-top:5px;}
+select{font-size:12px;}
+/* menubg */
+.menu_xy, .menu_xy_inner, .menu_xy ul, .menu_xy li, .menu_xy li a.current, .menu_xy li a.current span{background:url(../../images/xingzuo/menubg.png) no-repeat;}
+/* bg */
+.title_color, .title_color strong, .tips, .choose li input{background:url(../../images/xingzuo/bg.png) no-repeat;}
+/* menu */
+.menu_xy{background-position:-192px -71px;}
+.menu_xy_inner{background-position:100% -71px;}
+.menu_xy ul{background-position:0 -106px;background-repeat:repeat-x;}
+.menu_xy li{background-position:0 -71px;}
+.menu_xy li a.current{color:#9f42f0;}
+.menu_xy li a.current:hover{color:#9f42f0;}
+.menu_xy li a.current span{background-position:100% -34px;}
+.menu_xy strong{background:url(../../images/xingzuo/icon_item.png) no-repeat 0 1px;}
+/* mode style */
+.mod_os{border:1px solid #cba4fa;padding:1px;}
+.mod_ts{border:1px solid #f5c1f5;padding:1px;}
+/* title_color */
+.title_color{height:39px;padding-bottom:5px;background-position:0 39px;background-repeat:repeat-x;}
+.title_color strong{display:block;height:39px;line-height:39px;padding-left:30px;color:#FF278D;font-size:18px;font-family:Microsoft YaHei;font-weight:normal;background-position:-225px -84px;}
+.title_color strong em{color:#FF9D01;}
+.title_color a{float:right;color:#3e4144;margin-top:14px;}
+.title_color a:hover{color:#fd5151;}
+/* tips */
+.tips{margin:10px 0 5px;padding-left:20px;background-position:-241px -53px;color:#3e4144;}
+.tips a{color:#fd5151;text-decoration:underline;}
+/* choose */
+.choose{color:#3e4144;}
+.choose li{overflow:hidden;zoom:1;line-height:23px;padding-top:10px;}
+.choose li.bb{padding-bottom:10px;border-bottom:1px dashed #F2C8F2;}
+.choose li input{float:right;width:65px;height:23px;line-height:23px;border:0 none;background-position:-188px -10px;color:#fff;cursor:pointer;font-size:12px;}
+.choose li input.mt14{margin-top:14px;}
+.choose li select, .choose li span{float:left;color:#3e4144;}
+.choose li select{vertical-align:middle;height:23px;line-height:23px;}
+.choose li p{overflow:hidden;zoom:1;}
+.choose li .st1 select{width:43px;margin:0 3px;display:inline;}
+.choose li .st2{padding-top:5px;}
+.choose li .st2 select{width:174px;}
+.choose li .st3 select{width:71px;}
+.choose li .st4 select{width:75px;}
+.choose li .st3 span{width:18px;text-align:center;}
+.choose li .st4 span{width:24px;text-align:center;}

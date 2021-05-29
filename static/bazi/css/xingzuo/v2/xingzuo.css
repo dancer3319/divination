@@ -1,0 +1,102 @@
+@charset "gb2312";
+/*
+ * @Created: 20121220
+ * @Author : Kevin
+ */
+a{color:#333;}
+a:hover{color:#fd5151;}
+.xm_search input, .xm_tab li em, .tab_cont_intro a{background:url(../../../images/xingzuo/xm.png) no-repeat;}
+.menu_xy strong{background:url(../../../images/xingzuo/v2/icon_item_v2.png) no-repeat 0 1px;}
+.main{margin-top:-2px;}
+.xz_table{margin-top:10px;background:#fff;}
+.xz_table table{border:1px solid #DDF0FF;border-collapse:collapse;font-size:14px;}
+.xz_table th, .xz_table td{border:1px solid #cbe8ff;line-height:36px;padding-left:17px;}
+.xz_table th{line-height:27px;color:#348BCF;text-align:left;background:#EDF7FF;}
+.xz_table th a{float:right;font-weight:normal;font-size:12px;padding-right:17px;}
+.xm_search_wrap{padding:2px 0 17px;}
+.xm_search_wrap .fl{float:left;width:295px;line-height:26px;}
+.xm_search_wrap .fl_mr{margin-right:40px;}
+.xm_search{margin-top:13px;}
+.xm_search input{float:left;width:73px;height:26px;line-height:26px;border:0 none;color:#338BCF;font-size:12px;cursor:pointer;background-position:0 -36px;}
+.xm_search input.hover{color:#fff;background-position:-74px -36px;}
+.select_outer{float:left;padding:4px 2px;width:89px;border:1px solid #D5D5D5;margin-right:10px;background:#fff;}
+.select_inner{width:89px;height:16px;line-height:16px;overflow:hidden;}
+.select_outer select{display:block;width:93px;height:20px;margin:-2px 0 0 -2px;font-size:12px;line-height:20px;overflow:hidden;}
+@media screen and (-webkit-min-device-pixel-ratio:0){.select_outer select{line-height:16px;}}
+.xm_wrap{padding:22px 21px 23px 4px;}
+.xm_tab{width:946px;overflow:hidden;}
+.xm_tab ul{width:948px;padding-bottom:10px;}
+.xm_tab li{position:relative;float:left;width:77px;height:36px;line-height:36px;margin-right:2px;}
+.xm_tab li.last{margin-right:0;}
+.xm_tab li em{position:absolute;top:34px;left:32px;display:none;width:14px;height:8px;line-height:8px;background-position:-172px -36px;}
+.xm_tab li.current em{display:inline-block;}
+.xm_tab li a{display:block;height:36px;padding-left:26px;color:#fff;font-size:14px;background:url(../../../images/xingzuo/xm_sx.png) no-repeat;}
+.xm_tab li.current a, .xm_tab li a:hover{color:#338BCF;text-decoration:none;}
+.xm_tab li a.aries{background-position:0 0;}
+.xm_tab li a.taurus{background-position:0 -36px;}
+.xm_tab li a.gemini{background-position:0 -72px;}
+.xm_tab li a.cancer{background-position:0 -108px;}
+.xm_tab li a.leo{background-position:0 -144px;}
+.xm_tab li a.virgo{background-position:0 -180px;}
+.xm_tab li a.libra{background-position:0 -216px;}
+.xm_tab li a.scorpio{background-position:0 -252px;}
+.xm_tab li a.sagittarius{background-position:0 -288px;}
+.xm_tab li a.capricorn{background-position:0 -324px;}
+.xm_tab li a.aquarius{background-position:0 -360px;}
+.xm_tab li a.pisces{background-position:0 -396px;}
+.xm_tab li.current a.aries, .xm_tab li a:hover.aries{background-position:-77px 0;}
+.xm_tab li.current a.taurus, .xm_tab li a:hover.taurus{background-position:-77px -36px;}
+.xm_tab li.current a.gemini, .xm_tab li a:hover.gemini{background-position:-77px -72px;}
+.xm_tab li.current a.cancer, .xm_tab li a:hover.cancer{background-position:-77px -108px;}
+.xm_tab li.current a.leo, .xm_tab li a:hover.leo{background-position:-77px -144px;}
+.xm_tab li.current a.virgo, .xm_tab li a:hover.virgo{background-position:-77px -180px;}
+.xm_tab li.current a.libra, .xm_tab li a:hover.libra{background-position:-77px -216px;}
+.xm_tab li.current a.scorpio, .xm_tab li a:hover.scorpio{background-position:-77px -252px;}
+.xm_tab li.current a.sagittarius, .xm_tab li a:hover.sagittarius{background-position:-77px -288px;}
+.xm_tab li.current a.capricorn, .xm_tab li a:hover.capricorn{background-position:-77px -324px;}
+.xm_tab li.current a.aquarius, .xm_tab li a:hover.aquarius{background-position:-77px -360px;}
+.xm_tab li.current a.pisces, .xm_tab li a:hover.pisces{background-position:-77px -396px;}
+.xm_cont{border:1px solid #CBE8FF;background:#f9fcff;}
+.xm_subtab{height:23px;line-height:23px;padding:9px 18px;border-bottom:2px solid #e8f2fb;color:#96D0FA;}
+.xm_subtab a{display:inline-block;color:#2985CB;padding:0 4px;}
+.xm_subtab a:hover{color:#fd5151;}
+.xm_subtab a.current{color:#fff;font-weight:bold;background:#348BCF;}
+.xm_subtab a.current:hover{color:#fff;text-decoration:none;}
+.xm_subtab span{float:right;color:#2985CB;font-size:16px;font-weight:bold;}
+.xm_subtab_detail{position:relative;padding:0 25px 10px;}
+.xm_subtab_detail dl{padding:15px 0;border-bottom:2px solid #E8F2FB;}
+.xm_subtab_detail dt{float:left;width:98px;margin-right:10px;text-align:center;line-height:22px;color:#656565;}
+.xm_subtab_detail dt a{display:block;line-height:20px;color:#2985CB;font-size:22px;cursor:pointer;font-family:\5FAE\8F6F\96C5\9ED1;}
+.xm_subtab_detail dt a:hover{color:#fd5151;}
+.xm_subtab_detail dd{float:left;width:786px;}
+.xm_subtab_detail dd li{float:left;width:196px;height:18px;line-height:18px;padding-top:18px;overflow:hidden;}
+.xm_subtab_detail dd li.nof{float:none;width:auto;padding-top:0;}
+.xm_subtab_detail dd li span, .xm_subtab_detail dd li strong img{float:left;}
+.xm_subtab_detail dd li span{margin-right:15px;color:#666;font-weight:bold;}
+.xm_subtab_detail dd li strong{color:#FF8B00;font-weight:normal;font-size:12px;}
+.xm_subtab_detail dd li strong img{margin-right:2px;}
+.xm_subtab_detail .xm_a{display:inline-block;width:44px;height:43px;margin:0 27px;background:url(../../../images/xingzuo/xm_a.png) no-repeat;}
+.xm_subtab_detail .aries{background-position:0 0;}
+.xm_subtab_detail .taurus{background-position:-60px 0;}
+.xm_subtab_detail .gemini{background-position:-125px 0;}
+.xm_subtab_detail .cancer{background-position:-185px 0;}
+.xm_subtab_detail .leo{background-position:0 -50px;}
+.xm_subtab_detail .virgo{background-position:-60px -50px;}
+.xm_subtab_detail .libra{background-position:-125px -50px;}
+.xm_subtab_detail .scorpio{background-position:-185px -50px;}
+.xm_subtab_detail .sagittarius{background-position:0 -101px;}
+.xm_subtab_detail .capricorn{background-position:-60px -101px;}
+.xm_subtab_detail .aquarius{background-position:-125px -101px;}
+.xm_subtab_detail .pisces{background-position:-185px -101px;}
+.tab_cont_intro{position:relative;line-height:24px;zoom:1;}
+.tab_cont_intro p{padding-top:9px;}
+.tab_cont_intro p.spec{padding-right:210px;}
+.tab_cont_intro span, .tab_cont_intro strong{display:block;padding-left:27px;}
+.tab_cont_intro span{color:#666;font-size:12px;}
+.tab_cont_intro strong{background:url(../../../images/xingzuo/xm_icon.png) no-repeat;}
+.tab_cont_intro strong.st1{background-position:0 3px;}
+.tab_cont_intro strong.st2{background-position:0 -75px;}
+.tab_cont_intro strong.st3{background-position:0 -138px;}
+.tab_cont_intro strong.st4{background-position:0 -200px;}
+.tab_cont_intro a{position:absolute;right:0;bottom:10px;display:inline-block;width:171px;height:35px;line-height:35px;text-align:center;color:#fff;font-weight:bold;}
+.tab_cont_intro a:hover{color:#fff;text-decoration:none;background-position:-172px 0;}

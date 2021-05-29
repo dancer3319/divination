@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* top & footer */
+.toolTop{ height:92px; overflow:hidden;}
+.topBar{background:url(../images/topimg.png) 0 0 repeat-x;}
+.topBar_in{min-width:990px;height:30px; line-height:30px;}
+.topBar_in span{ display:inline-block;}
+.topBar .hotwd a{ margin:0 16px 0 0; zoom:1; color:#333; }
+.topBar .myset{ float:right; color:#d2d2d2;}
+.topBar .myset a{ margin: 0 10px;display:inline-block;}
+.topBar .myset a.gohm{ margin-right:0;}
+.topBar .myset a:hover,.topBar .myset a.fred{ color:#fd5151;}
+.topBar .myset a.shome{ background:url(../images/topimg.png) -53px -34px no-repeat; padding-left:17px;}
+.topBar .fav{ display:inline-block; width:81px;background:url(../images/fav.png) 0 0 no-repeat; color:#fff; text-align:center;}
+.topBar a:hover.fav{ color:#fff;}
+.fav_bg img{ float:right; margin:0 50px 0 45px;}
+.head .banner{ float:right;}
+.head .banner img{ margin:7px 0 0 10px;}
+.head #logo img{ margin:10px 0 0 5px;}
+.toolFoot{ text-align:center; padding:20px 0;}
+.toolFoot p{ height:30px; line-height:30px; color:#999; clear:both;}
+.toolFoot p a{ color:#666; margin:0 6px;}
+.toolFoot p a:hover{ color:#fd5151;}
+.toolFoot p a.goback{font-size:13px; display:inline-block; height:30px; line-height:30px; background:url(../images/topimg.png) -52px -58px no-repeat; padding-left:20px;}
+.ssftbar{ width:600px; margin:0 auto 10px; overflow:hidden;}
+.ssftbar img{ float:left;}
+.ssftbar .ftsbox{ margin-left:8px; height:26px; line-height:26px; width:330px; padding-left:5px; background: url(../images/topimg.png) 0 -88px repeat-x; border:1px solid #b7b7b7; font-size:16px; float:left;}
+.ftsbtn{ width:61px; height:28px; line-height:28px; background:url(../images/topimg.png) 0 -114px repeat-x; border:1px solid #cbcbcb; margin-left:5px; float:left; cursor:pointer;}

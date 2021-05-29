@@ -1,0 +1,44 @@
+table.Border td{line-height:24px;}
+table.Border .yi {border-top:0;background: #ff4444;color: #ffffff;font-weight:bold;text-align:center;font-size:30pt;line-height:80px;height:80px;}
+table.Border .ji {background: #ffee44;color: #000;font-weight:bold;text-align:center;font-size:30pt;line-height:80px;}
+table.Border .yic {padding:12px;background: #ffffaa;text-align:left;border-top:0;}
+table.Border .jic {padding:12px;background:#ffddd3;text-align:left;}
+table.rili {border:0;text-align:center;border-collapse:collapse;background: #ececec;line-height:22px;}
+table.rili .bb span {font-size: 14px;color: #ff0000;}
+table.rili .bb td p {font-size: 30px;color: #FF5722;font-weight:bold;line-height:40px;}
+
+.hl_mod{width: 7.2rem;border-radius: 0.08rem;margin: 0.15rem auto;background-color: #fff;overflow: hidden;}
+.hl_rili .hl_riliTop{height: 3.87rem;box-sizing: border-box;padding: 0.3rem 0;text-align: center;border-bottom: 1px solid #e6e6e6;}
+.hl_rili .hl_riliTop>h2,.hl_rili .hl_riliTop>p{font-size: 0.34rem;color: #333333;font-weight: 400;}
+.hl_rili .hl_riliTop>h4{font-size: 1.92rem;color: #a0804d;font-weight: 300;line-height: 1.8rem;position: relative;}
+.hl_rili .hl_riliTop>div{font-size: 0.28rem;color: #808080;margin-top: 0.1rem;}
+
+.hl_yueli .hl_yueliCon,.hl_rili .hl_riliCon{display: flex;padding:0.3rem 0 0.3rem 0.3rem;width: 100%;box-sizing: border-box;}
+.hl_yueli .hl_yueliCon_l,.hl_rili .hl_riliCon_l{border: 1px solid #4bac59;border-radius: 50%;color: #4bac59;font-size: 0.32rem;text-align: center;line-height: 0.53rem;width: 0.53rem;height: 0.53rem;}
+.hl_yueli .hl_yueliCon_r,.hl_rili .hl_riliCon_r{flex-grow: 1;width: 6.2rem;}
+.hl_yueli .hl_yueliCon_rTit,.hl_rili .hl_riliCon_rTit{font-size: 0.3rem;color: #a0804d;line-height: 0.53rem;height: 0.53rem;border: 1px solid transparent;}
+.hl_yueli .hl_yueliCon_rItem,.hl_rili .hl_riliCon_rItem{display: flex;flex-wrap: wrap;padding-left: 0.15rem;width: 100%;line-height: 0.53rem;border: 0.04rem solid transparent;}
+.hl_yueli .hl_yueliCon_rItem>a,.hl_rili .hl_riliCon_rItem>a{font-size: 0.3rem;color: #4d4d4d;margin-right: 0.2rem;}
+
+.hl_yueli .hl_yueliConJi,.hl_rili .hl_riliConJi{padding-top: 0;}
+.hl_yueli .hl_yueliConJi .hl_yueliCon_l,.hl_rili .hl_riliConJi .hl_riliCon_l{border: 1px solid #d84e43;color: #d84e43;}
+
+.tableData {background-color:#fefaf0;font-size: 0.3rem;width: 96%;color:#7c4328;margin: 0 auto;margin-bottom: 0.5rem;}
+.tableData .thBg {text-align:center;background-color:#f6ead3}
+.tableData td {border:1px solid #e0c09a;line-height: 0.6rem;padding: 0.1rem 0;}
+.tableData .trTit td {line-height: 1rem;padding:0;}
+.tableData .solar,.tableData .lunar {display:block;text-align:center}
+.tableData tr td:nth-child(2),.tableData tr td:nth-child(4) {padding-left: 0.2rem;}
+.tableData .bgBlack td:nth-child(n) {background-color:#d4d1cc;color:#333}
+.tableData .bgOrange td:nth-child(n) {background-color:#ffd496}
+.tableData .txtBlack {color:#333}
+.tableData .pSuitable {color:#14a700}
+.tableData .pSuitable span {float:left;margin-right:0.88889rem}
+.tableData .pUnsuitable {color:#f43d3d}
+.tableData .pUnsuitable span {float:left;margin-right:0.88889rem}
+.tableData .pAdversary {color:#2b98ed}
+.tableData .pAdversary span {float:left;margin-right:0.88889rem}
+.tableData .tr-su .su-icon {display:block;margin:0 auto;width: 0.5rem;height: 0.5rem;line-height: 0.5rem;border-radius: 50%;color: #fff;}
+.tableData .tr-su .green {background: #3eb48c;}
+.tableData .tr-su .red {background: #e43e3f;}
+.tableData .tr-su .blue {background: #2992cf;}

@@ -1,0 +1,51 @@
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td  {margin: 0; padding: 0;}
+
+/** 设置默认字体 **/
+body,button, input, select, textarea /* for ie */ {
+    font: 12px/1.5 'WenQuanYi Micro Hei Mono', 'WenQuanYi Micro Hei', 'Microsoft Yahei Mono', 'Microsoft Yahei', sans-serif;/*默认12号字，微软雅黑(for win7/vista)、文泉驿微米黑(for ununtu等linux)*/
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var,i { font-style: normal; } /* 将斜体扶正,中文中任何时候都不需要斜体字，因为很难看 */
+b,strong{font-weight: normal;}/*重置加粗*/
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } 
+/** 重置列表元素 **/
+ul, ol ,li{ list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none;   }
+a:hover { text-decoration: none; }
+a:focus,input[type=text]:focus,input[type=password]:focus,textarea:focus {outline:none}/*删除FF、IE789的链接虚线框(对IE6无效，IE6得用js)、webkit的文本框黄线，*/
+
+sup { vertical-align: text-top; } /* 重置，减少对行高的影响 */
+sub { vertical-align: text-bottom; }
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* for webkit */
+textarea { resize: none;}
+
+/*预订高度*/
+.blank5{height: 5px; width: 100%; overflow: hidden;}
+.blank10{height: 10px; width: 100%; overflow: hidden;}
+.blank20{height: 20px; width: 100%; overflow: hidden;}
+.blank50{height: 50px; width: 100%; overflow: hidden;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+/** clear both清除浮动 **/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+.clearfix { zoom: 1; display: inline-block; _height: 1px }
+*html .clearfix { height: 1% }
+*+html .clearfix { height: 1% }
+.clearfix { display: block }

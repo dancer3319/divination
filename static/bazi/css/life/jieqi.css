@@ -1,0 +1,69 @@
+.mod .content,.mod .mod_bd,.section .section_hd,.season_desc{background:url(../../images/life/tool_calendar_extend.png) repeat-x;}
+.season_box dt,.season_box dd a,.season_desc dt,.season_mod .season_hd h3{background:url(../../images/life/season.png) no-repeat;}
+
+.season{padding:24px 0 16px; border:1px solid #A2CDEA}
+.season h2{margin-left:20px;}
+.season h2 span{color:#666;font-weight:normal;font-size:14px;}
+.season_box{padding:4px 0 20px;width:700px; margin:0 auto}
+.season_box dl{margin-bottom:1px;}
+.season_box dt,.season_box dd{float:left;height:70px;overflow:hidden;}
+.season_box dt{width:80px;}
+.season_box dd{padding-top:4px;width:615px;height:66px;}
+.season_box .spring dd{background-color:#edfacd;}
+.season_box .summer dd{background-color:#fce8e5;}
+.season_box .autumn dd{background-color:#fcf3d8;}
+.season_box .winter dd{background-color:#dbf2e4;}
+.season_box dd a{margin-right:5px;float:left;padding:10px 0 0;width:92px;height:52px;text-align:center;}
+.season_box dd a strong,.season_box dd a span{display:block;text-align:center;font-weight:bold;}
+.season_box dd a strong{font-size:14px;}
+.season_box dd a em{font-weight:bold;}
+.season_box .spring dt{background-position:0 0}
+.season_box .summer dt{background-position:0 -71px}
+.season_box .autumn dt{background-position:0 -142px}
+.season_box .winter dt{background-position:0 -213px;}
+.season_box .spring a{color:#690;background-position:-88px -4px;}
+.season_box .spring a:hover{color:#690; text-decoration:underline;}
+.season_box .spring a.cur{color:#000;background-position:-186px -4px;}
+.season_box .summer a{color:#c30;background-position:-88px -75px;}
+.season_box .summer a:hover{color:#c30; text-decoration:underline;}
+.season_box .summer a.cur{color:#000;background-position:-186px -75px;}
+.season_box .autumn a{color:#f60;background-position:-88px -146px;}
+.season_box .autumn a:hover{color:#f60; text-decoration:underline;}
+.season_box .autumn a.cur{color:#000;background-position:-186px -146px;}
+.season_box .winter a{color:#53aa85;background-position:-88px -217px;}
+.season_box .winter a:hover{color:#53aa85; text-decoration:underline;}
+.season_box .winter a.cur{color:#000;background-position:-186px -217px;}
+
+.season_desc{margin-bottom:22px;padding:13px 0 0 20px;height:40px;font-size:14px;}
+.season_desc dt,.season_desc dd{float:left;}
+.season_desc dt{margin-right:10px;width:72px;height:26px;font-size:16px;line-height:26px;font-weight:bold;color:#fff;text-align:center;}
+.season_desc dd span{margin-left:10px;color:#f30;}
+.season_desc dd em{margin:0 10px;}
+.season_desc dd i{margin-right:10px;}
+.season_spring .season_desc{background-position:0 -70px;}
+.season_spring .season_desc dt{background-position:-300px 0;}
+.season_summer .season_desc{background-position:0 -130px;}
+.season_summer .season_desc dt{background-position:-300px -80px;}
+.season_autumn .season_desc{background-position:0 -190px;}
+.season_autumn .season_desc dt{background-position:-300px -150px;}
+.season_winter .season_desc{background-position:0 -250px;}
+.season_winter .season_desc dt{background-position:-300px -220px;}
+
+/* season_mod */
+.season_mod{margin:0 20px 0;}
+.season_mod .season_hd{margin-bottom:16px;height:30px;position:relative;}
+.season_mod .season_hd h3{position:absolute;left:0;bottom:-1px;width:94px;height:30px;line-height:30px;text-align:center;font-size:14px;font-weight:bold;}
+.season_mod .season_bd{font-size:14px;color:#666;line-height:20px;}
+.season_mod .season_bd p{margin-bottom:16px;}
+.season_mod .season_bd table{margin-bottom:20px;border-collapse:collapse; border-spacing:0; width:100%}
+.season_mod .season_bd table th,.season_mod .season_bd table td{padding:0 6px;font-size:13px;border:1px solid #c2d4ec;height:28px;color:#333; font-weight:100}
+.season_mod .season_bd table th{color:#006497;background-color:#eaf0fe;}
+
+.season_spring .season_hd{border-bottom:1px solid #d6e0b6;}
+.season_spring .season_hd h3{color:#030;background-position:-300px -30px;}
+.season_summer .season_hd{border-bottom:1px solid #f0c5c1;}
+.season_summer .season_hd h3{color:#972600;background-position:-300px -110px;}
+.season_autumn .season_hd{border-bottom:1px solid #d6e0b6;}
+.season_autumn .season_hd h3{color:#d25f00;background-position:-300px -180px;}
+.season_winter .season_hd{border-bottom:1px solid #d6e0b6;}
+.season_winter .season_hd h3{color:#34655e;background-position:-300px -250px;}

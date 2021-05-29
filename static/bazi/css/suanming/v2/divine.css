@@ -1,0 +1,244 @@
+
+@charset "gb2312";
+
+/*
+
+ * @Created: 20130320
+
+ * @Author : zhuyi
+
+ */
+
+.f12{font-size:12px}
+
+.ml5{margin-left:5px}
+
+.match_result li{background:url("../../../images/suanming/v2/common.png") no-repeat -147px -4px}
+
+.fn_part .hd{margin-bottom:13px;}
+
+.fn_part .intro_area{margin: 25px 20px;color:#8a4626;font-size:12px;line-height:22px;}
+
+.fn_part .intro_area p{margin-top:8px;}
+
+.fn_part .mod_form{margin-top:43px;text-align:center;}
+
+.form_item .vs{color:#904f31;font-weight:700;font-family:Arial}
+
+.mod_form .btn_item{position:relative;margin-bottom:15px;padding-top:7px;}
+
+.mod_form .match_tips{position:absolute;top:7px;right:144px;font-size:12px;line-height:37px;}
+
+.match_tips a{color:#7c4328}
+
+.match_tips a:hover{color:#7c4328}
+
+.fn_part .txt{width:161px;padding:0 5px;border:2px solid #ffa73e;height:23px;line-height:23px;color:#333;font-size:14px;margin-left:0;background:#fff;}
+
+
+
+/* divine_all */
+
+.divine_all{padding-top:20px;}
+
+.divine_all li{float:left;width: 33.33%;padding: 15px 0px;text-align: center;}
+.divine_all li p{
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #FF9800;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    background: #f2e6ce;
+    margin: 0px 27px;
+    }
+
+
+/*.fn_cq h1{width:123px;height:24px;background:url(../../../images/suanming/v2/tit_cq.png) no-repeat;}*/
+/*
+.fn_gy{background:url(../../../images/suanming/v2/bg_gy.jpg) 485px 65px no-repeat #fffcf5}
+
+.fn_gy h1{width:130px;height:27px;background:url(../../../images/suanming/v2/tit_gy.png) no-repeat;}
+
+.fn_lz{background:url(../../../images/suanming/v2/bg_lz.jpg) 485px 65px no-repeat #fffcf5}
+
+.fn_lz h1{width:130px;height:24px;background:url(../../../images/suanming/v2/tit_lz.png) no-repeat;}
+
+.fn_dx{background:url(../../../images/suanming/v2/bg_dx.jpg) 485px 65px no-repeat #fffcf5}
+
+.fn_dx h1{width:130px;height:25px;background:url(../../../images/suanming/v2/tit_dx.png) no-repeat;}
+
+
+.fn_gsd{background:url(../../../images/suanming/v2/bg_gsd.jpg) 485px 65px no-repeat #fffcf5}
+
+.fn_gsd h1{width:157px;height:27px;background:url(../../../images/suanming/v2/tit_gsd.png) no-repeat;}
+
+
+
+.fn_th{background:url(../../../images/suanming/v2/bg_th.jpg) 485px 65px no-repeat #fffcf5}
+
+.fn_th h1{width:130px;height:24px;background:url(../../../images/suanming/v2/tit_th.png) no-repeat;}
+
+
+
+.fn_zg{background:url(../../../images/suanming/v2/bg_zg.jpg) 485px 65px no-repeat #fffcf5}
+
+.fn_zg h1{width:126px;height:27px;background:url(../../../images/suanming/v2/tit_zg.png) no-repeat;}
+
+
+
+.fn_yl{background:url(../../../images/suanming/v2/bg_yl.jpg) 485px 65px no-repeat #fffcf5}
+
+.fn_yl h1{width:130px;height:27px;background:url(../../../images/suanming/v2/tit_yl.png) no-repeat;}
+*/
+
+/* divine_special */
+
+.divine_special{}
+
+.divine_special h6{margin: 50px 0;text-align: center;}
+
+.divine_special ul{margin: 30px;color:#8D4B2C;font-size:14px;line-height:28px;}
+
+.divine_special p{color:#8D4B2C;margin: 30px;}
+
+.divine_special p.first{font-size:14px;}
+
+.divine_special p.first .cRed{font-size:16px}
+
+.divine_special p.last{text-align:center;font-size:14px;}
+
+.divine_special p.last a{color:#fd5151;font-weight:bold;text-decoration:underline;}
+
+.divine_special h5{height:210px;text-align: center;margin: 50px 0;}
+
+.divine_special h5 a{position:absolute;left:138px;top:62px;display:block;width:80%;height:250px;background:url("about:blank");}
+
+.divine_special dt{float:left;width:175px;}
+
+.divine_special dd{float:left;width:640px; position:relative;}
+
+.divine_special dd img{float:left;margin:0 0px 0 70px; display:inline}
+
+.divine_special dd img.mt35{margin-top:35px;}
+
+.divine_special dd a.btn_orange_1{position:absolute;bottom:0;left:300px;}
+
+.divine_special dd p{width:320px;margin-left:300px;font-size:20px;color:#894626;line-height:28px; font-size:14px}
+
+.divine_special dd p strong{display:block;color:#333;}
+
+
+
+.fn_lz .divine_special dd{padding-left:170px; width:430px}
+
+.fn_lz .divine_special dd a.btn_orange_1{left:460px;}
+
+
+
+.fn_dx .divine_special dd a.btn_orange_1{left:520px;}
+
+
+
+.fn_gsd .divine_special dd{padding-left:130px; width:430px}
+
+.fn_gsd .divine_special dd a.btn_orange_1{left:470px;}
+
+
+
+.fn_th .divine_special dd{padding-left:160px; width:430px}
+
+.fn_th .divine_special dd a.btn_orange_1{left:450px;}
+
+
+
+.fn_zg .divine_special{padding:10px 14px 0 30px}
+
+
+
+.dx_cont{float:left;padding:15px 40px;width:381px;height:266px;margin:10px 20px 0 40px; display:inline;color:#894626;font-size:14px;background:url(../../../images/suanming/v2/dx_cont.jpg) no-repeat;}
+
+.dx_cont_top{height:39px;line-height:39px;}
+
+.dx_cont_top strong{margin:0 20px;}
+
+.dx_cont_mid{margin-top:8px;height:88px;}
+
+.divine_special .dx_cont_mid p{margin-left:0;font-weight:bold;line-height:30px;}
+
+.dx_cont_bt{height:108px;padding-top:10px;font-size:12px;overflow:hidden;}
+
+
+
+.divine_com{font-size:12px}
+
+.divine_com p{line-height:24px;}
+
+.divine_com p.tips{margin:15px 0;font-size:14px;}
+
+.divine_com p.tips a{float:right;width:85px;height:27px;line-height:27px;text-align:center;color:#fff;font-size:12px;background-position:0 -238px;}
+
+.divine_com p.tips a:hover{color:#fff;}
+
+.divine_com h4{font-size:14px;font-weight:bold;}
+
+.divine_test{margin-bottom:35px;height:27px;line-height:27px;color:#999;overflow:hidden; font-size:12px}
+
+.divine_test input{float:left;}
+
+.divine_txt{width:147px;height:25px;padding:0 8px; margin-right:7px;border:1px solid #a5acb2;line-height:25px;font-size:14px;color:#333;}
+
+.indent{text-indent:2em;}
+
+.divine_test span{font-weight:bold;color:#333;font-size:14px;}
+
+.divine_test strong{color:#8D4B2C;font-size:14px;}
+
+
+
+.mod_box_t1 .bd{/*padding:0 0 30px;*/font-size:14px;padding:0;}
+
+.fn_cq .bd{padding:0 0 33px}
+
+.fn_cq .divine_all{padding-top:0}
+
+.fn_part{/* padding:0 22px 30px; */}
+
+
+
+.fn_result{background-image:none;}
+
+.result-con{text-align: center;}
+
+.result-con .img-gyq{float:left;width:200px;margin-right:20px;margin-top:3px;}
+
+.result-detail{float:left;width:452px;}
+
+.result-detail .title{color:#813d20;font-weight:bold;margin-bottom:6px;}
+
+.result-detail td{line-height:24px;color:#894626;padding:4px 10px 4px 12px;border:1px solid #d0ad9a;}
+
+.result-detail .col-1{background-color:#fdf5e6;padding:0;text-align:center;color:#813d20;}
+
+.fn_result .btn_orange_1{margin:20px auto 0;display:block;}
+
+
+
+.result-con .img-dx{position:relative;float:left;width:200px;height:368px;background:url(../../../img/suanming/v2/dx_bg.png) no-repeat 0 0;margin-right:20px;margin-top:3px;font-family: 'Microsoft YaHei';font-size:16px;color:#830505;line-height:18px;font-weight:bold;}
+
+.result-con .img-dx .q-name{position:absolute;right:28px;top:40px;width:18px;} 
+
+.result-con .img-dx .q-name .cRed{margin-top:20px;display:block;}
+
+.result-con .img-dx .q-col{width:18px;position:absolute;top:40px;}
+
+.result-con .img-dx .q-col-1{left:86px;}
+
+.result-con .img-dx .q-col-2{left:46px;}
+
+.result-con .img-dx .q-col span{ display:block;width:18px;height:18px;}
+
+.result-con .img-dx .title-bg-up{display:block;width:16px;height:6px;line-height:0;font-size:0;background:url(../../../img/suanming/v2/title-bg-up.png) no-repeat 0 0;}
+
+.result-con .img-dx .title-bg-down{display:block;width:16px;height:6px;line-height:0;font-size:0;background:url(../../../img/suanming/v2/title-bg-down.png) no-repeat 0 0;margin-top:10px;}

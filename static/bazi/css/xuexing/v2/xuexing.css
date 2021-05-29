@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/*
+
+ * @Created: 20130325
+
+ * @Author : zhuyi
+
+ */
+
+body{background:#f5f5f5}
+
+.mod_1b{*zoom:1; border:1px solid #a2cdea}
+
+.mod_2b{border: 1px solid #dcdcdc; background:#fff}
+
+.fblue{color:#348bcf}
+
+.fgray{color:#999}
+
+.f14{font-size:14px}
+
+.fbold{font-weight:700}
+
+.f666{color:#666}
+
+.tCenter{text-align: center;}
+
+.h2btm{display:block; margin:-10px 0 10px;text-align:center;color:#666;font-size:12px;font-family:\5b8b\4f53; height:25px;overflow:hidden;}
+
+
+
+.life{padding:0 60px 30px}
+
+
+
+.blood{ border:1px solid #a2cdea; background:url(../../../images/xuexing/v2/xuexing_bg.jpg) no-repeat 688px 0 #fcfeff;zoom:1;}
+
+/* blood_list */
+
+.blood_list{padding:40px 29px 30px;}
+
+.blood_list li{float:left;width:190px; margin:6px; display:inline;text-align:center;}
+
+.blood_list li a{font-weight:bold;color:#333;font-size:14px;}
+
+.blood_list li a:hover{color:#fd5151;}
+
+.blood_list li a img{display:inline-block;padding:39px 48px 47px 49px;border:1px solid #a2cdea;background:#fff;}
+
+.blood_list li a span{display:inline-block;margin-top:10px;}
+
+.blood_list li a:hover img{padding:38px 47px 46px 48px;border-width:2px;border-color:#fd5151; text-decoration:underline}
+
+
+
+.other_tool { margin-top:-1px;}
+
+.other_tool th, .other_tool td{border-top:1px solid #c2dff6; padding:0 0 0 12px; width:133px; line-height:34px; background:#fff}
+
+.other_tool td{border-left:1px solid #c2dff6;}
+
+.other_tool th{font-weight:normal;text-align:left;}
+
+.other_tool a{color:#333;}
+
+.other_tool a:hover,.other_tool a.cur{color:#fd5151;}
+
+.other_tool_site th{color:#656565;font-weight:bold;background:#FAFEFF;text-align:center;}
+
+.other_tool_site em{display:block;color:#666;font-size:12px;}
+
+.other{font-size:14px;}
+
+.other h3{position:relative;height:27px;line-height:27px;padding:0 17px;border-bottom:1px solid #CBE8FF;color:#338BCF;font-weight:bold;background:#EDF7FF;}
+
+.other h3 span{color:#999;font-size:12px;font-weight:normal;}
+
+
+
+.btnA,.btnB{background:url(../../../images/xuexing/v2/xuexing_btn.png) no-repeat}
+
+.btnA{position:absolute;right:33px;top:15px;display:inline-block;width:65px;height:26px;line-height:26px;color:#fff;text-align:center;font-size:12px;font-weight:normal;background-position:0 -76px; }
+
+a.btnA:hover{color:#fff;}
+
+.btnB{width:123px; height:37px; margin:30px 0 0 180px; display:block;border:0 none; cursor:pointer; background-position:0 0; color:#fff; font-size:14px; font-weight:700}
+
+.btnB:hover{background-position:0 -38px}
+
+/* blood_type */
+
+.blood_con{border:1px solid #a2cdea; position:relative;*zoom:1}
+
+.blood_type{padding:15px 0 40px;}
+
+.blood_type dt{float:left;width:220px;padding:42px 0 0 0; text-align:center}
+
+.blood_type dd{float:left;width:570px;font-size:14px;}
+
+.blood_type dd h4{padding-left:185px;font-size:16px;font-weight:bold;}
+
+.blood_type dd li{margin-top:12px;line-height:24px;color:#333;}
+
+.blood_type dd p{line-height:24px;color:#333;}
+
+.fblue{color:#348bcf}
+
+
+
+/* select_outer */
+
+.select_outer { padding: 3px 2px 4px; border: 2px solid #ffa73e; background: white; float: left; display: inline; margin: -4px 12px 0 8px; vertical-align: middle; position: relative; }
+
+.select_outer select { display: block; height: 20px; margin: -1px 0 0 -1px; font-size: 14px; border: 1px solid white; line-height: 20px; overflow: hidden; outline: none; color: #333333; }
+
+
+
+.select_outer120 {width: 122px; }
+
+.select_outer120 select { width:124px; }
+
+
+
+.select_inner { width: 100%; height: 18px; line-height: 18px; overflow: hidden; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) { .select_outer select { line-height: 16px; } }
+
+
+
+.fl{float:left}
+
+.pl190{padding-left:190px}
+
+.checkbar{padding:45px 0 35px}
+
+.blood_result{border-top:1px solid #a2cdea; padding:27px 0 0 270px; margin-top:33px}
+
+.blood_result p{font-size: 14px;color: #333;line-height: 36px;}
+
+.blood_result strong{color:#ff8b00;margin-right: 40px;}
+
+.blood_result a{color:#ff8b00; font-weight:700; text-decoration:underline}
+
+.blood_result a:hover{color:#fd5151}
+

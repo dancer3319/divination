@@ -1,0 +1,39 @@
+div.guide-wrap {
+    width: 14rem;
+    font-size: 16px;
+    margin: 0 auto 0.4rem auto;
+}
+div.guide-wrap div.guide{
+    width: 100%;
+    align-items: flex-start;
+    background-image: url('../img/unpay_3/frame_mid.png?v=1.1');
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    padding: 0 0.3rem;
+}
+img.frame{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.guide-wrap img.frame-top {
+    margin-bottom: -2px;
+}
+
+div.guide-wrap img.frame-bot {
+    margin-top: -2px;
+}
+@media screen and (max-width: 340px) {
+    div.top-wrap div.guide-wrap {
+        font-size: 14px;
+    }
+}
+div.guide-wrap p.guide-text {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+div.guide-wrap p.guide-text em {
+    font-style: normal;
+    color: #f36431;
+}

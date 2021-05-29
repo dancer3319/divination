@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* @Created: 2013.07.02 
+ * @Used   : 鍏瓧鍚堝/鍏瓧閰嶅
+ * @Author : Rambo 
+ */
+
+/*鍏瓧鍚堝*/
+.fn_hehun h1{ background: url(../../../images/suanming/v2/tit_hehun.png) no-repeat ;height: 29px;width: 146px;}
+.fn_hehun .fn_box,.fn_peidui .fn_box{background-image:url(../../../images/suanming/v2/bg_hehun.png);background-position: right top;background-repeat: no-repeat;}
+.fn_hehun .form_item,.fn_peidui .form_item{margin-bottom:15px;}
+.fn_part .item_imgIcon{margin:3px 5px 0 0;}
+.fn_hehun .ipt_text,.fn_peidui .ipt_text{width:100px;}
+.fn_part .form_line{border-top:1px dashed #dcc4b0;margin:25px 0;}
+.fn_part .cur_info{position:relative;padding:10px 0 15px;*zoom:1;}
+.fn_part .cur_info .a_retest{top:30px;}
+.fn_part .relateLinks{text-align:left;}
+.fn_hehun_result .fn_box,.fn_peidui_result .fn_box{background-image:none;}
+.fn_hehun_result .box_con{margin-bottom: 10px;}
+.fn_part .cut_tit {background: url(../../../images/suanming/v2/common.png) no-repeat -155px -455px;color: #8a492e;font-weight: bold;margin: 5px 0;padding-left: 10px;}
+.fn_hehun_result .person_info {line-height:34px;padding-left:10px;margin-bottom:10px;}
+.fn_hehun_result .person_info span{display:inline-block;min-width:150px;_width:150px;white-space:nowrap;}
+.fn_hehun_result .person_info span strong{color: #8a492e;margin-right:10px;}
+.fn_hehun_result .person_info span a,.peidui_table td a{color:#006f9f;text-decoration: underline;}
+.fn_hehun_result .person_info span a:hover,.peidui_table td a:hover{color:#fd5151;}
+.fn_hehun_result .info_table table,.peidui_table{border-top:1px solid #ebdbd3;border-left:1px solid #ebdbd3;width:100%;background:#fff;line-height:30px;}
+.fn_hehun_result .info_table table th,.fn_hehun_result .info_table table td,.peidui_table td{border-right:1px solid #ebdbd3;border-bottom:1px solid #ebdbd3;}
+.fn_hehun_result .info_table table tbody{text-align: center;}
+.fn_hehun_result .info_table table.tableB{border-top:0 none;}
+.fn_hehun_result .info_table table tfoot td{padding-left:15px;}
+.hehun_result_dl,.peidui_result_dl{padding:15px 0;font-size: 14px;}
+.hehun_result_dl dt{margin-bottom:20px;}
+.hehun_result_dl dd,.peidui_result_dl dd{padding-left:10px;}
+.hehun_result_dl h5{font-weight:bold;color:#333;margin-bottom:3px;}
+.hehun_result_dl p{color:#8a492e;margin-bottom:15px;}
+
+/*鍏瓧閰嶅*/
+.fn_peidui h1{ background: url(../../../images/suanming/v2/tit_peidui.png) no-repeat ;height: 26px;width: 138px;}
+.fn_peidui .mod_form .form_line{margin:25px 0;}
+.fn_peidui .form_line{margin:5px 0;}
+.peidui_table td{text-align: center;}
+.peidui_table td a{font-size: 12px;}
+.peidui_result_dl dt{}
+.peidui_result_dl p{color:#8a492e;margin-bottom:15px;line-height:180%;}
+.peidui_result_dl p strong{font-weight:normal;color:#333;}
+.cGreen{color:#008000;}
+.peidui_result_dl .summary{text-indent:2em;margin-top:-15px;margin-bottom:0;}

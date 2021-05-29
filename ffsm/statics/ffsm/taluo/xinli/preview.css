@@ -1,0 +1,342 @@
+body {
+    background-color: #FFFFFF;
+}
+section.page {
+    background-color: #40357a;
+}
+
+section.main-wrap {
+    position: relative;
+    width: 100%;
+}
+
+div.banner-wrap {
+    width: 100%;
+    margin-bottom: -4rem;
+}
+
+div.banner-wrap img.banner {
+    width: 100%;
+    height: auto;
+}
+div.content-wrap{
+    padding-bottom: 2rem;
+}
+div.content-wrap div.content-box {
+    margin-bottom: 0.6rem;
+}
+div.content-wrap div.content-box img.title{
+    width: 12rem;
+    margin: -0.3rem 0 0.6rem 0;
+}
+div.top-wrap{
+    width: 100%;
+}
+div.top-wrap div.guide-wrap {
+    width: 100%;
+    font-size: 0.55rem;
+    margin-bottom: 0.4rem;
+}
+div.guide-wrap div.guide{
+    width: 100%;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+div.top-wrap div.guide-wrap p.guide-text {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+div.top-wrap div.guide-wrap p.guide-text em {
+    color: #d25a28;
+}
+
+
+div.top-wrap div.card-group{
+    width: 100%;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+div.top-wrap div.card-group img.card-wall{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 0.2rem;
+}
+div.top-wrap div.card-group div.tarot-card{
+    position: absolute;
+    margin-left: -1rem;
+}
+div.top-wrap div.card-group div.tarot-card img{
+    display: block;
+    width: 2rem;
+    height: auto;
+}
+div.top-wrap div.card-group div.tarot-card p.card-name{
+    font-size: 0.55rem;
+    color: #783bb0;
+}
+div.top-wrap div.card-group div.tarot-card span{
+    font-size: 0.4rem;
+}
+div.tarot-card-1{
+    top: 10%;
+    left: 50%;
+}
+div.tarot-card-2{
+    top: 37.2%;
+    left: 13%;
+}
+div.tarot-card-3{
+    top: 37.2%;
+    right: 4%;
+}
+div.tarot-card-4{
+    top: 72.5%;
+    left: 50%;
+}
+
+
+div.price-wrap{
+    width: 100%;
+    margin-top: 1.6rem;
+}
+div.price-wrap p.project-name{
+    width: 100%;
+    padding: 0.2rem 0;
+    color: #FFFFFF;
+    font-size: 0.62rem;
+    background: #8c7cdf;
+    white-space:nowrap;
+}
+div.price-wrap div.price-content{
+    padding: 0.4rem 0.8rem;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #d2ccd6;
+
+}
+div.price-wrap div.price-box,
+div.price-wrap div.time-box{
+    font-size: 0.55rem;
+    height: 2.2rem;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+div.price-wrap div.price-box{
+    width: 5rem;
+}
+div.price-wrap span.true-price{
+    width: 100%;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+div.price-wrap span.true-price label{
+    background-color: #f26c6b;
+    border-radius: 0.14rem;
+    color: #FFFFFF;
+    padding: 0.05rem 0.2rem;
+    white-space:nowrap;
+    margin-right: 0.1rem;
+}
+div.price-wrap span.true-price em{
+    font-weight: bold;
+    white-space:nowrap;
+    font-size: 0.69rem;
+}
+div.price-wrap span.false-price{
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    color: #a4a39f;
+    white-space:nowrap;
+}
+div.price-wrap span.false-price em{
+    text-decoration: line-through;
+    white-space:nowrap;
+}
+div.price-wrap span.time-title{
+    width: 3rem;
+    text-align: center;
+}
+div.price-wrap span.time-discount{
+    width: 3rem;
+    color: #f26c6b;
+    white-space: nowrap;
+    text-align: center;
+}
+
+div.user-count{
+    width: 100%;
+    font-size: 0.52rem;
+    margin-top: 0.1rem;
+    padding: 0.1rem 0.1rem;
+}
+div.user-count span em{
+    color: #f26c6b;
+}
+img.start-btn-top{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
+    z-index: 99;
+}
+span.start-span{
+    width: 100%;
+    height: 1.45rem;
+    border-radius: 0.2rem;
+    background-color: #45b850;
+    margin-top: 0.5rem;
+    margin-bottom: 0.6rem;
+    z-index: 99;
+    color: #FFFFFF;
+    font-size: 0.62rem;
+}
+
+img.desc-subtitle{
+    display: block;
+    width: auto;
+    height: 2.5rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.2rem;
+}
+div.tarot-box{
+    width: 100%;
+}
+div.tarot-box img.card-image{
+    display: block;
+    width: 2.8rem;
+    height: auto;
+    margin-bottom: 0.3rem;
+}
+div.tarot-box div.card-intro{
+    width: 100%;
+
+}
+div.tarot-box div.card-intro img{
+    display: block;
+    width: 0.6rem;
+    height: auto;
+    margin-right: 0.2rem;
+}
+div.tarot-box div.card-intro span{
+    font-size: 0.55rem;
+    color: #8674e4;
+}
+div.tarot-box div.card-intro span em{
+    font-size: 0.48rem;
+    color: #8674e4;
+}
+
+div.tarot-box div.explain-box{
+    width: 100%;
+    margin-top: 0.4rem;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+div.tarot-box div.explain-box p.explain-title{
+    font-size: 0.62rem;
+    color: #e86038;
+    line-height: 1.6;
+}
+div.tarot-box div.explain-box p.explain-text{
+    font-size: 0.55rem;
+    color: #000000;
+    line-height: 1.5;
+}
+div.card-desc{
+    width: 100%;
+    position: relative;
+    margin-top: 0.4rem;
+}
+div.card-desc img.blur-img{
+    display: block;
+    width: 103%;
+    height: auto;
+}
+div.card-desc div.parse-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div.card-desc div.parse-box ul.parse-list{
+    width: 94%;
+    padding: 0.2rem 0.2rem;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #8572e7;
+    border-radius: 0.2rem;
+}
+div.card-desc div.parse-box ul.parse-list li{
+    width: 100%;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+div.card-desc div.parse-box ul.parse-list li img{
+    display: block;
+    width: 0.26rem;
+    height: auto;
+    margin-right: 0.2rem;
+}
+div.card-desc div.parse-box ul.parse-list li span{
+    font-size: 0.55rem;
+    white-space:nowrap;
+    line-height: 1.6;
+}
+div.card-desc div.parse-box ul.parse-list li em{
+    font-style: normal;
+    color: #a774fe;
+}
+div.card-desc div.parse-box img.start-btn-mid{
+    margin-top: 1.4rem;
+    display: block;
+    width: 9.5rem;
+    height: auto;
+}
+div.rate-box{
+   width: 100%;
+   position: relative;
+   margin-top: 0.4rem;
+}
+div.rate-box img.rate-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.rate-box span.rate-text{
+    position: absolute;
+    top: 0;
+    left: 13%;
+    height: 100%;
+    font-size: 0.62rem;
+    color: #FFFFFF;
+    padding-top: 0.03rem;
+}
+ul.month-list{
+    width: 100%;
+    padding-top: 1.3rem;
+}
+ul.month-list li.list-item{
+    font-size: 0.62rem;
+    color: #e0665b;
+    height: 2rem;
+}
+ul.month-list li.list-item em{
+    font-weight: bold;
+    font-size: 0.62rem;
+}
+div.float-wrap img.start-btn-bot {
+    display: block;
+    width: 11rem;
+    height: auto;
+}
+

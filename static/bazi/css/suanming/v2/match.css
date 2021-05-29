@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*
+ * @Created: 20130319
+ * @Author : Kevin
+ */
+ 
+.fn_part .hd{margin-bottom:13px;}
+.fn_part .intro_area{margin: 20px;color:#8a4626;font-size:12px;line-height:22px;}
+.fn_part .intro_area p{margin-top:8px;}
+.fn_part .mod_form{margin:43px 0 0;text-align:center;}
+.fn_part .form_item:after{/* content:"."; */display:block;height:0;clear:both;visibility:hidden;}
+.fn_part .form_item{*zoom:1;}
+.fn_part .txt{
+    padding: 0 5px;
+    line-height: 23px;
+    color: #333;
+    font-size: 20px;
+    margin: 20px 10px;
+    background: #fdfaf5;
+    height: 48px;
+    text-align: center;
+    width: 180px;
+    border-radius: 24px;
+    border: 1px solid #f1dbb1;
+}
+.form_item .vs{
+    font-family: Arial;
+    font-size: 24px;
+    color: #e6a117;
+    line-height: 45px;
+    font-weight: bold;
+    margin: 0 10px;
+    =: left
+}
+.mod_form .btn_item{}
+.mod_form .match_tips{position:absolute;top:7px;left:388px;font-size:12px;line-height:37px;}
+.match_tips a{color:#7c4328}
+.match_tips a:hover{color:#7c4328}
+.st_outer{*background:#fff;*border:2px solid #FFA73E;*padding:3px 3px 2px;*width:162px;}
+.st_inner{*position:relative;*width:160px;*height:18px;*overflow:hidden;}
+.st_inner select{*margin:-1px;+margin:-2px;*width:162px;*width:164px;padding: 0 5px;line-height: 23px;color: #333!important;font-size: 17px;margin: 20px 10px;height: 48px;text-align: center;width: 180px;border-radius: 24px;border: 1px solid #f1dbb1;}
+
+.match_result{padding:25px 6px 0;font-size:14px;color:#925335;}
+.match_result li{padding:0 0 5px 10px;line-height:24px;background:url("../../../images/suanming/v2/dot.png") no-repeat 0 10px}
+.match_result dl{padding:0 10px 25px}
+.match_result dt{color:#333;}
+.match_result .warning{color:#ff0000}
+.match_result .warning:hover{color:#ff0000}
+.match_result dd{float:left;width:270px;margin-top:10px;}
+.match_result dd span{float:left;margin-right:10px;font-weight:700;}
+.match_result dd span.star{color:#FF8B3A;}
+.match_result .spec{padding-bottom:15px;}
+
+/*
+.fn_qq h1{width:126px;height:26px;background:url(../../../images/suanming/v2/tit_qq.png) no-repeat;}
+.fn_qq .fn_box{background-image:url(../../../images/suanming/v2/bg_qq.png);background-repeat:no-repeat;background-position:100% 7px;}
+
+.fn_shengxiao h1{width:139px;height:27px;background:url(../../../images/suanming/v2/tit_shengxiao.png) no-repeat;}
+.fn_shengxiao .fn_box{background-image:url(../../../images/suanming/v2/bg_shengxiao.png);background-repeat:no-repeat;background-position:100% 0;}
+
+.fn_xuexing h1{width:139px;height:27px;background:url(../../../images/suanming/v2/tit_xuexing.png) no-repeat;}
+.fn_xuexing .fn_box{background-image:url(../../../images/suanming/v2/bg_xuexing.png);background-repeat:no-repeat;background-position:100% 0;}
+
+.fn_xingzuo h1{width:139px;height:27px;background:url(../../../images/suanming/v2/tit_xingzuo.png) no-repeat;}
+.fn_xingzuo .fn_box{background-image:url(../../../images/suanming/v2/bg_xingzuo.png);background-repeat:no-repeat;background-position:100% 0;}
+
+.fn_xingming h1{width:139px;height:27px;background:url(../../../images/suanming/v2/tit_xingming.png) no-repeat;}
+.fn_xingming .fn_box{background-image:url(../../../images/suanming/v2/bg_xingming.png);background-repeat:no-repeat;background-position:100% 0;}
+*/
+

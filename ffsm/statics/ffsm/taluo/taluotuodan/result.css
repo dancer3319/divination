@@ -1,0 +1,209 @@
+body {
+    background-color: #FFFFFF;
+}
+section.page {
+    background-color: #321e5d;
+}
+section.main-wrap {
+    position: relative;
+    width: 100%;
+}
+
+div.banner-wrap {
+    width: 100%;
+    margin-bottom: -5.5rem;
+}
+
+div.banner-wrap img.banner {
+    width: 100%;
+    height: auto;
+}
+div.content-wrap div.content-box img.title{
+    width: 10rem;
+    margin: -0.3rem 0 0.6rem 0;
+}
+div.top-wrap{
+    width: 100%;
+    padding-bottom: 2.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+div.top-wrap div.guide-wrap {
+    width: 100%;
+    font-size: 0.55rem;
+    margin-bottom: 0.4rem;
+}
+div.guide-wrap div.guide{
+    width: 100%;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+div.top-wrap div.guide-wrap p.guide-text {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+div.top-wrap div.guide-wrap p.guide-text em {
+    color: #d65a34;
+}
+
+
+div.top-wrap div.card-group{
+    width: 100%;
+    position: relative;
+}
+div.top-wrap div.card-group img.card-wall{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.top-wrap div.card-group div.tarot-card{
+    position: absolute;
+    margin-left: -1rem;
+}
+div.top-wrap div.card-group div.tarot-card img{
+    display: block;
+    width: 2rem;
+    height: auto;
+}
+div.top-wrap div.card-group div.tarot-card p.card-name{
+    font-size: 0.55rem;
+    color: #783bb0;
+}
+div.top-wrap div.card-group div.tarot-card span{
+    font-size: 0.4rem;
+}
+div.tarot-card-1{
+    top: 10%;
+    left: 50%;
+}
+div.tarot-card-2{
+    top: 32%;
+    left: 13%;
+}
+div.tarot-card-3{
+    top: 32%;
+    right: 4%;
+}
+div.tarot-card-4{
+    top: 82.5%;
+    left: 33%;
+}
+div.tarot-card-5{
+    top: 82.5%;
+    right: 24%;
+}
+
+
+img.desc-subtitle{
+    display: block;
+    width: auto;
+    height: 2.3rem;
+    margin-bottom: 0.6rem;
+}
+div.tarot-box{
+    width: 100%;
+
+}
+div.tarot-box img.card-image{
+    display: block;
+    width: 3rem;
+    height: auto;
+    margin-bottom: 0.2rem;
+}
+div.tarot-box div.card-intro{
+    width: 100%;
+}
+div.tarot-box div.card-intro img{
+    display: block;
+    width: 0.8rem;
+    height: auto;
+    margin-right: 0.2rem;
+}
+div.tarot-box div.card-intro span{
+    font-size: 0.55rem;
+    color: #8263ca;
+}
+div.tarot-box div.card-intro span em{
+    font-size: 0.48rem;
+    color: #8263ca;
+}
+div.tarot-box div.explain-box{
+    width: 100%;
+    margin-top: 0.4rem;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+div.tarot-box div.explain-box p.explain-title{
+    font-size: 0.62rem;
+    color: #d96a35;
+    line-height: 1.5;
+}
+div.tarot-box div.explain-box p.explain-text{
+    font-size: 0.55rem;
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+div.card-desc{
+    width: 100%;
+    position: relative;
+    margin: 0.4rem 0;
+}
+div.card-desc img.blur-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.card-desc div.parse-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div.rate-box{
+    width: 100%;
+    position: relative;
+    margin: 0.2rem 0;
+}
+div.rate-box img.rate-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.rate-box span.rate-text{
+    position: absolute;
+    top: 0;
+    left: 13%;
+    height: 100%;
+    font-size: 0.62rem;
+    color: #FFFFFF;
+    padding-top: 0.03rem;
+}
+ul.month-list{
+    width: 100%;
+    padding-top: 1.3rem;
+}
+ul.month-list li.list-item{
+    font-size: 0.62rem;
+    color: #e0665b;
+    height: 1.5rem;
+}
+ul.month-list li.list-item:nth-child(2){
+    margin-top: -0.1rem;
+}
+ul.month-list li.list-item:last-child{
+    margin-top: -0.1rem;
+}
+ul.month-list li.list-item em{
+    font-weight: bold;
+    font-size: 0.62rem;
+}
+img.end-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0.4rem;
+}

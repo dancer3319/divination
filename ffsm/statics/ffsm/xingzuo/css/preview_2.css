@@ -1,0 +1,311 @@
+section.page {
+    width: 100%;
+    min-height: 100%;
+    background-color: #201e3e;
+    position: relative;
+}
+div.banner-wrap{
+    width: 100%;
+    position: relative;
+}
+div.banner-wrap div.xinzuo-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+div.banner-wrap div.switch-wrap{
+    position: relative;
+    width: 100%;
+    padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+}
+div.banner-wrap div.star-box{
+    font-size: 0.6rem;
+    color: #FFFFFF;
+}
+div.banner-wrap div.star-box label{
+    margin-right: 0.1rem;
+}
+div.banner-wrap div.star-box span{
+    color: #f5ed64;
+}
+div.banner-wrap img.switch-btn{
+    display: block;
+    width: 4rem;
+    height: auto;
+}
+div.banner-wrap img.xinzuo-name{
+    display: block;
+    width: 6rem;
+    height: auto;
+}
+div.banner-wrap img.banner{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.order-btn-wrap {
+    position: absolute;
+    z-index: 3;
+    top: 3rem;
+    right: 0;
+    padding: 0.2rem 0 0.2rem 0.4rem;
+}
+div.banner-wrap img.order-btn{
+    display: block;
+    width: 1rem;
+    height: auto;
+}
+div.pay-wrap{
+    position: relative;
+    width: 100%;
+    padding: 0 0.4rem;
+    margin-top: -0.5rem;
+}
+div.pay-wrap div.pay-box{
+    width: 100%;
+    padding: 0.6rem 0.6rem;
+    border-radius: 0.4rem;
+    border: 2px solid #524f7e;
+    background-color: #29264c;
+}
+div.pay-wrap img.guide-text{
+    display: block;
+    width: 98%;
+    height: auto;
+    margin-bottom: 0.8rem;
+}
+div.pay-wrap div.price-box{
+    width: 100%;
+    height: 3rem;
+    padding: 0.4rem 0.6rem;
+    background-color: #302e5f;
+    border-radius: 6px;
+    border: 1px solid #4e4890;
+    margin-bottom: 0.6rem;
+    font-size: 16px;
+}
+div.pay-wrap div.prices{
+    justify-content: space-between;
+    height: 100%;
+    width: 60%;
+}
+div.pay-wrap div.first-line, div.pay-wrap div.second-line{
+    width: 100%;
+    justify-content: flex-start;
+}
+div.pay-wrap div.first-line span.title{
+    margin-right: 0.2rem;
+    color: #9c9ea3;
+}
+div.pay-wrap div.second-line span.title{
+    padding: 0.1rem 0.15rem;
+    border-radius: 4px;
+    background-color: #fd5757;
+    color: #FFFFFF;
+    margin-right: 0.2rem;
+}
+div.pay-wrap div.first-line span.false-price{
+    color: #9c9ea3;
+    text-decoration: line-through;
+}
+div.pay-wrap div.second-line span.true-price{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+div.pay-wrap div.times{
+    justify-content: space-between;
+    height: 100%;
+    align-items: flex-end;
+    width: 38%;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+div.pay-wrap div.times span.run-time{
+    width: 100%;
+    color: #d19042;
+    text-align: right;
+}
+div.pay-wrap img.pay-btn{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 340px) {
+    div.pay-wrap div.first-line{
+        font-size: 12px;
+    }
+    div.pay-wrap div.times{
+        font-size: 14px;
+    }
+    div.pay-wrap div.second-line{
+        font-size: 14px;
+    }
+    div.pay-wrap div.second-line span.true-price{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+
+div.title-wrap{
+    width: 100%;
+    padding: 0.8rem 0.4rem;
+}
+div.title-wrap img.guide-title{
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+div.items-wrap{
+    position: relative;
+    width: 100%;
+    padding: 0 0.4rem;
+    margin-bottom: 1.2rem;
+    font-size: 18px;
+}
+div.love-wrap{
+    color: #e6727a;
+}
+div.cash-wrap{
+    color: #e2cb7d;
+}
+div.job-wrap{
+    color: #6ebdfb;
+}
+div.items-wrap div.items-box{
+    width: 100%;
+    padding: 0.4rem 0.4rem;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    border: 2px solid #524f7e;
+    background-color: #29264c;
+}
+div.items-wrap span.items-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.15rem 0.6rem;
+    border-radius: 1rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.2rem;
+}
+@media screen and (max-width: 340px) {
+    div.items-wrap span.items-title{
+        font-size: 18px;
+    }
+    div.items-wrap{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 600px) {
+    div.items-wrap span.items-title{
+        font-size: 22px;
+    }
+    div.items-wrap{
+        font-size: 20px;
+    }
+}
+div.love-wrap span.items-title{
+    border: 1px solid #e6727a;
+}
+div.cash-wrap span.items-title{
+    border: 1px solid #e2cb7d;
+}
+div.job-wrap span.items-title{
+    border: 1px solid #6ebdfb;
+}
+div.items-wrap div.month-wrap{
+    width: 100%;
+    margin-bottom: 0.6rem;
+}
+div.items-wrap div.rate-box{
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 0.4rem;
+}
+div.items-wrap span.rate-title{
+    margin-right: 0.2rem;
+}
+div.items-wrap div.star-line{
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+div.items-wrap img.star{
+    display: block;
+    width: 0.54rem;
+    height: auto;
+    margin-right: 0.18rem;
+}
+div.items-wrap img.month-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.items-wrap div.item-box{
+    width: 100%;
+}
+div.items-wrap div.item{
+    width: 100%;
+    margin-bottom: 0.4rem;
+}
+div.items-wrap span.item-title{
+    justify-content: flex-start;
+    width: 100%;
+    line-height: 1rem;
+}
+img.item-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div.float-wrap {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+div.float-wrap div.float-btn {
+    width: 100%;
+    max-width: 640px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.4rem 0.8rem;
+}
+div.float-wrap div.ceshi-box{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+div.float-wrap img.start-btn {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.float-wrap span.price-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0.65rem;
+    color: #7f2e0d;
+    font-weight: bold;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+}
+div.float-wrap span.price-text em{
+    font-size: 0.65rem;
+    color: #7f2e0d;
+    font-weight: bold;
+    padding-top: 0.08rem;
+}
+@media screen and (max-width: 340px) {
+    div.float-wrap span.start-btn {
+        font-size: 20px;
+    }
+}

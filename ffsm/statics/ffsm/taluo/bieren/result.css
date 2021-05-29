@@ -1,0 +1,536 @@
+.mainbox{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+img.maintitle{
+    display: block;
+    width: 100%;
+    margin-bottom: -1.8rem;
+}
+
+div.divine_titlebox{
+    position: relative;
+    margin: 0.44rem 0;
+    padding: 0 0.64rem;
+}
+p.divine_title{
+    display: block;
+    background-color: #c87bd4;
+    color: white;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    font-size: 20px;
+    text-align: center;
+}
+div.divine_content {
+    position: relative;
+    width: 100%;
+    height: 3.67rem;
+    background-color: #fffded;
+}
+span.divine_price {
+    display: block;
+    position: absolute;
+    background-color: #fc578a;
+    color: white;
+    font-size: 18px;
+    width: 6.87rem;
+    height: 1.17rem;
+    line-height: 1.17rem;
+    text-align: center;
+    border-radius: 4px;
+    left: 0.44rem;
+    top: 0.44rem;
+}
+span.original_price {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    left: calc(0.44rem + 0.61em);
+    top: 2.05rem;
+    text-decoration: line-through;
+}
+div.discount_box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #cfcfcf;
+    border-top: none;
+}
+span.discount_title {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 5.54rem;
+    right: 0;
+    top: 0.7rem;
+    line-height: 0.7rem;
+    font-size: 18px;
+}
+span.discount_time {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 5.54rem;
+    right: 0;
+    top: 2.06rem;
+    line-height: 0.7rem;
+    font-size: 18px;
+    color: #fe5589;
+}
+
+div.divine_paybox{
+    position: relative;
+    margin: 0 0 0.44rem 0;
+    padding: 0 0.672rem;
+}
+p.pay_title{
+    display: block;
+    background-color: #c87bd4;
+    color: white;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    font-size: 20px;
+    text-align: center;
+}
+div.wx_paybox{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 3.67rem;
+    border: 1px solid #cfcfcf;
+    border-top: none;
+    background-color: #fffded;
+}
+img.wx_icon {
+    display: block;
+    position: absolute;
+    width: 1.855rem;
+    left: 1rem;
+    top: 0.89rem;
+}
+span.wx_title {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    left: 3.33rem;
+    top: calc(1.81rem - 9px);
+}
+span.wxpay_btn {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    width: 3.41rem;
+    height: 1.39rem;
+    line-height: 1.39rem;
+    text-align: center;
+    background-color: #19d100;
+    color: white;
+    border-radius: 6px;
+    right: 0.789rem;
+    top: 1.13rem;
+}
+
+div.contentbox{
+    position: relative;
+    width: calc(100% - 0.672rem * 2);
+    margin: 0 auto 0.64rem auto;
+    background-image: url('/statics/ffsm/taluo/bieren/img/border.png');
+    background-repeat: repeat-y;
+    background-size: contain;
+    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
+}
+img.borderimg{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    left: 0;
+}
+img.borderTop{
+    top: 0;
+}
+img.borderBottom{
+    bottom: 0;
+}
+div.content {
+    position: relative;
+    z-index: 1;
+}
+
+img.maindesc_title {
+    display: block;
+    width: 8.85rem;
+    margin: 0 auto;
+}
+p.desc_title {
+    display: block;
+    padding: 0 0.64rem;
+    font-size: 16px;
+    line-height: 1.07rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+p.desc_title span{
+    color: #de4606;
+}
+div.card_array {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+img.maindesc_tip2 {
+    display: block;
+    width: 13.74rem;
+    margin: 0.4rem auto 0 auto;
+}
+img.taluo_card_item{
+    position: absolute;
+    display: block;
+    width: 1.92rem;
+}
+img.taluo_card1 {
+    left: 4.73rem;
+    top: 1.1rem;
+}
+img.taluo_card2 {
+    right: 4.73rem;
+    top: 1.1rem;
+}
+img.taluo_card3 {
+    left: 2.17rem;
+    top: 4.54rem;
+}
+img.taluo_card4 {
+     right: 2.17rem;
+     top: 4.54rem;
+}
+img.taluo_card5 {
+      left: 4.73rem;
+      top: 7.96rem;
+}
+img.taluo_card6 {
+    right: 4.73rem;
+    top: 7.96rem;
+}
+img.maindesc_tip3 {
+    display: block;
+    width: 8.85rem;
+    margin: 0.4rem auto 0.5rem auto;
+}
+
+div.qbox{
+    display: block;
+    width: 100%;
+    padding: 0.1rem 0.19rem;
+    box-sizing: border-box;
+    margin-top: 0.4rem;
+}
+div.questionbox {
+    position: relative;
+}
+img.question {
+    display: block;
+    width: calc(100% - 0.84rem);
+    margin: 0.6rem auto 0.64rem auto;
+}
+div.taluobox {
+    padding: 0 0.42rem;
+}
+img.taluo_card {
+    display: block;
+    margin: 0 auto 0.6rem auto;
+    width: 4.266rem;
+}
+p.taluo_name {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    left: 18px;
+    margin: 0 auto 0.4rem auto;
+    color: #ae52ff;
+    text-indent: -1rem;
+}
+img.taluo_cardidx {
+    display: inline-block;
+    width: 0.89rem;
+    vertical-align: middle;
+    margin-top: -0.12rem;
+}
+p.taluo_name span {
+    font-size: 16px;
+}
+p.taluo_title {
+    color: #de4606;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0.426rem auto;
+}
+p.taluo_desc {
+    display: block;
+    font-size: 16px;
+    line-height: 1.07rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.frmohu {
+    width: 100%;
+    float: left;
+    height: 155px;
+    background: url(../img/result/fuzzy.png?v=2.1);
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: inherit;
+    margin-bottom: 0.5rem;
+}
+
+img.maindesc_tip4 {
+    display: block;
+    width: 14.07rem;
+    margin: 0 auto 0.4rem auto;
+}
+.bottombtn {
+    display: block;
+    width: 13.73rem;
+    height: 2.26rem;
+    line-height: 2.26rem;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#9880d5), to(#482a92));
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+
+.floatbtn{
+    position: fixed;
+    width: 100%;
+    height: 2.77rem;
+    line-height: calc(2.77rem - 0.51rem);
+    padding: 0.255rem 1.06rem;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.floatbtn .startbtn{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#9880d5), to(#482a92));
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+
+div.moregame{
+    position: relative;
+    background-color: #3c2c80;
+}
+p.moretitle{
+    display: block;
+    height: 1.7rem;
+    background-color: #604ac1;
+    color: white;
+    font-size: 20px;
+    line-height: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+.mui-table-view {
+    position: relative;
+    padding: 1px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    font-size: 0;
+    white-space: normal;
+    line-height: 21px;
+
+}
+.mui-table-view.mui-grid-view .mui-table-view-cell {
+    display: inline-block;
+    margin-right: -4px;
+    font-size: 17px;
+    text-align: center;
+    vertical-align: top;
+    padding: 5px 8px;
+    width: 25%;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color: inherit;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 17px;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+.cover {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.25);
+    overflow: hidden;
+    -webkit-box-flex: 1;
+}
+.cover, .cover img {
+    border-radius: 12px;
+    width: 60px;
+    height: 60px;
+}
+.original-span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 12px 0 0 0 !important;
+}
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+div.loadingbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.7);
+}
+div.loading {
+    background: #f3f3f4;
+    width: 11.15rem;
+    height: 5.7rem;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+img.loading {
+    display: block;
+    margin: 0 auto;
+    width: 1.75rem;
+    position: absolute;
+    bottom: calc(2.11rem + 23px);
+    left: calc(50% - 0.875rem);
+}
+p.loading {
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    width: 100%;
+    bottom: 1.19rem;
+    height: 22px;
+    line-height: 22px;
+}
+span.loadingdot {
+    display: block;
+    position: absolute;
+    left: calc(50% + 2.5em);
+    top: 0;
+}
+
+
+div.kefubox{
+    position: relative;
+    color: white;
+    background-color: #291F5B;
+    padding-bottom: 0.1rem;
+}
+p.kefutitle {
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: left;
+    font-size: 20px;
+    padding-left:  0.512rem;
+    font-weight: bold;
+    border-bottom: 1px solid #dbd8e4;
+    margin-bottom: 0.64rem;
+}
+p.info{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 0.3rem;
+}
+p.tel, p.wx{
+    position: relative;
+    display: block;
+    color: #ffc371;
+    line-height: 1.13rem;
+    font-size: 16px;
+    text-align: center;
+}
+p.time{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 2.8rem;
+}
+p.lasttitle {
+    text-align: center;
+    font-size: 18px;
+    color: #5b00ff;
+    margin: 0.5rem auto;
+    font-weight: bold;
+}
+
+p.Angle_title {
+    color: black;
+    font-size: 16px;
+    line-height: 1.07rem;
+    font-weight: bold;
+}
+
+p.Angle_desc {
+    color: black;
+    font-size: 16px;
+    line-height: 1.07rem;
+}
+
+p.Angle_user {
+    font-size: 16px;
+    line-height: 1.07rem;
+    color: #5b00ff;
+}

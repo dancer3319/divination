@@ -1,0 +1,166 @@
+
+@charset "gb2312";
+
+/*
+
+ * @Created: 20120907
+
+ * @Author : Kevin
+
+ */
+
+/* date bg */
+
+.date_a .btn, .date_a .btn_hover, .date_a a, .date_b .date_bt, .date_b .date_bm, .date_b span, .date_b .date_bm li a:hover, .date_b .date_bm li.last a, .pop_tit, .pop_tit a, .pop_tit em, .date_list_title, .date_list_title a{background:url(../../../images/life/date.gif) no-repeat;}
+
+/* date */
+
+.date{z-index:40;}
+
+.date_a{float:left;width:633px;height:60px;padding:25px 0 0 96px;}
+
+.date_a span, .date_a .btn, .date_a a{float:left;}
+
+.date_a span{margin-top:8px;font-size:14px;}
+
+.date_a .btn{width:98px;height:33px;margin-left:10px;line-height:33px;border:0 none;color:#fff;font-size:14px;font-family:Microsoft YaHei;cursor:pointer;background-position:0 0;}
+
+.date_a .btn_hover{background-position:0 -34px;}
+
+.date_a a{width:65px;height:27px;margin:3px 0 0 10px;text-align:center;line-height:27px;background-position:0 -68px;}
+
+.date_a a:hover{color:#fff;text-decoration:none;background-position:0 -96px;}
+
+.st_outer{float:left;*background:#fff;*border:2px solid #FFA73E;padding-bottom:3px\9;*padding:3px 3px 2px;width:55px;margin-right:20px;*margin-right:10px;margin-top:4px;margin-left:7px;display:inline;}
+
+.st_inner{*position:relative;*width:55px;*height:18px;*overflow:hidden;*font-size:0;}
+
+.st_inner select{border:2px solid #FFA73E;color:#333;*margin:-1px;padding:2px;font-size:14px;width:65px;*width:57px;}
+
+.date_b{float:right;width:125px;height:85px;}
+
+.date_b .date_bt, .date_b .date_bm{display:block;height:42px;cursor:pointer;background-position:0 -124px;position:relative;z-index:45;}
+
+.date_b .date_b_hover, .date_b .date_b_hover{background-position:0 -167px;}
+
+.date_b .date_bt{border-bottom:1px solid #A2CDEA;}
+
+.date_b span{display:block;height:42px;padding-left:42px;text-align:center;}
+
+.date_b .date_bt span{background-position:0 -209px;}
+
+.date_b .date_bm span{background-position:0 -251px;}
+
+.date_b strong{display:block;color:#338BCF;padding-top:5px;font-size:14px;line-height:16px;}
+
+.date_b strong a{color:#338BCF;}
+
+.date_b strong a:hover{color:#f60;text-decoration:none;}
+
+.date_b em{padding-top:2px;color:#338BCF;}
+
+.date_b em.yes{color:#ADADAD;}
+
+.date_b .date_bm ul{position:absolute;left:-1px;top:42px;width:125px;background:#fff;border:1px solid #DBEFFF;z-index:50;}
+
+.date_b .date_bm li{float:left;width:125px;height:28px;line-height:28px;border-bottom:1px solid #DBEFFF;text-align:center;}
+
+.date_b .date_bm li a{display:block;color:#338BCF;font-size:14px;}
+
+.date_b .date_bm li a:hover{text-decoration:none;color:#338BCF;background-position:0 -294px;}
+
+.date_b .date_bm li.last{border-bottom:0 none;}
+
+.date_b .date_bm li.last a{background-position:0 -323px;}
+
+.date_b .date_bm li.last a:hover{text-decoration:underline;background-position:0 -323px;}
+
+.pop_animal{position:absolute;top:-1px;left:-573px;width:487px;height:321px;padding:3px 3px 4px;background:#E6E6E6;z-index:49;}
+
+.pop_animal iframe{z-index:-1;position:absolute;top:3px;left:3px;width:487px;height:321px;}
+
+.pop_tit{height:31px;line-height:31px;padding:0 13px 0 20px;border:1px solid #D9D9D9;border-bottom:0 none;color:#999;background-position:0 -352px;background-repeat:repeat-x;}
+
+.pop_tit a{float:right;width:14px;height:14px;margin-top:9px;background-position:-84px -72px;}
+
+.pop_tit em{display:inline-block;margin-top:0;font-size:14px;padding-left:18px;background-position:-84px -92px;}
+
+.animal{width:487px;height:289px;}
+
+.animal a{float:left;width:163px;height:73px;margin:0 -1px -1px 0;background:url(../../../images/life/animal.png) no-repeat;}
+
+.animal a:hover{position:relative;}
+
+.animal a.aries{background-position:0 0;}
+
+.animal a.taurus{background-position:0 -75px;}
+
+.animal a.gemini{background-position:0 -150px;}
+
+.animal a.cancer{background-position:0 -225px;}
+
+.animal a.leo{background-position:0 -300px;}
+
+.animal a.virgo{background-position:0 -375px;}
+
+.animal a.libra{background-position:0 -450px;}
+
+.animal a.scorpio{background-position:0 -525px;}
+
+.animal a.sagittarius{background-position:0 -600px;}
+
+.animal a.capricorn{background-position:0 -675px;}
+
+.animal a.aquarius{background-position:0 -750px;}
+
+.animal a.pisces{background-position:0 -825px;}
+
+.animal a.aries:hover{background-position:-167px 0;}
+
+.animal a.taurus:hover{background-position:-167px -75px;}
+
+.animal a.gemini:hover{background-position:-167px -150px;}
+
+.animal a.cancer:hover{background-position:-167px -225px;}
+
+.animal a.leo:hover{background-position:-167px -300px;}
+
+.animal a.virgo:hover{background-position:-167px -375px;}
+
+.animal a.libra:hover{background-position:-167px -450px;}
+
+.animal a.scorpio:hover{background-position:-167px -525px;}
+
+.animal a.sagittarius:hover{background-position:-167px -600px;}
+
+.animal a.capricorn:hover{background-position:-167px -675px;}
+
+.animal a.aquarius:hover{background-position:-167px -750px;}
+
+.animal a.pisces:hover{background-position:-167px -825px;}
+
+/* date_list */
+
+.date_list{font-size:14px;}
+
+.date_list li{margin-top:10px;}
+
+.date_list_title{height:31px;line-height:31px;border:1px solid #A2CDEA;background-position:0 -384px;background-repeat:repeat-x;}
+
+.date_list_title a{display:block;height:31px;color:#338BCF;font-weight:bold;padding-left:46px;background-position:-95px -446px;}
+
+.date_list_title a:hover{color:#338BCF;text-decoration:none;background-position:-95px -508px;}
+
+.date_list_title a.slide{background-position:-95px -415px;}
+
+.date_list_title a.slide:hover{background-position:-95px -477px;}
+
+.date_list_cont{border:1px solid #A2CDEA;border-top:0 none;padding:15px 45px;line-height:26px;word-break:break-all;white-space:normal;}
+
+.date_list_cont p.keyword{margin-top:10px;font-weight:bold;}
+
+.date_list_cont p.keyword a{color:#fd5151;}
+
+.date_list_img{float:left;text-align:center;padding:0 10px 10px 0;}
+
+.date_list_img em{display:block;color:#039;}

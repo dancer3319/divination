@@ -1,0 +1,85 @@
+body {
+    background-color: #FFFFFF;
+}
+section.page {
+    background-color: #401c68;
+}
+section.main-wrap {
+    position: relative;
+    width: 100%;
+}
+
+img.order_btn {
+    position: absolute;
+    top: 4.8rem;
+    right: 0;
+    width: 0.94rem;
+    height: auto;
+    z-index: 99;
+}
+
+div.banner-wrap {
+    width: 100%;
+    margin-bottom: -1.1rem;
+}
+
+div.banner-wrap img.banner {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+img.start-btn {
+    display: block;
+    width: 11.6rem;
+    height: auto;
+    margin-bottom: 0.6rem;
+}
+img.start-zoom{
+    -webkit-animation: zoom 1s linear infinite alternate;
+    -o-animation: zoom 1s linear infinite alternate;
+    animation: zoom 1s linear infinite alternate;
+}
+@keyframes zoom {
+    form {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+}
+
+@-webkit-keyframes zoom {
+    form {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+}
+div.content-wrap img.image-title{
+    position: absolute;
+    top: 0.22rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    display: block;
+    height: 1rem;
+    width: auto;
+}
+div.content-wrap img.parse-intro-text {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+div.content-wrap img.list-intro-text{
+    display: block;
+    width: 87%;
+    height: auto;
+    margin-top: 1rem;
+}
+

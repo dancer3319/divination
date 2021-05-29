@@ -1,0 +1,304 @@
+div.save_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 1rem;
+}
+
+div.save_wrap img.savebtn {
+    width: 12rem;
+    height: auto;
+}
+
+div.code_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+div.code_box div.code_wrap {
+    position: relative;
+    box-sizing: border-box;
+}
+
+div.code_box div.code_wrap img.code {
+    width: 13rem;
+    height: auto;
+}
+
+div.code_box div.code_wrap img.close {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: -3rem;
+    right: 0;
+}
+div.time_box{
+    width: calc(100% - 0.86rem);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 0.4rem;
+}
+div.time_box img.border_time{
+    width: 100%;
+}
+div.time_box div.time_wrap{
+    width: 100%;
+    background-image: url("../img/result/midborder.png?v=4.0");
+    background-repeat: repeat-y;
+    background-size: contain;
+    position: relative;
+}
+div.time_box div.time_wrap span.time_title{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    top: -1.45rem;
+    left: 0;
+}
+div.time_box div.time_wrap ul.times{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: -1.2rem;
+}
+div.time_box div.time_wrap ul.times li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dotted #8f60d2;
+    font-size: 0.8rem;
+    height: 2rem;
+    color: #875dc4;
+}
+div.time_box div.time_wrap ul.times li:last-child{
+    border-bottom: none;
+}
+div.time_box div.time_wrap ul.times li em{
+    font-style: normal;
+    font-weight: 600;
+    color: #671fb1;
+    font-size: 0.9rem;
+}
+
+div.moregame{
+    position: relative;
+    background-color: #3d2463;
+    margin-bottom: 0.2rem;
+}
+p.moretitle{
+    display: block;
+    height: 1.7rem;
+    background-color: #543387;
+    color: white;
+    font-size: 20px;
+    line-height: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+.mui-table-view {
+    position: relative;
+    padding: 1px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    font-size: 0;
+    white-space: normal;
+    line-height: 21px;
+
+}
+.mui-table-view.mui-grid-view .mui-table-view-cell {
+    display: inline-block;
+    margin-right: -4px;
+    font-size: 17px;
+    text-align: center;
+    vertical-align: top;
+    padding: 5px 8px;
+    width: 25%;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color: inherit;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 17px;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+.cover {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.25);
+    overflow: hidden;
+    -webkit-box-flex: 1;
+}
+.cover, .cover img {
+    border-radius: 12px;
+    width: 60px;
+    height: 60px;
+}
+.original-span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 12px 0 0 0 !important;
+}
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+div.kefubox{
+    position: relative;
+    color: white;
+    background-color: #221339;
+}
+p.kefutitle {
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: left;
+    font-size: 20px;
+    padding-left:  0.512rem;
+    font-weight: bold;
+    border-bottom: 1px solid #dbd8e4;
+    margin-bottom: 0.8rem;
+}
+p.info{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 0.3rem;
+}
+p.tips{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 0.3rem;
+}
+p.tel, p.wx{
+    position: relative;
+    display: block;
+    color: #ffc371;
+    line-height: 1.13rem;
+    font-size: 16px;
+    text-align: center;
+}
+p.time{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+div.float_save{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 88;
+}
+div.float_save span.savebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    background-color: #d7473d;
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+}
+div.float_save span.savebtn em{
+    font-style: normal;
+    margin-right: 20px;
+}
+div.float_save span.savebtn img.hands{
+    width: 35px;
+    height: 35px;
+}
+div.save_wrap span.savebtn{
+    width: 13rem;
+    height: 2rem;
+    background-color: #bb3228;;
+    border-radius: 4px;
+    position: relative;
+    z-index: 88;
+}
+div.save_wrap span.savebtn::after{
+    content: '永久保存你的测算结果';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    top: -6px;
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: #d7473d;
+    border-radius: 4px;
+    z-index: 11;
+}
+div.save_wrap img.hands{
+    position: absolute;
+    height: 1.3rem;
+    width: 1.3rem;
+    z-index: 98;
+    right: 1.2rem;
+    top: 0.2rem;
+}
+

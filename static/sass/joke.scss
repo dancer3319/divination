@@ -1,0 +1,858 @@
+$bg:#f9f2e2;
+$hdBg:#ffe6a4;
+$textCl:#5c3e13;
+$grayCl:#b9b9b9;
+
+@import "compass/reset";
+
+
+a{text-decoration:none;}
+.blank10{height:10px; width:100%;}
+.blank20{height:20px; width:100%;}
+.blank50{height:50px; width:100%;}
+h1,h2,h3,h4,h5{
+	font-family: arial,"Microsoft yahei";
+	*font-family: "Microsoft yahei,arial";
+}
+cite{
+	font-style:normal;
+}
+
+
+// 清除浮动
+%clearfix {
+	zoom: 1;
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+		height: 0;
+	}
+}
+// inline-block
+%inline-block{
+  display: inline-block;
+  *display: inline;
+  *zoom:1;
+}
+
+//竖向渐变
+@mixin linear-v($start, $stop) {
+	background: $start;
+	background: -webkit-linear-gradient(top, $start, $stop);
+	background: -moz-linear-gradient(top, $start, $stop);
+	background: -ms-linear-gradient(top, $start, $stop);
+	background: linear-gradient(top, $start, $stop);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start)}', endColorstr='#{ie-hex-str($stop)}');
+}
+//横向渐变
+@mixin linear-h($start, $stop) {
+	background: $start;
+	background: -webkit-linear-gradient(left, $start, $stop);
+	background: -moz-linear-gradient(left, $start, $stop);
+	background: -ms-linear-gradient(left, $start, $stop);
+	background: linear-gradient(left, $start, $stop);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#{ie-hex-str($start)}', endColorstr='#{ie-hex-str($stop)}');
+}
+
+// 过渡动画
+@mixin transition ($attr:all, $last:0.3s, $type:ease-in) {
+    transition:         $attr $last $type;
+    -moz-transition:    $attr $last $type;
+    -webkit-transition: $attr $last $type;
+    -o-transition:      $attr $last $type;
+    -ms-transition:     $attr $last $type;
+}
+%transition{
+  @include transition;
+}
+
+.jokeWrap{
+	background:$bg;
+}
+
+//头部
+#jokeHd{
+	background:url(../images/hdBg.png) $hdBg;
+	height:110px;
+	.jokeHdIn{
+		width: 980px;
+		margin:0 auto;
+		overflow: hidden;
+		.logo{
+			float:left;
+			width: 550px;
+			a{
+				outline: none;
+				display: block;
+				width: 550px;
+				height: 110px;
+				background:url(../images/jokeBg.png) no-repeat -20px -12px;
+				span{
+					display: none;
+				}
+			}
+		}
+		.search{
+			padding-right:20px;
+			float:right;
+			width: 220px;
+			.searBox{
+				position: relative;
+				margin-top: 35px;
+				.serText{
+					float:left;
+					border:none;
+					width: 145px;
+					height: 16px;
+					padding:10px 5px;
+					outline:none;
+					border-top-left-radius:5px;
+					border-bottom-left-radius:5px;
+				}
+				.line{
+					position: absolute;
+					right: 63px;
+					top:8px;
+					display: block;
+					width: 1px;
+					height: 20px;
+					background:#dadada;
+					z-index: 1;
+				}
+				.serBtn{
+					float:left;
+					border:1px solid #fff;
+					margin:0px;
+					height: 36px;
+					cursor:pointer;
+					outline:none;
+					width: 60px;
+					border-top-right-radius:5px;
+					border-bottom-right-radius:5px;
+					background:url(../images/jokeBg.png) no-repeat -14px -160px #fff;
+				}
+			}
+		}
+	}
+}
+
+
+// 导航
+#jokeNav{
+	@include linear-v(#ffcd48,#ffbe0f);
+	@extend %clearfix;
+	border-top:1px solid #ffb00a;
+	border-bottom:1px solid #ffb00a;
+	width:100%;
+	box-shadow:0px 1px 1px #ccc;
+	ul{
+		width: 980px;
+		margin:0 auto;
+	}
+	li{
+		float:left;
+		a{
+			font-family: arial,"Microsoft yahei";
+			*font-family: "Microsoft yahei",arial;
+			padding:0 20px;
+			display: block;
+			text-align: center;
+			height: 50px;
+			line-height: 50px;
+			color: $textCl;
+			font-size: 18px;
+			&:hover{
+				color: #fff;
+				background:#5c3e13;
+				position: relative;
+				margin-top: -1px;
+				margin-bottom: -1px;
+				padding-top:1px;
+				padding-bottom:1px;
+				@include transition(background);
+			}
+		}
+		.active{
+			color: #fff;
+			background:#5c3e13;
+			position: relative;
+			margin-top: -1px;
+			margin-bottom: -1px;
+			padding-top:1px;
+			padding-bottom:1px;
+		}
+	}
+}
+
+
+//内容
+#jokeContent{
+	.contentIn{
+		width:980px;
+		margin:0 auto;
+		.conTop{
+			@extend %clearfix;
+			.main{
+				width: 640px;
+				float:left;
+				.item{
+					margin-bottom: 20px;
+					background:#fff;
+					border-radius:10px;
+					width: 640px;
+					padding-bottom:20px;
+					
+					@include transition(box-shadow);
+					@extend %clearfix;
+					strong{
+						color:#ffbd0d;
+					}
+					.title{
+						padding:20px 20px 0 20px;
+						width: 450px;
+						margin-bottom:20px;
+						a{
+							line-height: 24px;
+							color: $textCl;
+							font-size: 18px;
+							span{
+								color:red;
+							}
+						}
+
+					}
+					.itemCon{
+						@extend %clearfix;
+						padding:0 20px;
+						.itemFl{
+							width: 450px;
+							float:left;
+							.itemPic{
+								color:$textCl;
+								font-size: 14px;
+								line-height: 30px;
+								a{
+									position: relative;
+									@extend %inline-block;
+									img{
+										max-width: 450px;
+									}
+								}
+
+								
+								
+							}
+
+							.longPic{
+								.loadMore{
+									display: none;
+									position: absolute;
+									z-index: 1;
+									height: 30px;
+									left:0;
+									width:100%;
+									background:#ffd86f;
+									text-align: center;
+									b{
+										cursor: pointer;
+										@extend %inline-block;
+										color: #fff;
+										height: 32px;
+										line-height: 18px;
+										width: 77px;
+										font-size: 12px;
+										background:url(../images/jokeBg.png) no-repeat -30px -348px;
+									}
+								}
+							}
+						}
+						.itemFr{
+							width: 110px;
+							float:right;
+						}
+
+						.imageloading{
+							margin-bottom: 10px;
+							text-align: center;
+							display:inline-block;
+							width: 400px;
+							height: 400px;
+							background:#f4f4f4;
+							position: relative;
+							img{
+								position: absolute;
+								left:50%;
+								top:50%;
+								margin-left: -21px;
+								margin-top: -5px;
+							}
+						}
+					}
+					
+					&:hover{
+						box-shadow:0px 0px 4px #ffcd48;
+					}
+				}
+			}
+			.sidebar{
+				width: 320px;
+				float:right;
+				margin-left: 20px;
+				.sidMd{
+					background:#fff;
+					border-radius:15px;
+					padding:10px;
+					
+				}
+				.sidTitle{
+					margin-bottom: 10px;
+					color: $textCl;
+				}
+				p{
+					color: $textCl;
+					font-size: 14px;
+					line-height: 24px;
+				}
+			}
+		}
+	}
+}
+
+//社交
+.detail{
+	.praise{
+		width: 110px;
+		.praIcon{
+			@extend %clearfix;
+			margin-bottom: 10px;
+			a{
+				position: relative;
+				display: block;
+				width: 30px;
+				height: 30px;
+				background:url(../images/jokeBg.png) no-repeat;
+			}
+			.upNum{
+				position: absolute;
+				right: 0;
+				top: 0px;
+				color:red;
+				font-weight: bold;
+				font-family: arial;
+				font-size: 24px;
+				display: none;
+				opacity: 1;
+			}
+			.peak{
+				background-position:-30px -228px;
+				float:left;
+			}
+			.peakHv{
+				background-position:-30px -278px;
+				cursor: default;
+				float:left;
+			}
+			.weak{
+				float:right;
+				background-position:-108px -232px;
+			}
+			.weakHv{
+				float:right;
+				cursor: default;
+				background-position:-108px -282px;
+			}
+			.mouseDef{
+				cursor: default;
+			}
+		}
+	}
+	.praiseTxt{
+		font-size: 12px;
+		color: #999;
+		margin-bottom: 5px;
+		.peakTxt{
+			color: #f4c64a;
+			float:left;
+		}
+		.weakTxt{
+			float:right;
+		}
+	}
+	//进度条
+	.plan{
+		width: 100%;
+		height: 6px;
+		overflow: hidden;
+		border-radius:5px;
+		background:#d2d2d2;
+		margin-bottom: 20px;
+		.long{
+			display: block;
+			height:6px;
+			border-radius:5px;
+			background:#f3cc64;
+		}
+	}
+	//分享按钮
+	.share{
+		a{
+			display: block;
+			width: 110px;
+			height: 30px;
+			color: #fff;
+			border-radius:15px;
+			font-size: 12px;
+			text-decoration:none;
+			overflow: hidden;
+			i{
+				margin-right: 5px;
+				display: block;
+				width:36px;
+				height: 36px;
+				float:left;
+				background:url(../images/jokeBg.png) no-repeat;
+			}
+			span{
+				display:block;
+				float:left;
+				height: 30px;
+				line-height:30px;
+			}
+		}
+		.sinaBtn{
+			background:#f04444;
+			margin-bottom: 10px;
+			i{
+				background-position:-102px -162px;
+			}
+			&:hover{
+				background:#e21616;
+			}
+		}
+		.qqBtn{
+			background:#ffc52a;
+			i{
+				background-position:-170px -159px;
+			}
+			&:hover{
+				background:#f6b812;
+			}
+		}
+	}
+	.comment{
+		a{
+			font-size: 12px;
+			color: #b9b9b9;
+			text-decoration: none;
+			i{
+				margin-right: 5px;
+				display: block;
+				width:36px;
+				height: 25px;
+				float:left;
+				background:url(../images/jokeBg.png) -253px -168px no-repeat;
+			}
+			span{
+				float:left;
+				display: block;
+				height: 25px;
+				line-height: 25px;
+			}
+			&:hover{
+				color: #666;
+			}
+			&:hover i{
+				background-position:-491px -168px;
+			}
+		}
+	}
+}
+
+//详情页
+#jokeContent .contentIn .conTop .main .detailItem{
+	.itemCon{
+		padding:0px;
+		.itemPic{
+			padding:20px;
+			text-align: center;
+			img{
+				max-width: 500px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+}
+.dtBottom{
+	padding:10px 20px;
+	width:600px;
+	background:#fff;
+	@extend %clearfix;
+	.detailFl{
+		float:left;
+		@extend %clearfix;
+		width:500px;
+		.praise{
+			float:left;
+			margin-right:30px;
+		}
+		.share{
+			float:left;
+			width: 240px;
+			margin-top: 15px;
+			margin-right: 10px;
+			a{
+				float:left;
+				margin-right:10px;
+			}
+		}
+		.comment{
+			float:left;
+			margin-top: 20px;
+		}
+	}
+
+	.detailFr{
+		width:100px;
+		float:right;
+		.nextPage{
+			display:block;
+			width: 90px;
+			height: 68px;
+			line-height: 68px;
+			font-size: 18px;
+			text-indent:13px;
+			color: $textCl;
+			background:url(../images/jokeBg.png) no-repeat -203px -230px;
+			transition:         margin 0.2s ease-in;
+		    -moz-transition:    margin 0.2s ease-in;
+		    -webkit-transition: margin 0.2s ease-in;
+		    -o-transition:      margin 0.2s ease-in;
+		    -ms-transition:     margin 0.2s ease-in;
+			&:hover{
+				position: relative;
+				margin-left: 5px;
+				color: #fff;
+				background:url(../images/jokeBg.png) no-repeat -364px -230px;
+			}
+		}
+	}
+}
+
+// 表情
+.commentCon{
+	border:1px solid #b9b9b9;
+	#commentArea{
+		outline: none;
+		border:none;
+		max-width:580px;
+		font-size: 14px;
+		color: $textCl;
+		padding:5px;
+	}
+	.comBtm{
+		background:#f3f3f3;
+		border-top:1px solid #b9b9b9;
+		height: 40px;
+		.face{
+			width: 50px;
+			float:left;
+			border-right:1px solid #b9b9b9;
+			position: relative;
+			.faceCon{
+				overflow: hidden;
+				display: none;
+				position: absolute;
+				z-index: 1;
+				left:-1px;
+				width: 315px;
+				border:1px solid #ccc;
+				padding:6px;
+				top:40px;
+				right: 0px;
+				background: url(../images/face.jpg) no-repeat #fff;
+				box-shadow:0 0 3px 0 #ccc;
+				.faceShow{
+					display: none;
+					width: 52px;
+					position: absolute;
+					background:#fff;
+					border:1px solid #ccc;
+					right: 5px;
+					top: 5px;
+					span{
+						display: block;
+						font-size: 12px;
+						text-align: center;
+						height: 18px;
+						color:#666;
+						line-height: 18px;
+					}
+				}
+				ul{
+					overflow: hidden;
+					margin-right: -1px;
+					height: 141px;
+					li{
+						margin-right: 1px;
+						margin-bottom: 1px;
+						width: 34px;
+						height: 34px;
+						float:left;
+						a{
+							display: block;
+							width: 34px;
+							height: 34px;
+							float:left;
+							&:hover{
+								border:1px solid #ffc52a;
+							}
+						}
+					}
+				}
+			}
+			.faceBtn{
+				outline: none;
+				display: block;
+				height: 40px;
+				background:url(../images/jokeBg.png) no-repeat -407px -116px;
+				&:hover{
+					background-position:-407px -160px;
+				}
+				
+			}
+			.active{
+				background:url(../images/jokeBg.png) no-repeat -407px -158px;;
+			}
+		}
+		.txtNum{
+			float:right;
+			display: none;
+			width: 50px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			color: $textCl;
+			font-family: "Georgia";
+			font-size: 24px;
+			font-style:italic;
+		}
+		.subBtn{
+			float:right;
+			background:#ffc52a;
+			width:80px;
+			height: 30px;
+			border:none;
+			color: #fff;
+			border-radius:2px;
+			margin:5px 5px 0 0;
+			cursor:pointer;
+			outline: none;
+			&:hover{
+				background:#ffcd48;
+			}
+		}
+		.disableBtn{
+			background:#ccc;
+			&:hover{
+				background:#ccc;
+			}
+		}
+	}
+
+}
+
+// 分页
+.mainPage{
+	text-align:center;
+	a{
+		background:#fff;
+		display: inline-block;
+		padding:8px 10px;
+		color: $textCl;
+		border-radius:3px;
+		margin-right: 5px;
+		@extend %transition;
+		&:hover{
+			background:#ffdc7f;
+		}
+	}
+	.active{
+		background:#ffc52a;
+		color: #fff;
+	}
+}
+
+//图文列表
+.picListMd{
+	@extend %clearfix;
+	background:#fff;
+	padding:15px;
+	padding-bottom:0px;
+	border-radius:15px;
+	ul{
+		margin-right: -20px;
+		li{
+			float:left;
+			margin-bottom: 20px;
+			width: 150px;
+			margin-right: 10px;
+			a{
+				@extend %transition;
+				img{
+					width: 150px;
+					height: 90px;
+					@extend %transition;
+					&:hover{
+						box-shadow:0 0 4px #ffcd48;
+					}
+				}
+				cite{
+					height: 24px;
+					line-height: 24px;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					width: 150px;
+					white-space: nowrap;
+					font-size: 14px;
+					color: #666;
+					text-align: center;
+					display: block;
+				}
+				&:hover{
+					cite{
+						color: $textCl;
+					}
+				}
+			}
+		}
+	}
+}
+
+.picListSmall{
+	padding:15px 10px;
+	padding-bottom:0px;
+	ul li{
+		margin-right:7px;
+	}
+}
+
+// 评论
+.commentMd{
+	background:#fff;
+	padding:20px;
+	border-radius:15px;
+	.title{
+		margin-bottom: 20px;
+		h3{
+			color: $textCl;
+		}
+	}
+	.commentShow{
+		.comShowTitle{
+			color: $textCl;
+			font-size: 18px;
+			border-bottom:1px solid #f3f3f3;
+			line-height:30px;
+		}
+		.comShowCon{
+			li{
+				padding:10px 0;
+				border-bottom:1px solid #f3f3f3;
+				.comActive{
+					float:left;
+					margin-right:10px;
+				}
+				.comCon{
+					overflow: hidden;
+					zoom:1;
+					font-family:"\5b8b\4f53";
+					min-height: 60px;
+					h5{
+						font-size: 12px;
+						color: #a6a6a6;
+						margin-bottom: 5px;
+					}
+					p{
+						font-size: 14px;
+						color: $textCl;
+						line-height: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// 网址
+.webUrlMd{
+	padding:20px;
+	background:#fff;
+	border-radius:15px;
+	.title{
+		margin-bottom: 20px;
+		h3{
+			font-size: 18px;
+			color: #585858;
+			border-bottom:1px solid #dfdfdf;
+			line-height: 24px;
+		}
+	}
+	.urlList{
+		@extend %clearfix;
+		ul{
+			li{
+				width: 146px;
+				margin-right: 10px;
+				float:left;
+				margin-bottom: 15px;
+				a{
+					color:#585858;
+					display:block;
+					width: 146px;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					overflow: hidden;
+					&:hover{
+						color:$textCl;
+					}
+				}
+			}
+		}
+	}
+}
+
+// 返回顶部
+#backTop{
+	display:none;
+	width:60px;
+	height:60px;
+	position: fixed;
+	right:20px;
+	bottom:20px;
+	border-radius:5px;
+	overflow:hidden;
+	a{
+		display: block;
+		width: 60px;
+		height: 60px;
+		background:url(../images/jokeBg.png) no-repeat -514px -235px #ccc;
+		@include transition(background-color);
+		&:hover{
+			background-color:#ffc52a;
+		}
+	}
+}
+
+//搜索
+.search{
+	padding:10px;
+	p{
+		font-size: 22px;
+		color: $textCl;
+	}
+}
+
+
+

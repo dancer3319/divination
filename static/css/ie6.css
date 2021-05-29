@@ -1,0 +1,26 @@
+/*头部*/
+#jokeNav li a{
+	float:left;
+}
+#jokeHd .jokeHdIn .search .searBox .serText,#jokeHd .jokeHdIn .search .searBox .serBtn{
+	border:0;
+}
+
+/*评论*/
+.comCon{
+	padding-top: 2px;
+}
+
+
+/*返回顶部*/
+body{ 
+background-image:url(about:blank); 
+background-attachment:fixed; 
+}
+
+#backTop{
+	_position: absolute; 
+	_bottom: auto; 
+	_top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,30)||0))); 
+
+}

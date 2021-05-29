@@ -1,0 +1,695 @@
+/*-----flex-----*/
+.flex-center {
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.flex-column {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+em{
+    font-style: normal;
+    font-weight: normal;
+}
+/*-----flex-----*/
+.public_header {
+	height: 45px;
+	line-height: 45px;
+	background: #2a2059;
+	width: 100%;
+	position: relative;
+}
+
+.public_h_logo {
+	position: absolute;
+	left: 10px;
+	height: 44px;
+	top: 0;
+	display: block
+}
+
+.public_h_logo img {
+	height: 100%;
+	display: block
+}
+
+.public_h_con {
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 45px;
+}
+
+.public_h_home {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 0;
+	left: 0;
+}
+
+.public_h_menu {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    width: 60px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.public_h_home:after {
+	content: '';
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-image: url("/statics/ffsm/public/images/icon_home_bai.png");
+}
+.mainbox{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+img.maintitle{
+    display: block;
+    width: 100%;
+    margin-bottom: -1.8rem;
+}
+
+img.maindesc_title{
+    display: block;
+    width: 10rem;
+    height: auto;
+    margin: 1rem auto 0.2rem auto;
+}
+
+
+
+div.divine_box{
+    width: 100%;
+    padding: 0.2rem 0.4rem;
+}
+div.divine_box div.price-wrap{
+    width: 100%;
+    margin-top: 0.4rem;
+}
+div.divine_box div.price-wrap p.project-name{
+    width: 100%;
+    color: #7f57a5;
+    font-size: 20px;
+    white-space:nowrap;
+    margin-bottom: -0.1rem;
+}
+div.divine_box div.price-wrap div.price-content{
+    position: relative;
+    margin-left: 0.5rem;
+}
+div.divine_box div.price-wrap div.price-content img.wall{
+    display: block;
+    width: 13.4rem;
+    height: auto;
+}
+div.divine_box div.price-wrap div.wall-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.2rem 1.2rem 0.6rem 0.6rem;
+}
+div.price-wrap div.price-box, div.price-wrap div.time-box{
+    font-size: 16px;
+    height: 100%;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+div.divine_box div.price-wrap div.price-box{
+    width: 6rem;
+}
+div.divine_box div.price-wrap span.true-price{
+    width: 100%;
+}
+div.divine_box div.price-wrap span.true-price label{
+    background-color: #f2753d;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 0 0.2rem;
+    white-space:nowrap;
+}
+div.divine_box div.price-wrap span.true-price em{
+    font-weight: bold;
+    white-space:nowrap;
+    font-size: 18px;
+}
+div.divine_box div.price-wrap span.false-price{
+    width: 100%;
+    color: #7c7c7f;
+    white-space:nowrap;
+}
+div.divine_box div.price-wrap span.false-price em{
+    text-decoration: line-through;
+    white-space:nowrap;
+}
+div.divine_box div.price-wrap span.time-title{
+    white-space:nowrap;
+}
+div.divine_box div.price-wrap span.time-discount{
+    color: #f38f5b;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 4rem;
+    z-index: 999;
+    white-space:nowrap;
+}
+
+div.divine_box div.price-box-2{
+    width: 100%;
+    font-size: 16px;
+    color: #232323;
+    padding: 0.2rem;
+}
+div.divine_box div.price-box-2 div.line-group{
+    width: 100%;
+    height: 1rem;
+}
+div.user-count{
+    width: 100%;
+    font-size: 14px;
+    padding: 0.2rem 0.6rem;
+}
+div.user-count span em{
+    color: #eb5e2c;
+}
+
+@media screen and (max-width: 340px) {
+    div.divine_box div.price-wrap p.project-name{
+        font-size: 16px;
+        white-space:nowrap;
+    }
+    div.divine_box div.price-wrap div.price-box, div.price-wrap div.time-box{
+        font-size: 14px;
+    }
+    div.divine_box div.price-wrap span.true-price em{
+        font-size: 14px;
+    }
+    div.user-count{
+        font-size: 12px;
+    }
+}
+
+
+img.start-btn{
+    display: block;
+    width: 13rem;
+    margin: 0.2rem auto;
+}
+
+
+div.contentbox{
+    position: relative;
+    width: 94%;
+    margin: 0 auto 1rem auto;
+    background-image: url('/statics/ffsm/taluo/bieren/img/border-mid.png');
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+img.borderimg{
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+}
+img.borderTop{
+    top: 0;
+}
+img.borderBottom{
+    bottom: 0;
+}
+div.content {
+    position: relative;
+    z-index: 1;
+}
+div.first-content{
+    padding-bottom: 1rem;
+    padding-top: 0.6rem;
+}
+
+p.desc_title {
+    display: block;
+    padding: 0 0.64rem;
+    font-size: 16px;
+    line-height: 1.07rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+p.desc_title.first_line{
+    padding-top: 1rem;
+}
+p.desc_title span{
+    color: #e97944;
+}
+div.card_array {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+img.maindesc_tip2 {
+    display: block;
+    width: 13.74rem;
+    margin: 0.4rem auto 0 auto;
+}
+div.taluo_card_item{
+    position: absolute;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+div.taluo_card_item img{
+    display: block;
+    width: 2rem;
+    height: 3rem;
+    margin-bottom: 3px;
+}
+div.taluo_card_item p{
+    font-size: 16px;
+    color: #6f28aa;
+}
+div.taluo_card_item span{
+    font-size: 12px;
+    color: #111111;
+}
+div.taluo_card1 {
+    left: 4.2rem;
+    top: 2rem;
+}
+div.taluo_card2 {
+    right: 4.2rem;
+    top: 2rem;
+}
+div.taluo_card3 {
+    left: 1.3rem;
+    top: 5.6rem;
+}
+div.taluo_card4 {
+    right: 1.3rem;
+    top: 5.6rem;
+}
+div.taluo_card5 {
+    left: 4.2rem;
+    top: 9.2rem;
+}
+div.taluo_card6 {
+    right: 4.2rem;
+    top: 9.2rem;
+}
+
+img.tipstitle {
+    display: block;
+    width: calc(100% - 2.224rem);
+    margin: 0 auto 1rem auto;
+}
+
+div.first-item-box{
+    display: block;
+    width: 100%;
+    padding: 0.1rem 0.19rem;
+    box-sizing: border-box;
+    margin-top: 0.4rem;
+}
+div.first-item-box div.first-item {
+    position: relative;
+}
+div.first-item-box img.question {
+    display: block;
+    width: calc(100% - 1.4rem);
+    margin: 0.8rem auto 0.64rem auto;
+}
+div.first-item-box div.taluobox {
+    padding: 0 0.42rem;
+}
+div.taluobox p.item_title{
+    display: block;
+    padding: 0.1rem 0;
+    font-size: 18px;
+    color: #ce541e;
+}
+div.first-item-box  img.taluo_card {
+    display: block;
+    margin: 0 auto 0.6rem auto;
+    width: 4.266rem;
+}
+div.first-item-box  p.taluo_name {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto 0.4rem auto;
+    color: #ae52ff;
+}
+div.first-item-box  img.taluo_cardidx {
+    display: inline-block;
+    width: 0.89rem;
+    vertical-align: middle;
+    margin-top: -0.12rem;
+}
+div.first-item-box  p.taluo_name span {
+    font-size: 16px;
+}
+div.first-item-box  p.taluo_title {
+    color: #de4606;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0.426rem auto;
+}
+div.first-item-box  p.taluo_desc {
+    display: block;
+    font-size: 16px;
+    line-height: 1.07rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+div.first-item-box  div.blur-wrap{
+    position: relative;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+div.first-item-box img.blur_img{
+    width: 100%;
+    height: auto;
+}
+div.first-item-box img.views{
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    top: 39%;
+    left: 50%;
+    margin-left: -5.5rem;
+}
+
+
+/*----------------------------------------------------------*/
+
+div.items-box{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+}
+div.items-box img.items-title{
+    display: block;
+    width: calc(100% - 1.4rem);
+    margin-top: 0.8rem;
+    margin-bottom: 0.64rem;
+}
+div.items-box img.tarot_card{
+    display: block;
+    width: 4.266rem;
+    margin-bottom: 0.6rem;
+}
+div.items-box  p.tarot_name{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ae52ff;
+    margin-bottom: 0.4rem;
+}
+div.items-box  p.tarot_name img.taluo_cardidx{
+    display: block;
+    width: 0.89rem;
+}
+div.items-box  div.blur-box{
+    position: relative;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0.3rem;
+}
+div.items-box  div.blur-box img.blur_img{
+    display: block;
+    width: 100%;
+}
+div.items-box  div.blur-box div.blur-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 1.2rem 0.6rem 0.6rem 0.6rem ;
+}
+div.items-box  ul.list_wrap{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid  #d37e16;
+    border-radius: 0.2rem;
+    margin-bottom: 2.2rem;
+    background-color: #fdfbf2;
+}
+div.items-box  ul.list_wrap li.list{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 16px;
+    height: 1rem;
+}
+div.items-box  ul.list_wrap li.list img{
+    display: block;
+    width: 0.4rem;
+    margin-right: 0.2rem;
+}
+div.items-box ul.list_wrap li.list em{
+    font-style: normal;
+    color: #7544e9;
+}
+div.items-box div.blur-content img.views{
+    display: block;
+    width: 11rem;
+}
+div.items-box p.taluo_desc{
+    display: block;
+    padding: 0.4rem;
+    font-size: 16px;
+    line-height: 1.07rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+div.items-box  img.below-img{
+    display: block;
+    width: 96%;
+    margin-bottom: 1rem;
+}
+div.items-box p.lasttitle {
+    text-align: center;
+    font-size: 18px;
+    color: #5b00ff;
+    margin: 0.6rem auto;
+    font-weight: bold;
+}
+
+div.miao-box{
+    width: 100%;
+    padding: 0.8rem 0.6rem 0rem 0.6rem;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+div.miao-box p.comment-title{
+    width: 100%;
+    color: #715ae4;
+    font-weight: bold;
+    font-size: 22px;
+    white-space:nowrap;
+}
+div.miao-box p.comment-title em{
+    font-weight: bold;
+    color: #e0804a;
+}
+div.miao-box div.detail-data{
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 0.6rem 0;
+}
+div.miao-box div.detail-data span{
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    background-color: #8c76e5;
+    border-radius: 6px;
+    padding: 0.1rem 0.35rem;
+}
+div.miao-box div.detail-data span img{
+    display: block;
+    width: 0.6rem;
+    height: auto;
+    margin-right: 0.1rem;
+}
+div.miao-box div.detail-data span em{
+    color: #ffff00;
+}
+div.miao-box div.labels{
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #cecece;;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+div.miao-box div.labels span{
+    padding: 0.2rem 0.2rem;
+    background-color: #fad1ba;
+    border-radius: 1rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+div.miao-box div.labels span:last-child{
+    margin-right: 0;
+}
+@media screen and (max-width: 340px) {
+    div.miao-box p.comment-title{
+        font-size: 18px;
+    }
+    div.miao-box div.detail-data{
+        font-size: 14px;
+    }
+    div.miao-box div.labels{
+        font-size: 12px;
+    }
+    div.miao-box div.upto-wrap {
+        font-size: 14px;
+    }
+}
+div.abslout-box.miao-box{
+    position: relative;
+    overflow: hidden;
+}
+div.abslout-box.miao-box div.upto-wrap{
+    width: 100%;
+    position: relative;
+    height:440px;
+    overflow:hidden;
+    font-size: 16px;
+}
+div.miao-box ul.comment-list{
+    width: 100%;
+    list-style-type: none;
+}
+div.miao-box ul.comment-list li{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    border-bottom: 1px solid #7c7972;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    height: 100px !important;
+}
+div.miao-box ul.comment-list li p.user{
+    color: #8749E3;
+    margin-bottom: 0.2rem;
+
+}
+div.miao-box ul.comment-list li P.detail{
+    color: #54524e;
+}
+
+ /*----------------------------------------------------------*/
+
+.floatbtn{
+    position: fixed;
+    width: 100%;
+    height: 2.77rem;
+    line-height: calc(2.77rem - 0.51rem);
+    padding: 0.255rem 1.06rem;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.floatbtn .startbtn{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#9880d5), to(#482a92));
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+
+/*----------------------------------------------------*/

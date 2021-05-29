@@ -1,0 +1,102 @@
+section.page {
+    width: 100%;
+    min-height: 100%;
+    background-color: #1a1933;
+    position: relative;
+}
+section.main-wrap{
+    width: 100%;
+}
+div.banner-wrap{
+    width: 100%;
+    position: relative;
+}
+div.banner-wrap img.banner{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.owner-wrap{
+    width: 100%;
+    padding-top: 0.4rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 99;
+}
+span.owner{
+    width: 100%;
+    font-size: 16px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    margin-bottom: 0.4rem;
+}
+span.owner em{
+    font-size: 16px;
+    color: #fbd673;
+}
+span.owner-2{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+ul.items{
+    width: 100%;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+ul.items li.item{
+    width: 100%;
+    margin-bottom: 0.6rem;
+    transform: translateX(100%);
+    animation: move_x 1s ease both;
+}
+@keyframes move_x{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+ul.items li.item-1{
+    animation-delay: 0s;
+}
+ul.items li.item-2{
+    animation-delay: 0.5s;
+}
+ul.items li.item-3{
+    animation-delay: 1s;
+}
+ul.items li.item-4{
+    animation-delay: 1.5s;
+}
+ul.items li.item span{
+    font-size: 16px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+ul.items li.item img.icon{
+    display: block;
+    width: 18px;
+    height: auto;
+    margin-right: 0.2rem;
+}
+.interim{
+    animation: rotates 1s linear infinite;
+}
+@keyframes rotates {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+SPAN.over-text{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 18px;
+    color: #fbd257;
+}

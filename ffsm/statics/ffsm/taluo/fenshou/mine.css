@@ -1,0 +1,279 @@
+body {
+    background-color: #FFFFFF;
+}
+section.page{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    background-color: #3a2c2f;
+}
+.content {
+    position: relative;
+    zoom: 1;
+    height: 100%;
+    width: 100%;
+}
+
+/*发牌区*/
+.part {
+    width: 100%;
+    height: 4.2rem;
+    position: relative;
+    transform: translateY(-0.2rem);
+    -webkit-transform: translateY(-0.2rem);
+    overflow: hidden;
+}
+
+.card_list {
+    width: 100%;
+    height: 4rem;
+    position: relative;
+}
+
+.card_list > li {
+    position: absolute;
+    width: 2.4rem;
+    height: auto;
+    -webkit-transform-origin: 1.2rem -5.4rem;
+    transform-origin: 1.2rem -5.4rem;
+    top: 0;
+    left: 50%;
+    margin-left: -1.2rem;
+    z-index: 2;
+    -webkit-animation-name: card;
+    animation-name: card;
+    animation-duration: .1s;
+    -webkit-animation-duration: .1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes card {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes card {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card_list img {
+    width: 2.4rem;
+    height: auto;
+}
+
+/*指示区*/
+.indicate {
+    height: 3rem;
+    position: relative;
+    padding-top: 0.6rem;
+    margin-top: 0.2rem;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: .3rem solid transparent;
+    border-bottom: .3rem solid #ffe378;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    top: 0;
+    animation: arrowS 1s linear infinite;
+    -webkit-animation: arrowS 1s linear infinite;
+}
+
+@keyframes arrowS {
+    0% {
+        top: 0rem;
+    }
+    50% {
+        top: -.15rem;
+    }
+    100% {
+        top: 0rem;
+    }
+}
+
+@-webkit-keyframes arrowS {
+    0% {
+        top: 0rem;
+    }
+    50% {
+        top: -.15rem;
+    }
+    100% {
+        top: 0rem;
+    }
+}
+
+.user_hint {
+    width: 100%;
+    font-size: 0.55rem;
+    text-align: center;
+    color: #fff;
+}
+.user_hint > em{
+    color: #ffe378;
+}
+.user_hint > span {
+    background: #9840e4;
+    font-weight: bold;
+    padding: .1rem .2rem;
+    border-radius: .1rem;
+    margin: 0 .1rem;
+}
+@media screen and (max-width: 340px) {
+    .user_hint {
+        font-size: 14px;
+    }
+}
+
+/*接牌区*/
+.ensure {
+    position: relative;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.ensure_bg {
+    display: block;
+    width: 9rem;
+    height: auto;
+    margin-right: 0.06rem;
+}
+
+/*翻牌*/
+.ensure_card {
+    position: absolute;
+    top: 0;
+    left: 3rem;
+    z-index: 10;
+    width: 2.2rem;
+    display: none;
+}
+.ensure_card div.card-wrap{
+    width: 100%;
+}
+
+.img-wrap {
+    position: relative;
+    width: 2.2rem;
+    margin-bottom: 2px;
+}
+
+.ensure_img{
+    display: block;
+    width: 2.2rem;
+    height: auto;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+.ensure_back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 2.2rem;
+    height: auto;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+.ensure_img {
+    z-index: 2;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.ensure_back {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.turn {
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    -webkit-transform-style: preserve-3d; /*重要*/
+    transform-style: preserve-3d; /*重要*/
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+@keyframes newTurn {
+    form {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+
+@-webkit-keyframes newTurn {
+    form {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+
+.ensure_card p.card_desc{
+    font-size: 0.52rem;
+    color: #fae17d;
+    opacity: 0;
+    white-space:nowrap;
+}
+.ensure_card p.cardName{
+    font-size: 0.52rem;
+    color: #fae17d;
+    opacity: 0;
+    white-space:nowrap;
+}
+
+.ensure_card p.directional {
+    width: 2.2rem;
+    text-align: center;
+    font-size: 0.41rem;
+    color: #fff;
+    opacity: 0;
+    white-space:nowrap;
+}
+
+.desc_text {
+    margin-top: 2.8rem;
+    font-size: 0.55rem;
+    color: #FFFFFF;
+    height: 2rem;
+    display: none;
+}
+
+/*立即解牌*/
+.watch_btn {
+    width: 100%;
+    display: none;
+}
+
+img.view_btn{
+    display: block;
+    width: 11rem;
+    height: auto;
+}

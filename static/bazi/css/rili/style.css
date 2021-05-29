@@ -1,0 +1,327 @@
+@charset "gb2312";
+.Csprites, #header .nav .addToFav, #wrap .wnl-title .select-data .pre a, #wrap .wnl-title .select-data .pre a:hover, #wrap .wnl-title .select-data .pre a:active, #wrap .wnl-title .select-data .next a, #wrap .wnl-title .select-data .next a:hover, #wrap .wnl-title .select-data .next a:active, #wrap .wnl-title .select-data .year-data .current-data, #wrap .wnl-title .select-data .month-data .current-data, #wrap .wnl-title .select-data #current-data:hover, #wrap .wnl-title .select-data #current-data.hover, #wrap .wnl-title .select-data #current-data:active, #wrap .wnl-title .select-data #current-data.active, #wrap .wnl-title .select-data #current-data-month:hover, #wrap .wnl-title .select-data #current-data-month.hover, #wrap .wnl-title .select-data #current-data-month:active, #wrap .wnl-title .select-data #current-data-month.active, #wrap .wnl-title .jin a, #wrap .wnl-title .jin a:hover, #wrap .wnl-title .holidays .a_2, #wrap .wnl-title .holidays .a_2:hover, #wrap .wnl-title .holidays .a_2:active, #wrap .wnl-title .todays .alarm-clock, #wrap .wnl-title .todays .alarm-clock:hover i, #wrap .mian .content-tb .nav-tlt, #wrap .mian .content-tb .calendar td.holidays div i, #wrap .mian .content-tb .calendar td.works div i, #wrap .mian .content-tb .calendar td.now div i, #wrap .mian .date_tips .red, #wrap .mian .subar .today_almanac h3, #wrap .mian .subar .today_almanac h3 .explain i, #wrap .mian .subar .today_almanac .yi .icon, #wrap .mian .subar .today_almanac .ji .icon, #wrap .mian .subar .today_almanac .chong .icon, #wrap .mian .subar .today_luck .icon, #wrap .mian .subar .today_event a, #wrap .mian .subar .today_event i, #ji_search .Lmodule h3, #ji_search .Lmodule .select-year a, #ji_search .Lmodule .select-year a:hover, #ji_search .Lmodule .select-year a:active, #ji_search .Lmodule .select-month a, #ji_search .Lmodule .select-month a:hover, #ji_search .Lmodule .select-month a:active, #ji_search .Lmodule .select-day a, #ji_search .Lmodule .select-day a:hover, #ji_search .Lmodule .select-day a:active, #ji_search .Lmodule .data-submit .btn_submit, #ji_search .Lmodule .data-submit a i, #ji_search .ji_day .data-lmanac .lmanac-cond-wrap a, #ji_search .ji_day .data-lmanac .lmanac-cond-wrap a:hover, #ji_search .ji_day .data-lmanac .lmanac-cond-wrap a:active, #ji_search .ji_hour .tday-attr li a, #ji_search .ji_point .tday-attr li i, #ji_search .ji_point .tday-attr li a { background-image: url(../../images/rili/sprites.png?20121211_15); background-repeat: no-repeat; }
+
+.Csprites-dateStatus, #wrap .mian .content-tb .calendar td.holidays div, #wrap .mian .content-tb .calendar td.holidays div.line5, #wrap .mian .content-tb .calendar td.holidays div:hover, #wrap .mian .content-tb .calendar td.holidays div.line5:hover, #wrap .mian .content-tb .calendar td.works div, #wrap .mian .content-tb .calendar td.works div.line5, #wrap .mian .content-tb .calendar td.works div:hover, #wrap .mian .content-tb .calendar td.works div.line5:hover, #wrap .mian .content-tb .calendar td.today div, #wrap .mian .content-tb .calendar td.today div.line5, #wrap .mian .content-tb .calendar td.today div:hover, #wrap .mian .content-tb .calendar td.today div.line5:hover, #wrap .mian .content-tb .calendar td.now div, #wrap .mian .content-tb .calendar td.now div.line5, #wrap .mian .content-tb .calendar td.now div:hover, #wrap .mian .content-tb .calendar td.now div.hover, #wrap .mian .content-tb .calendar td.now div.line5:hover, #wrap .mian .content-tb .calendar td.now div.hover.line5, #wrap .mian .content-tb .calendar td.tradition div, #wrap .mian .content-tb .calendar td.tradition div.line5, #wrap .mian .content-tb .calendar td.tradition div:hover, #wrap .mian .content-tb .calendar td.tradition div.line5:hover { background-image: url(../../images/rili/sprites_date_status.png); background-repeat: no-repeat; }
+
+.Csprites-animals, .year_rat, .year_ox, .year_tiger, .year_rabbit, .year_dragon, .year_snake, .year_horse, .year_goat, .year_monkey, .year_rooster, .year_dog, .year_boar { background-image: url(../../images/rili/sprites_animals.png); background-repeat: no-repeat; _background-image: url(../../images/rili/sprites_animals.gif); }
+
+span, a, div, li { background-repeat: no-repeat; }
+
+a { text-decoration: none; color: #666666; }
+a:hover { text-decoration: underline; color: #fd5151; }
+
+.red { color: red; }
+
+.green { color: green; }
+
+.blue { color: blue; }
+
+body { margin: 0; padding: 0; font: 12px/1.5 Arial, "ÀŒÃÂB8B\4F53", san-serif; background: white; }
+
+.wp { width: 990px; margin: 0 auto; }
+
+.year_rat { background-position: 8px 0; }
+
+.year_ox { background-position: 8px -50px; }
+
+.year_tiger { background-position: 8px -100px; }
+
+.year_rabbit { background-position: 28px -150px; }
+
+.year_dragon { background-position: 8px -200px; }
+
+.year_snake { background-position: 16px -250px; }
+
+.year_horse { background-position: 12px -300px; }
+
+.year_goat { background-position: 30px -350px; }
+
+.year_monkey { background-position: 15px -400px; }
+
+.year_rooster { background-position: 30px -450px; }
+
+.year_dog { background-position: 10px -500px; }
+
+.year_boar { background-position: 8px -550px; }
+
+#header { background: #4da8f1 url(../../images/rili/header_bg.png) 50% 0 no-repeat; height: 87px; overflow: hidden; }
+#header .wp { padding-top: 20px; padding-bottom: 13px; position: relative; }
+#header .bottom-line { height: 4px; background: url(../../images/rili/bottom_line.png) repeat-x; }
+#header .logo { width: 354px; height: 50px; background-image: url(../../images/rili/logo_tools_wnl.png); _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/rili/logo_tools_wnl.png"); }
+#header .logo a { display: block; width: 240px; height: 50px; text-indent: -9999em; _position: relative; }
+#header .nav { position: absolute; top: 20px; right: 0; line-height: 45px; }
+#header .nav a { color: white; }
+#header .nav span { color: #99d3ff; margin: 0 8px; }
+#header .nav .home { margin-right: 10px; }
+#header .nav .addToFav { display: inline-block; margin-left: 28px; padding-left: 20px; font-size: 14px; background-position: 0 13px; }
+
+#CLD { margin-top: 4px; background: url(../../images/rili/cld_bg.png) no-repeat; padding-bottom: 6px; zoom: 1; }
+
+#wrap { overflow: hidden; padding: 8px; position: relative; }
+#wrap .wnl-title { position: relative; z-index: 5; padding: 10px 0 11px 95px; margin-bottom: 6px; height: 23px; zoom: 1; }
+#wrap .wnl-title .select-data { float: left; }
+#wrap .wnl-title .select-data .select-wrap { display: none; position: absolute; left: -1px; top: 21px; border: 1px solid #acdbff; padding: 1px; background: white; height: 240px; font-size: 14px; color: black; }
+#wrap .wnl-title .select-data .select-wrap ul, #wrap .wnl-title .select-data .select-wrap li { float: none; }
+#wrap .wnl-title .select-data .select-wrap ul { height: 240px; overflow-x: hidden; overflow-y: auto; }
+#wrap .wnl-title .select-data .select-wrap li { height: 20px; line-height: 20px; white-space: nowrap; cursor: pointer; }
+#wrap .wnl-title .select-data .select-wrap li:hover, #wrap .wnl-title .select-data .select-wrap li.hover { background: #cbe8ff; }
+#wrap .wnl-title .select-data .select-wrap .select-year { width: 87px; }
+#wrap .wnl-title .select-data .select-wrap .select-year li { padding-left: 6px; }
+#wrap .wnl-title .select-data .select-wrap .select-month { width: 62px; }
+#wrap .wnl-title .select-data .select-wrap .select-month li { padding-left: 6px; }
+#wrap .wnl-title .select-data .pre, #wrap .wnl-title .select-data .next { float: left; }
+#wrap .wnl-title .select-data .pre a, #wrap .wnl-title .select-data .next a { display: block; width: 30px; height: 23px; }
+#wrap .wnl-title .select-data .pre a { background-position: -2px -502px; }
+#wrap .wnl-title .select-data .pre a:hover, #wrap .wnl-title .select-data .pre a:active { background-position: -2px -552px; }
+#wrap .wnl-title .select-data .next { margin: 0 10px; _display: inline; }
+#wrap .wnl-title .select-data .next a { background-position: -52px -502px; }
+#wrap .wnl-title .select-data .next a:hover, #wrap .wnl-title .select-data .next a:active { background-position: -52px -552px; }
+#wrap .wnl-title .select-data .year-data { position: relative; float: left; margin: 0 10px; border: 1px solid #acdbff; _display: inline; }
+#wrap .wnl-title .select-data .year-data .current-data { width: 61px; height: 21px; line-height: 21px; padding-left: 8px; padding-right: 20px; background-color: white; background-position: 71px -599px; color: black; font-size: 14px; cursor: pointer; }
+#wrap .wnl-title .select-data .month-data { position: relative; float: left; border: 1px solid #acdbff; }
+#wrap .wnl-title .select-data .month-data .current-data { width: 36px; height: 21px; line-height: 21px; padding-left: 8px; padding-right: 20px; background-color: white; background-position: 46px -599px; color: black; font-size: 14px; cursor: pointer; }
+#wrap .wnl-title .select-data #current-data:hover, #wrap .wnl-title .select-data #current-data.hover, #wrap .wnl-title .select-data #current-data:active, #wrap .wnl-title .select-data #current-data.active { background-position: 71px -649px; }
+#wrap .wnl-title .select-data #current-data-month:hover, #wrap .wnl-title .select-data #current-data-month.hover, #wrap .wnl-title .select-data #current-data-month:active, #wrap .wnl-title .select-data #current-data-month.active { background-position: 46px -649px; }
+#wrap .wnl-title .jin { float: left; position: relative; }
+#wrap .wnl-title .jin a { display: block; width: 72px; height: 23px; line-height: 23px; background-position: -2px -752px; text-align: center; color: #2e8bd2; cursor: pointer; }
+#wrap .wnl-title .jin a:hover { background-position: -2px -802px; text-decoration: none; }
+#wrap .wnl-title .holidays { float: left; border: 1px solid #acdbff; margin-left: 48px; _display: inline; position: relative; }
+#wrap .wnl-title .holidays .a_2 { display: block; width: 106px; height: 21px; line-height: 21px; padding-left: 8px; padding-right: 20px; background-color: white; background-position: 116px -599px; color: black; font-size: 14px; white-space: nowrap; text-decoration: none; }
+#wrap .wnl-title .holidays .a_2:hover, #wrap .wnl-title .holidays .a_2:active { background-position: 116px -649px; }
+#wrap .wnl-title .holidays .holidays_ul { display: none; position: absolute; left: -1px; top: 21px; background: white; border: 1px solid #acdbff; padding: 1px; font-size: 14px; width: 132px; }
+#wrap .wnl-title .holidays .holidays_ul li { height: 20px; line-height: 20px; white-space: nowrap; padding-left: 6px; cursor: pointer; }
+#wrap .wnl-title .holidays .holidays_ul li:hover, #wrap .wnl-title .holidays .holidays_ul li.hover { background: #cbe8ff; }
+#wrap .wnl-title .todays { line-height: 22px; position: absolute; top: 10px; right: 0; zoom: 1; }
+#wrap .wnl-title .todays .gmt { font-size: 14px; color: #208ad9; margin-right: 10px; }
+#wrap .wnl-title .todays .gmt b { margin-left: 5px; font-weight: bold; }
+#wrap .wnl-title .todays a { color: #333333; }
+#wrap .wnl-title .todays a:hover { color: #fd5151; }
+#wrap .wnl-title .todays .pipe { color: #b5b5b5; padding: 0 1px; *margin-left: -2px; }
+#wrap .wnl-title .todays .alarm-clock { background-position: 0 -997px; width: 37px; height: 20px; float: left; zoom: 0; }
+#wrap .wnl-title .todays .alarm-clock i { display: none; position: absolute; left: 0; top: 20px; width: 37px; height: 23px; }
+#wrap .wnl-title .todays .alarm-clock:hover { position: relative; }
+#wrap .wnl-title .todays .alarm-clock:hover i { display: block; background-position: 0 -1017px; }
+#wrap .mian { position: relative; zoom: 1; }
+#wrap .mian .content-c { float: left; width: 694px; }
+#wrap .mian .content-tb .nav-tlt { height: 23px; line-height: 23px; border: 1px solid #b5e0ff; overflow: hidden; margin-bottom: 3px; background-position: 0 -950px; background-repeat: repeat-x; }
+#wrap .mian .content-tb .nav-tlt span { display: block; float: left; width: 98px; text-align: center; color: #007fdf; }
+#wrap .mian .content-tb .nav-tlt .weekend { color: #d02f12; }
+#wrap .mian .content-tb .calendar { border: #d0e9ff solid; border-width: 0 1px 1px 0; height: 425px; background: white; }
+#wrap .mian .content-tb .calendar td { width: 96px; text-align: center; vertical-align: middle; cursor: pointer; border: #d0e9ff solid; border-width: 1px 0 0 1px; padding: 1px; }
+#wrap .mian .content-tb .calendar td div { height: 68px; position: relative; }
+#wrap .mian .content-tb .calendar td div.line5 { height: 72px; padding-top: 10px; }
+#wrap .mian .content-tb .calendar td div:hover, #wrap .mian .content-tb .calendar td div.hover { background: #e7f4ff; }
+#wrap .mian .content-tb .calendar td div i { display: block; width: 34px; height: 34px; position: absolute; left: 0; top: 0; }
+#wrap .mian .content-tb .calendar td strong { display: block; font-size: 34px; font-weight: normal; color: #666666; height: 44px; line-height: 44px; }
+#wrap .mian .content-tb .calendar td strong.red { color: #d02f12; }
+#wrap .mian .content-tb .calendar td strong.grad { color: #f2c585; }
+#wrap .mian .content-tb .calendar td span { display: block; color: #999999; font-size: 14px; height: 18px; line-height: 18px; }
+#wrap .mian .content-tb .calendar td span.grad { color: #dbc48d; }
+#wrap .mian .content-tb .calendar td span.red { color: #d23b0d; }
+#wrap .mian .content-tb .calendar td.holidays div { background-color: #ffeeec; background-position: 0 -700px; }
+#wrap .mian .content-tb .calendar td.holidays div.line5 { background-position: 0 -200px; }
+#wrap .mian .content-tb .calendar td.holidays div i { background-position: 0 -50px; }
+#wrap .mian .content-tb .calendar td.holidays div:hover { background-color: #e7f4ff; background-position: 0 -600px; }
+#wrap .mian .content-tb .calendar td.holidays div:hover.line5 { background-position: 0 -100px; }
+#wrap .mian .content-tb .calendar td.works div { background-color: #e4e4e4; background-position: 0 -900px; }
+#wrap .mian .content-tb .calendar td.works div.line5 { background-position: 0 -400px; }
+#wrap .mian .content-tb .calendar td.works div i { background-position: -100px -50px; }
+#wrap .mian .content-tb .calendar td.works div:hover { background-color: #e7f4ff; background-position: 0 -600px; }
+#wrap .mian .content-tb .calendar td.works div:hover.line5 { background-position: 0 -100px; }
+#wrap .mian .content-tb .calendar td.today div { background-color: #e7f4ff; background-position: 0 -600px; }
+#wrap .mian .content-tb .calendar td.today div.line5 { background-position: 0 -100px; }
+#wrap .mian .content-tb .calendar td.today div:hover { background-color: #e7f4ff; background-position: 0 -600px; }
+#wrap .mian .content-tb .calendar td.today div:hover.line5 { background-position: 0 -100px; }
+#wrap .mian .content-tb .calendar td.now div { background-color: #208ad9; background-position: 0 -500px; }
+#wrap .mian .content-tb .calendar td.now div.line5 { background-position: 0 0; }
+#wrap .mian .content-tb .calendar td.now div strong, #wrap .mian .content-tb .calendar td.now div span { color: white !important; }
+#wrap .mian .content-tb .calendar td.now div span font { color: white !important; }
+#wrap .mian .content-tb .calendar td.now div i { background-position: -50px -50px; }
+#wrap .mian .content-tb .calendar td.now div:hover, #wrap .mian .content-tb .calendar td.now div.hover { background-color: #208ad9; background-position: 0 -500px; }
+#wrap .mian .content-tb .calendar td.now div:hover.line5, #wrap .mian .content-tb .calendar td.now div.hover.line5 { background-position: 0 0; }
+#wrap .mian .content-tb .calendar td.tradition div { background-color: #f3f3f3; background-position: 0 -800px; }
+#wrap .mian .content-tb .calendar td.tradition div strong { color: #cccccc; }
+#wrap .mian .content-tb .calendar td.tradition div span { color: #bbbbbb; }
+#wrap .mian .content-tb .calendar td.tradition div span font { color: #bbbbbb !important; }
+#wrap .mian .content-tb .calendar td.tradition div.line5 { background-position: 0 -300px; }
+#wrap .mian .content-tb .calendar td.tradition div:hover { background-color: #e7f4ff; background-position: 0 -600px; }
+#wrap .mian .content-tb .calendar td.tradition div:hover.line5 { background-position: 0 -100px; }
+#wrap .mian .date_tips { padding-top: 10px; text-align: center; }
+#wrap .mian .date_tips .red { background-position: 0 -100px; padding-left: 20px; display: inline-block; }
+#wrap .mian .date_tips .pipe { color: #c5c8cc; }
+#wrap .mian .date_tips a { color: #fd5151; }
+#wrap .mian .subar { float: right; width: 271px; background: white; position: relative; padding-top: 50px; }
+#wrap .mian .subar .sub-icon .gday { position: absolute; left: 0; top: 0; background: url(../../images/rili/today_hd.png) 0 0 no-repeat; width: 271px; height: 44px; padding-top: 6px; font-weight: bold; font-size: 14px; text-align: center; color: #ff6d25; }
+#wrap .mian .subar .sub-icon .icon { border: #b5e0ff solid; border-width: 0 1px 1px 1px; position: relative; top: -14px; padding-top: 14px; margin-bottom: -14px; height: 206px; overflow: hidden; zoom: 1; }
+#wrap .mian .subar .sub-icon .icon span { display: block; text-align: center; font-size: 14px; color: #333333; }
+#wrap .mian .subar .sub-icon .icon .diffday { color: #ff6d25; font-weight: bold; }
+#wrap .mian .subar .sub-icon .icon .tday { color: #666666; font-size: 90px; line-height: 66px; padding: 16px 0; }
+#wrap .mian .subar .sub-icon .icon .nday { padding: 0; }
+#wrap .mian .subar .sub-icon .icon .ganzhi { padding: 0; }
+#wrap .mian .subar .sub-icon .icon .jieri { padding-top: 8px; }
+#wrap .mian .subar .sub-icon .icon .jieri .festival { color: #666666; white-space: nowrap; }
+#wrap .mian .subar .sub-icon .icon .jieri .festival a { color: #d02f12; font-weight: bold; margin-right: 4px; }
+#wrap .mian .subar .sub-icon .icon .jieri .festival b { font-size: 0; display: inline-block; width: 4px; overflow: hidden; }
+#wrap .mian .subar .today_almanac, #wrap .mian .subar .today_luck { border-left: 1px solid #b5e0ff; border-right: 1px solid #b5e0ff; border-bottom: 1px dashed #cbe8ff; }
+#wrap .mian .subar .today_almanac h3 { height: 26px; line-height: 26px; border: 1px solid white; background-position: 0 -950px; background-repeat: repeat-x; position: relative; font-weight: normal; }
+#wrap .mian .subar .today_almanac h3 span { color: #2e8bd2; font-size: 14px; margin: 0 12px; font-weight: bold; }
+#wrap .mian .subar .today_almanac h3 .explain { color: #999999; }
+#wrap .mian .subar .today_almanac h3 .explain:hover { color: #fd5151; }
+#wrap .mian .subar .today_almanac h3 .explain i { display: block; width: 14px; height: 14px; background-position: -50px -100px; position: absolute; top: 6px; right: 90px; }
+#wrap .mian .subar .today_almanac h3 .more { position: absolute; right: 10px; top: 0px; color: #336699; }
+#wrap .mian .subar .today_almanac h3 .more:hover { color: #fd5151; }
+#wrap .mian .subar .today_almanac .yiji { border-top: 1px solid #d3ecff; height: 98px; padding: 0 20px; color: #666666; }
+#wrap .mian .subar .today_almanac .yiji a { color: #666666; margin-right: 4px; *margin-right: 2px; }
+#wrap .mian .subar .today_almanac .yiji a:hover { color: #fd5151; }
+#wrap .mian .subar .today_almanac .yi, #wrap .mian .subar .today_almanac .ji, #wrap .mian .subar .today_almanac .chong { padding: 12px 0 0 28px; position: relative; width: 201px; height: 16px; line-height: 16px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; zoom: 1; }
+#wrap .mian .subar .today_almanac .yi .icon, #wrap .mian .subar .today_almanac .ji .icon, #wrap .mian .subar .today_almanac .chong .icon { width: 16px; height: 16px; position: absolute; left: 0; top: 12px; }
+#wrap .mian .subar .today_almanac .yi .icon { background-position: -75px -100px; }
+#wrap .mian .subar .today_almanac .ji .icon { background-position: -100px -100px; }
+#wrap .mian .subar .today_almanac .chong .icon { background-position: -125px -100px; }
+#wrap .mian .subar .today_luck { padding: 7px 0 4px 64px; height: 49px; position: relative; }
+#wrap .mian .subar .today_luck .icon { background-position: 0 -199px; width: 50px; height: 52px; position: absolute; left: 6px; top: 5px; }
+#wrap .mian .subar .today_luck a { display: block; line-height: 24px; color: #666666; white-space: nowrap; }
+#wrap .mian .subar .today_luck a:hover { color: #fd5151; }
+#wrap .mian .subar .today_event { border-left: 1px solid #b5e0ff; border-right: 1px solid #b5e0ff; border-bottom: 1px solid #b5e0ff; height: 34px; line-height: 34px; text-align: center; position: relative; }
+#wrap .mian .subar .today_event a { padding-left: 20px; color: #666666; background-position: -50px -198px; }
+#wrap .mian .subar .today_event a:hover { color: #fd5151; }
+#wrap .mian .subar .today_event i { display: block; width: 25px; height: 20px; background-position: 0 -1050px; position: absolute; right: -1px; bottom: -1px; _right: -2px; }
+
+#spread { height: 23px; border: 1px solid #b5e0ff; background: #f2f9ff; padding: 6px 0 6px 8px; position: relative; z-index: 1; }
+#spread dt { float: left; width: 30px; height: 35px; padding-top: 3px; background: url(../../images/rili/tgarrow.png) no-repeat; color: white; text-align: center; text-indent: -9999em; position: absolute; left: 0; top: 0; }
+#spread dt i { color: yellow; font-size: 10px; }
+#spread dd { overflow: hidden; zoom: 1; padding-left: 50px; height: 24px; }
+#spread dd a { color: #333333; font-size: 14px; line-height: 24px; margin-right: 30px; white-space: nowrap; }
+#spread dd a:hover { color: #fd5151; }
+
+#ji_search { margin-top: 10px; margin-bottom: 10px; position: relative; z-index: 999; }
+#ji_search .Lmodule { float: left; _display: inline; border: 1px solid #bee3ff; background: white; }
+#ji_search .Lmodule h3 { border: 1px solid white; height: 26px; line-height: 26px; font-size: 14px; color: #2e8bd2; padding-left: 18px; padding-right: 15px; background-position: 0 -950px; background-repeat: repeat-x; font-weight: bold; overflow: hidden; }
+#ji_search .Lmodule h3 .help_choose { float: right; color: #ff8b00; font-size: 12px; font-weight: normal; }
+#ji_search .Lmodule h3 .help_choose:hover { color: #fd5151; }
+#ji_search .Lmodule .section { border-top: 1px solid #b5e0ff; height: 158px; }
+#ji_search .Lmodule .select-wrap { float: left; position: relative; margin-right: 5px; font-size: 12px; z-index: 10; }
+#ji_search .Lmodule .select-wrap a { display: block; border: 1px solid #acdbff; height: 21px; line-height: 21px; color: black; text-decoration: none; }
+#ji_search .Lmodule .select-wrap .select-data { position: absolute; left: 0px; top: 22px; border: 1px solid #acdbff; padding: 1px; display: none; z-index: 999; background: white; }
+#ji_search .Lmodule .select-wrap .select-data ul { background: white; max-height: 240px; _height: 240px; overflow-x: hidden; overflow-y: auto; }
+#ji_search .Lmodule .select-wrap .select-data li { height: 20px; line-height: 20px; cursor: pointer; }
+#ji_search .Lmodule .select-wrap .select-data li:hover, #ji_search .Lmodule .select-wrap .select-data li.hover { background: #cbe8ff; }
+#ji_search .Lmodule .select-year { width: 75px; }
+#ji_search .Lmodule .select-year a { background-position: 55px -599px; padding-left: 6px; }
+#ji_search .Lmodule .select-year a:hover, #ji_search .Lmodule .select-year a:active { background-position: 55px -649px; }
+#ji_search .Lmodule .select-year .select-data { width: 71px; }
+#ji_search .Lmodule .select-year .select-data li { padding-left: 4px; }
+#ji_search .Lmodule .select-month { width: 52px; }
+#ji_search .Lmodule .select-month a { background-position: 32px -599px; padding-left: 3px; }
+#ji_search .Lmodule .select-month a:hover, #ji_search .Lmodule .select-month a:active { background-position: 32px -649px; }
+#ji_search .Lmodule .select-month .select-data { width: 48px; }
+#ji_search .Lmodule .select-month .select-data li { padding-left: 2px; }
+#ji_search .Lmodule .select-day { width: 49px; }
+#ji_search .Lmodule .select-day a { background-position: 29px -599px; padding-left: 1px; }
+#ji_search .Lmodule .select-day a:hover, #ji_search .Lmodule .select-day a:active { background-position: 29px -649px; }
+#ji_search .Lmodule .select-day .select-data { width: 45px; }
+#ji_search .Lmodule .select-day .select-data li { padding-left: 1px; }
+#ji_search .Lmodule .data-submit { overflow: hidden; zoom: 1; }
+#ji_search .Lmodule .data-submit input { background: none; border: none; }
+#ji_search .Lmodule .data-submit .btn_submit { float: left; display: block; width: 50px; height: 23px; line-height: 23px; color: #2e8bd2; background-position: 0 -850px; text-indent: -9999em; cursor: pointer; }
+#ji_search .Lmodule .data-submit .btn_submit:hover, #ji_search .Lmodule .data-submit .btn_submit.hover { background-position: 0 -900px; }
+#ji_search .Lmodule .data-submit a { margin-left: 22px; color: #336699; display: block; float: left; height: 20px; padding-top: 5px; _display: inline; }
+#ji_search .Lmodule .data-submit a:hover { color: #fd5151; }
+#ji_search .Lmodule .data-submit a i { display: inline-block; width: 14px; height: 14px; background-position: -50px -100px; margin-left: 5px; }
+#ji_search .Lmodule .gregorian { padding-top: 16px; padding-left: 20px; }
+#ji_search .Lmodule .gregorian em { float: left; font-style: normal; line-height: 21px; margin-right: 10px; _display: inline; }
+#ji_search .Lmodule .tday-attr { padding-left: 18px; padding-right: 5px; }
+#ji_search .Lmodule .tday-attr h4 { padding-right: 10px; overflow: hidden; height: 24px; line-height: 24px; padding-bottom: 1px; font-weight: bold; font-size: 13px; color: #2e8bd2; background: url(../../images/rili/tday_attr.png) 50% 100% no-repeat; }
+#ji_search .Lmodule .tday-attr h4 .more { float: right; color: #336699; font-weight: normal; font-size: 12px; }
+#ji_search .Lmodule .tday-attr h4 .more:hover { color: #fd5151; }
+#ji_search .ji_day { width: 270px; }
+#ji_search .ji_day .section { padding: 10px 0px; height: 138px; width: 270px; _overflow: hidden; }
+#ji_search .ji_day .data-from, #ji_search .ji_day .data-to { margin-bottom: 8px; position: relative; padding-left: 20px; }
+#ji_search .ji_day .data-from em, #ji_search .ji_day .data-to em { float: left; font-style: normal; line-height: 21px; margin-right: 10px; }
+#ji_search .ji_day .data-from { z-index: 3; padding-top: 6px; }
+#ji_search .ji_day .data-from .select-data { z-index: 9999; }
+#ji_search .ji_day .data-to { z-index: 2; }
+#ji_search .ji_day .data-to .select-wrap .select-data { z-index: 999; }
+#ji_search .ji_day .data-lmanac { position: relative; z-index: 1; margin-bottom: 10px; padding-left: 20px; }
+#ji_search .ji_day .data-lmanac .ipt-radio-wrap { float: left; width: 82px; padding-left: 20px; line-height: 22px; _padding-top: 5px; }
+#ji_search .ji_day .data-lmanac .ipt-radio-wrap input { width: 13px; height: 13px; margin: 0 1px 0 0; padding: 0; vertical-align: middle; }
+#ji_search .ji_day .data-lmanac .ipt-radio-wrap #lmanacUnLuck { margin-left: 6px; }
+#ji_search .ji_day .data-lmanac .lmanac-cond-wrap { width: 52px; height: 23px; }
+#ji_search .ji_day .data-lmanac .lmanac-cond-wrap a { background-position: 32px -599px; padding-left: 4px; }
+#ji_search .ji_day .data-lmanac .lmanac-cond-wrap a:hover, #ji_search .ji_day .data-lmanac .lmanac-cond-wrap a:active { background-position: 32px -649px; }
+#ji_search .ji_day .data-lmanac .lmanac-cond-wrap .select-data { width: 48px; z-index: 99; }
+#ji_search .ji_day .data-lmanac .lmanac-cond-wrap .select-data li { padding-left: 2px; }
+#ji_search .ji_day .data-lmanac .lmanac-cond-wrap .select-data select { display: none; }
+#ji_search .ji_day .data-list { padding-left: 12px; }
+#ji_search .ji_day .data-list a { float: left; padding: 0 6px 0 0; width: 120px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#ji_search .ji_day .data-list a i { display: inline-block; width: 2px; height: 2px; line-height: 2px; font-size: 0; background-color: #007ede; vertical-align: middle; margin-right: 5px; }
+#ji_search .ji_day .data-list a:hover i { background-color: #fd5151; }
+#ji_search .ji_hour { width: 347px; margin: 0 10px; }
+#ji_search .ji_hour .section { width: 347px; _overflow: hidden; }
+#ji_search .ji_hour .tday-attr { padding-top: 12px; }
+#ji_search .ji_hour .tday-attr li { float: left; margin-top: 8px; margin-right: 6px; }
+#ji_search .ji_hour .tday-attr li a { display: block; width: 102px; height: 27px; line-height: 27px; text-align: center; font-size: 13px; background-position: 1px -149px; }
+#ji_search .ji_hour .tday-attr li a:hover { background-position: -125px -150px; color: #2e8bd2; text-decoration: none; }
+#ji_search .ji_point { width: 347px; }
+#ji_search .ji_point .section { width: 347px; _overflow: hidden; }
+#ji_search .ji_point .tday-attr { padding-top: 20px; }
+#ji_search .ji_point .tday-attr li { float: left; margin-right: 10px; margin-top: 12px; position: relative; height: 50px; overflow: hidden; }
+#ji_search .ji_point .tday-attr li i { display: block; width: 44px; height: 42px; position: absolute; left: 2px; top: 4px; background-position: 0 0; }
+#ji_search .ji_point .tday-attr li a { width: 50px; height: 50px; line-height: 20px; padding: 0px 4px 0px 44px; background-position: 1px -324px; text-align: center; display: table-cell; vertical-align: middle; *display: block; *font-size: 36px; _font-size: 38px; cursor: pointer; }
+#ji_search .ji_point .tday-attr li a span { display: inline-block; vertical-align: middle; font-size: 12px; padding-top: 7px; }
+#ji_search .ji_point .tday-attr li a:hover { background-position: -125px -325px; color: #2e8bd2; text-decoration: none; }
+#ji_search .ji_point .tday-attr li.god-happy i { background-position: 5px -270px; }
+#ji_search .ji_point .tday-attr li.god-luck i { background-position: -48px -275px; }
+#ji_search .ji_point .tday-attr li.god-money i { background-position: -100px -272px; }
+
+.banner a { float: left; _display: inline; }
+
+#lichun { border: 1px solid #cbe8ff; margin-top: 5px; padding: 0 61px; background: white; padding-top: 34px; }
+#lichun h1 { font-size: 30px; font-family: "Microsoft Yahei"; color: #2e8bd2; text-align: center; font-weight: normal; height: 30px; line-height: 30px; padding-bottom: 16px; margin-bottom: 30px; background: url(../../images/rili/lichun_h1_bg.png) 50% 100% no-repeat; }
+#lichun h2 { font-size: 14px; line-height: 24px; text-indent: 2em; color: #666666; }
+#lichun h4 { font-size: 14px; font-weight: bold; line-height: 26px; color: #007fdf; }
+#lichun p { font-size: 14px; line-height: 26px; color: #666666; text-indent: 2em; padding: 4px 0; }
+#lichun .example { padding: 0 140px 30px; }
+#lichun .example p { font-size: 14px; line-height: 24px; color: #ff8b00; text-align: center; clear: left; margin-bottom: 10px; padding-right: 16px; }
+#lichun .example .sub-icon { float: left; width: 271px; margin: 0 10px; }
+#lichun .example .sub-icon .gday { background: url(../../images/rili/today_hd.png) 0 0 no-repeat; width: 271px; height: 44px; padding-top: 6px; font-weight: bold; font-size: 14px; text-align: center; color: #ff6d25; }
+#lichun .example .sub-icon .icon { border: #b5e0ff solid; border-width: 0 1px 1px 1px; position: relative; top: -14px; padding-top: 14px; margin-bottom: -14px; height: 198px; overflow: hidden; }
+#lichun .example .sub-icon .icon span { display: block; text-align: center; font-size: 14px; color: #333333; }
+#lichun .example .sub-icon .icon .diffday { color: #ff6d25; font-weight: bold; }
+#lichun .example .sub-icon .icon .tday { color: #666666; font-size: 90px; line-height: 66px; padding: 16px 0; }
+#lichun .example .sub-icon .icon .nday { padding: 0; }
+#lichun .example .sub-icon .icon .ganzhi { padding: 0; }
+#lichun .example .sub-icon .icon .ganzhi b { border: 2px solid red; padding: 4px 0; }
+#lichun .example .sub-icon .icon .jieri { padding-top: 8px; font-weight: bold; color: #d02f12; white-space: nowrap; }
+#lichun .mod_1b { margin: 24px 0 36px; border: 1px solid #cbe8ff; }
+#lichun .other { font-size: 14px; }
+#lichun .other h3 { background: #edf7ff; border-bottom: 1px solid #cbe8ff; color: #348bcf; font-size: 14px; font-weight: bold; height: 24px; padding-left: 16px; padding-top: 3px; position: relative; }
+#lichun .other .other_tool { margin-top: -1px; }
+#lichun .other .other_tool th { font-weight: normal; text-align: left; }
+#lichun .other .other_tool td { border-left: 1px solid #ddf0ff; }
+#lichun .other .other_tool th, #lichun .other .other_tool td { border-top: 1px solid #ddf0ff; padding: 8px 15px; }
+#lichun .other .other_tool th a, #lichun .other .other_tool td a { color: #666666; }
+#lichun .other .other_tool th a:hover, #lichun .other .other_tool td a:hover { color: #fd5151; }
+
+.chunyun { width: 240px; height: 394px; margin-top: 10px; background: url(../../images/rili/chunyun.jpg) -2px 0 no-repeat; padding-top: 50px; padding-left: 754px; }
+.chunyun a { display: block; width: 179px; height: 50px; line-height: 50px; text-align: center; color: #666666; font-size: 20px; font-family: "Microsoft Yahei"; background: url(../../images/rili/chunyun.png) no-repeat; margin-bottom: 28px; }
+.chunyun .ord-1 { background-position: 0 0; }
+.chunyun .ord-1:hover { background-position: -225px 0; }
+.chunyun .ord-2 { background-position: 0 -76px; }
+.chunyun .ord-2:hover { background-position: -225px -76px; }
+.chunyun .ord-3 { background-position: 0 -152px; }
+.chunyun .ord-3:hover { background-position: -225px -152px; }
+.chunyun .ord-4 { background-position: 0 -228px; }
+.chunyun .ord-4:hover { background-position: -225px -228px; }
+.chunyun .ord-1-cur { background-position: -450px 0; }
+.chunyun .ord-1-cur:hover { background-position: -650px 0; }
+.chunyun .ord-2-cur { background-position: -450px -76px; }
+.chunyun .ord-2-cur:hover { background-position: -650px -76px; }
+.chunyun .ord-3-cur { background-position: -450px -152px; }
+.chunyun .ord-3-cur:hover { background-position: -650px -152px; }
+.chunyun .ord-4-cur { background-position: -450px -228px; }
+.chunyun .ord-4-cur:hover { background-position: -650px -228px; }
+
+/* act_img_box add 20130402 */
+.act_img_box{width:990px;margin:10px 0;overflow:hidden}
+.act_img_box img{ vertical-align:top;}

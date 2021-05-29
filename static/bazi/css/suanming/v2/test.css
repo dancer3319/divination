@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+/*
+
+ * @Created: 2013-03-20
+
+ * @Author : wuzhong
+
+ */
+
+
+
+.btn_orange_1 { margin:0 auto; display:block}
+
+.mod_box_t1 .hd { margin-bottom:19px}
+
+
+
+.fn_part .cur_info{padding:2px 0 18px;}
+
+.fn_part .cur_info h6{font-size:16px;font-weight:bold;}
+
+.fn_part .info_prop{padding:8px 0 0;overflow:hidden;*zoom:1;}
+
+.fn_part .info_prop span{float:left;color:#666666;}
+
+.fn_part .info_prop strong{margin-left:5px;margin-right:20px;color:#8a492e;}
+
+.fn_part .cut_tit{margin:5px 0;padding-left:16px;color:#333333;font-weight:bold;background:url(../../../images/suanming/v2/common.png) no-repeat -155px -455px;}
+
+.fn_part .btn_tool_retest{padding:15px 0;text-align:center;}
+
+
+
+/* 打喷嚏 */
+
+/*
+.fn_penti h1{width:196px;height:28px;background:url(../../../images/suanming/v2/tit_penti.png) no-repeat;}
+*/
+
+.fn_penti .cut_tit { color:#8e4d2e}
+
+.sneeze_cont{ padding:16px;color:#8F4D2F;}
+
+.sneeze_cont h4{margin:20px 0 30px;padding-left:15px;font-size:14px;font-weight:bold;background-position:-195px -161px;}
+
+.sneeze_list { padding:0 0 10px 0}
+
+.sneeze_list li{float:left;width: 268px;height:93px;padding:0 20px 0 104px;border:1px solid #FEE1D0;margin:0 0 10px 0;display:inline;text-align:center;line-height:26px;background:#fff url(../../../images/suanming/v2/animal.jpg) 0 0 no-repeat;}
+
+.sneeze_list li.liR { float:right}
+
+.sneeze_list li.a1{background-position:12px 0;}
+
+.sneeze_list li.a2{background-position:12px -93px;}
+
+.sneeze_list li.a3{background-position:12px -186px;}
+
+.sneeze_list li.a4{background-position:12px -279px;}
+
+.sneeze_list li.a5{background-position:12px -372px;}
+
+.sneeze_list li.a6{background-position:12px -465px;}
+
+.sneeze_list li.a7{background-position:12px -558px;}
+
+.sneeze_list li.a8{background-position:12px -651px;}
+
+.sneeze_list li.a9{background-position:12px -744px;}
+
+.sneeze_list li.a10{background-position:12px -837px;}
+
+.sneeze_list li.a11{background-position:12px -930px;}
+
+.sneeze_list li.a12{background-position:12px -1023px;}
+
+.sneeze_list li h6{margin-top:17px;color:#f00;font-size:14px;font-weight:bold;font-family:Arial;}
+
+.sneeze_list li p {font-size: 15px;text-align:left;line-height: 23px;padding-left: 11px;}
+
+.sneeze_count { padding:5px 0 0 0}
+
+.sneeze_count li{ float:left;display:inline;width:285px;height:30px;line-height:30px;overflow:hidden;font-size:14px; background:url(../../../images/suanming/v2/common.png) no-repeat -147px 0; margin-left:16px; padding-left:15px;}
+
+
+
+
+
+/* 风水测算 */
+
+.fn_fengshui h1{width:140px;height:28px;background:url(../../../images/suanming/v2/tit_fengshui.png) no-repeat;}
+
+.fn_fengshui .fn_box{background-image:url(../../../images/suanming/v2/bg_fengshui.png);background-repeat:no-repeat;background-position:right top;}
+
+.fn_fengshui .mod_form .form_item { padding-left:140px}
+
+.fn_fengshui .mod_form .form_item .wA { width:60px}
+
+.fn_fengshui .mod_form .form_item .wB { width:80px}
+
+.fn_fengshui .mod_form .form_item .wC { width:90px}
+
+.fn_fengshui .mod_form .btn_item { padding-left:0}
+
+.fn_fengshui .introWord { font-size:12px; line-height:22px; color:#8a4626; padding:10px 10px 0 10px}
+
+.fn_fengshui .introWord p { padding-top:10px}
+
+
+
+/* 风水测算结果页 */
+
+.fengshui_result { line-height:30px; font-size:12px; color:#925234}
+
+.fengshui_result .tit { font-size:14px; text-align:center; line-height:26px; height:26px; font-weight:700; padding-bottom:10px}
+
+.fengshui_result dt { font-size:14px; color:#333; font-weight:700; padding-top:5px}
+
+.fengshui_result dd em { color:#f00}
+
+.fengshui_result .sTips { color:#666; display:block; padding-bottom:15px}
+
+
+
+/* 三世财运 */
+/*
+.fn_caiyun h1{width:144px;height:28px;background:url(../../../images/suanming/v2/tit_caiyun.png) no-repeat;}
+*/
+
+.fn_caiyun .ret_con{padding:20px 38px;color:#904520;}
+
+.fn_caiyun .ret_con p {line-height:30px;}
+
+.fn_caiyun .ret_con span { display:block; line-height:30px; height:30px}
+
+.fn_caiyun .ret_con .sDes { color:#333}
+
+.fn_caiyun .ret_con .sDes em{ font-weight:bold; color:#f00}
+
+.fn_caiyun .cut_tit{margin-top:12px;}
+
+.fn_caiyun .tips_area{margin-bottom:-20px;}
+
+
+
+/* 指纹算命 */
+/*
+.fn_suanming_zw h1{width:138px;height:30px;background:url(../../../images/suanming/v2/tit_suanming_zw.png) no-repeat;}
+*/
+
+.fn_suanming_zw .fn_box{background-image:url(../../../images/suanming/v2/bg_suanming_zw.png);background-repeat:no-repeat;background-position:right top;margin: 20px;}
+
+.fn_suanming_zw .fn_box_nobg{background:none;}
+
+.fn_suanming_zw .intro_icon{margin: 20px;}
+
+.fn_suanming_zw .intro_icon span{padding-left:25px;font-size:13px;color:#ff0000;line-height:18px;background:url(../../../images/suanming/v2/common.png) no-repeat -118px -145px;display:inline-block;*display:inline;*zoom:1;}
+
+.fn_suanming_zw .mod_form{margin-top:25px;}
+
+.fn_suanming_zw .form_item{margin-bottom:11px;}
+
+.fn_suanming_zw .btn_tool_retest{padding:12px 0;text-align:center;}
+
+.fn_suanming_zw .tips_area{margin-bottom:-20px;}
+
+
+
+.finger_choose li{padding:10px 0;height:20px;line-height:20px;vertical-align:middle;font-size:14px;color:#813d20;}
+
+.finger_choose span, .finger_choose input, .finger_choose label{float:left;}
+
+.finger_choose span{width:55px;}
+
+.finger_choose input{width:14px;height:14px;vertical-align:middle;margin-top:4px;_margin-top:3px;}
+
+.finger_choose label{padding-right:30px;}
+
+
+
+
+
+/* 指纹算命结果页 */
+
+.finger_result{padding:26px 6px 5px;background:url(../../images/suanming/bg_finger.jpg) no-repeat right bottom;}
+
+.finger_result p{font-size:14px;color:#813d20;line-height:26px;}
+
+.finger_result p.first{margin-bottom:20px;}
+
+.finger_result h3{margin-top:13px;padding-left:15px;font-size:14px;color:#333;font-weight:700;background:url(../../../images/suanming/v2/common.png) no-repeat -155px -454px;zoom:1;}
+
+
+
+/* 痣相图解 */
+
+/*
+.fn_zhi h1{width:137px;height:28px;background:url(../../../images/suanming/v2/tit_zhi.png) no-repeat;}
+
+
+.fn_zhi2 h1{width:137px;height:28px;background:url(../../../images/suanming/v2/liuyao.jpg) no-repeat;}
+*/
+
+.fn_zhi .nevus{width:640px;margin:0 auto;padding:24px 0 5px;}
+
+.fn_zhi2 .nevus{width:640px;margin:0 auto;padding:24px 0 5px;}
+
+
+/* 生男生女预测 */
+
+/*
+.fn_sasvyc h1{width:190px;height:28px;background:url(../../../images/suanming/v2/tit_sasvyc.png) no-repeat;}
+*/
+.fn_sasvyc .mod_sw {width:677px;margin:0 auto;padding-bottom:1px; border:1px solid #ebdbd3; background:#fdf5e6}
+
+.fn_sasvyc .nntop{color:#8D4D2D;}
+
+.fn_sasvyc .nnleft{float:left;width:51px;height:43px;padding-top:12px;border-right:1px solid #F9E1CD;border-bottom:1px solid #F9E1CD;text-align:center; font-size:12px}
+
+.fn_sasvyc .nnright{float:left;width:625px;height:56px;}
+
+.fn_sasvyc .nn_title{height:34px;padding:0 25px 0 90px;border-bottom:1px solid #F9E1CD;line-height:34px;text-align:center; font-weight:700}
+
+.fn_sasvyc .nn_title span{float:right;padding-left:20px;color:#656565;background:url(../../../images/suanming/v2/common.png) no-repeat -115px -143px; font-size:12px; font-weight:100; height:20px; line-height:20px; margin-top:7px; display:inline}
+
+.fn_sasvyc .nn_title span a{color:#fd5151;text-decoration:underline;}
+
+.fn_sasvyc .nn_cont li{float:left;width:51px;height:20px;border-top:1px solid #FFF9E9;border-left:1px solid #FFF9E9;line-height:20px;text-align:center;color:#8D4D2D;}
+
+.fn_sasvyc .nn_cont li.bnum{background:#F4CAB2;font-family:Arial;font-size:14px;}
+
+.fn_sasvyc .nn_cont li.bfemale{background:#FFE8BD;}
+
+.fn_sasvyc .intro_pd24{padding-bottom:24px;}
+
+
+
+/* 手相查询 */
+/*
+.fn_shouxiang h1{width:140px;height:28px;background:url(../../../images/suanming/v2/tit_shouxiang.png) no-repeat;}
+*/
+.fn_shouxiang .bd { padding:0 23px 30px}
+
+.hand{ color:#915133; font-size:12px}
+
+.hand a.aMore { float:right; font-size:12px; color:#fd5151; text-decoration:underline; font-weight:100; font-family:\5B8B\4F53; display:inline}
+
+.hand a.aGoBackBtn { background:url(../../../images/suanming/v2/shouxiang_btn_bg.png) 0 -66px no-repeat; width:65px; height:26px; line-height:26px; text-align:center; float:right; color:#fff; font-weight:100; font-family:\5B8B\4F53; font-size:12px}
+
+.hand a:hover.aGoBackBtn { color:#fff}
+
+.hand p{line-height:26px;}
+
+.hand_special { padding-bottom:10px}
+
+.hand_special dt{float:left;width:240px;}
+
+.hand_special dt img{border:1px solid #FEE1D0;}
+
+.hand_special dd{float:right;width:425px;}
+
+.hand_special dd h3{font-size:16px;color:#333;font-weight:bold; border-bottom:1px dashed #c8c8c8; padding:0 0 5px 13px; margin-bottom:5px; height:26px; line-height:26px; overflow:hidden}
+
+.hand_special p{line-height:22px; background:url(../../../images/suanming/v2/dot.png) 3px 9px no-repeat; padding:0 0 7px 13px}
+
+.hand_special p.tr a, .hand_cont p.tr a{color:#fd5151;text-decoration:underline;}
+
+.hand_cont{margin-top:3px;border-top:1px dashed #C8C8C8;zoom:1; overflow:hidden; width:100%}
+
+.hand_cont h4{margin:10px 0;font-size:16px;font-weight:bold;color:#333; height:26px; line-height:26px; overflow:hidden}
+
+.hand_cont h4 span{margin-left:15px;font-size:12px;color:#999;font-weight:normal;}
+
+.hand_cont p.tr{margin-right:8px;}
+
+.hand_list{padding:0; width:710px}
+
+.hand_list li{float:left;display:inline;width:204px;height:192px;padding:9px;margin:0 8px 8px 0;line-height:20px;background:url(../../../images/suanming/v2/hand.png) no-repeat;}
+
+.hand_list li p{height:60px;margin-top:10px;line-height:20px;overflow:hidden;color:#333;}
+
+.hand_list li dt{float:left;width:92px;}
+
+.hand_list li dt img{padding:1px;border:1px solid #E3C5A8;}
+
+.hand_list li dd{float:right;width:105px;}
+
+.hand_list li dd h6{height:40px;font-weight:bold;overflow:hidden;}
+
+.hand_list li dd p{height:80px;overflow:hidden;margin-top:2px;line-height:20px;color:#915133;}
+
+
+
+.fn_shouxiang .intro_tab { padding:10px 0 35px 160px}
+
+.fn_shouxiang .intro_tab a { width:104px; height:32px; background:url(../../../images/suanming/v2/shouxiang_btn_bg.png) 0 -33px no-repeat; line-height:32px; overflow:hidden; text-align:center; color:#8a492e; float:left; margin-left:17px; display:inline}
+
+.fn_shouxiang .intro_tab a:hover { color:#8a492e}
+
+.fn_shouxiang .intro_tab a.current,.fn_shouxiang .intro_tab a:hover.current { background-position:0 0; color:#fff; font-weight:700;}
+
+
+
+.fn_shouxiang .hand_cont_mt15{ margin-top:15px; font-size:14px}
+
+.fn_shouxiang .hand_cont_mt15 span { float:left; line-height:32px; height:32px;}
+
+.fn_shouxiang .hand_cont_mt15 a { width:89px; height:32px; background:url(../../../images/suanming/v2/shouxiang_btn_bg.png) 0 -126px no-repeat; line-height:32px; overflow:hidden; text-align:center; color:#8a492e; float:left; display:inline; margin-right:8px}
+
+.fn_shouxiang .hand_cont_mt15 a:hover { color:#8a492e}
+
+.fn_shouxiang .hand_cont_mt15 a.current,.fn_shouxiang .hand_cont_mt15 a:hover.current { background-position:0 -93px; color:#fff;}
+
+
+
+/* 眼皮跳测吉凶 */
+
+/*
+.fn_yanpi h1{width:195px;height:28px;background:url(../../../images/suanming/v2/tit_yanpi.png) no-repeat;}
+*/
+.fn_yanpi .eye{padding:8px 0 15px 5px;font-size: 12px;}
+
+.fn_yanpi .eye li,.fn_yanpi .eye_left,.fn_yanpi .eye_right{float:left;}
+
+.fn_yanpi .eye li{display:inline;width: 48%;height:164px;border:1px solid #FEE1D0;background:#fff;margin:8px 0 0 8px;}
+
+.fn_yanpi .eye_left{width: 100px;height:95px;text-align:center;float:left;padding:44px 0 0 10px;}
+
+.fn_yanpi .eye_right{width:230px; float:right; padding-right:10px}
+
+.fn_yanpi .eye_right p{padding:5px 0;overflow:hidden;zoom:1;}
+
+.fn_yanpi .eye_right p.first{text-align:center; font-size:14px; font-weight:700; color:#333; line-height:20px; height:20px; padding:10px 0 0 0}
+
+.fn_yanpi .eye_right p.last{border-top:1px solid #FEE1D0;}
+
+.fn_yanpi .eye_right p em{ display:block}
+
+.fn_yanpi .eye_right p span{ color:#8F4E2F; display:block}

@@ -1,0 +1,311 @@
+div.save_wrap {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 1rem;
+}
+
+div.save_wrap img.savebtn {
+    width: 12rem;
+    height: auto;
+}
+div.code_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+div.code_box div.code_wrap {
+    position: relative;
+    box-sizing: border-box;
+}
+
+div.code_box div.code_wrap img.code {
+    width: 13rem;
+    height: auto;
+}
+
+div.code_box div.code_wrap img.close {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: -3rem;
+    right: 0;
+}
+
+div.float_save{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 88;
+}
+div.float_save span.savebtn{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    background-color: #d7473d;
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+}
+div.float_save span.savebtn em{
+    font-style: normal;
+    margin-right: 20px;
+}
+div.float_save span.savebtn img.hands{
+    width: 35px;
+    height: 35px;
+}
+div.save_wrap span.savebtn{
+    width: 13rem;
+    height: 2rem;
+    background-color: #bb3228;;
+    border-radius: 4px;
+    position: relative;
+    z-index: 88;
+}
+div.save_wrap span.savebtn::after{
+    content: '永久保存你的测算结果';
+    position: absolute;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    top: -6px;
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: #d7473d;
+    border-radius: 4px;
+    z-index: 11;
+}
+div.save_wrap img.hands{
+    position: absolute;
+    height: 1.3rem;
+    width: 1.3rem;
+    z-index: 98;
+    right: 1.2rem;
+    top: 0.2rem;
+}
+
+div.fortune-box{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 1rem 0.3rem 0.3rem 0.3rem;
+}
+/*结果页面评论区*/
+div.comment_box{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.4rem 0.24rem 0.8rem 0.24rem;
+}
+div.comment_box .comment_title{
+    width: 10rem;
+    height: auto;
+    margin-bottom: 0.2rem;
+}
+div.comment_box p.place_text{
+    font-size: 14px;
+    color: #d7473d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0.3rem 0.1rem;
+    text-align: center;
+}
+div.comment_box div.nickname_wrap{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 0.4rem;
+}
+div.comment_box div.input_group{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+div.comment_box label{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-right: 8px;
+}
+div.comment_box input.nickname{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: #a3a3a3;
+    text-indent: 3px;
+    font-size: 17px;
+    background: initial;
+}
+div.comment_box input.nickname:focus{
+    outline: none;
+}
+div.comment_box span.un_name_wrap{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+div.comment_box span.un_name_wrap input.un_name{
+    margin-right: 4px;
+}
+div.comment_box div.satisfied_wrap{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 0.3rem;
+}
+div.comment_box span.pinfen{
+    margin-right: 8px;
+}
+
+div.comment_box span.emoji-wrap{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 6px 4px;
+    background: #ff9900;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+div.comment_box span.emoji-wrap img.emoji{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-right: 0.1rem;
+}
+div.comment_box div.edit_wrap{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+div.comment_box div.edit_wrap textarea{
+    width: 100%;
+    height: 120px;
+    background: #fbf8fb;
+    border: solid 1px #d9d9d9;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #a3a3a3;
+    text-align: justify;
+}
+div.comment_box span.submit_img{
+    width: 13.8rem;
+    height: 2.13rem;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#9880d5), to(#482a92));
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.toastbox {
+    display: none;
+    position: fixed;
+    width: 70%;
+    min-height: 2rem;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#star{
+    width: 120px !important;
+}
+#star img{
+    width: 18px;
+    height: 18px;
+}
+#star input:focus{
+    outline: none;
+    background: none;
+
+}

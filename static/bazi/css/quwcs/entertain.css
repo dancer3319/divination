@@ -1,0 +1,185 @@
+@charset "gb2312";
+/*
+ * @Created: 20120820
+ * @Author : Kevin
+ */
+html{_background-attachment:fixed;_background-image:url(about:blank);}
+html, body{width:100%;height:100%;}
+a{color:#333;}
+a:hover{color:#fd5151;}
+select{font-size:12px;}
+.cYellow{color:#FF8500;font-family:Microsoft YaHei;}
+/* menu */
+.menu_xy strong{background:url(../../images/quwcs/icon_item.png) no-repeat 0 1px;}
+/* fixed */
+.mod_test .btn, .ready dd p, .mod_star li, .mod_zodiac .question p a, .result dd li, .mod_iq p a, .iq_submit, .iq_cancel{background:url(../../images/quwcs/fixed.png) no-repeat;}
+/* entermain */
+.entermain{padding:0 38px 40px;color:#333;}
+/* col_a */
+.col_a{float:left;width:133px;}
+/* col_b */
+.col_b{float:right;width:760px;}
+/* mod_subnav */
+.mod_subnav li{height:37px;margin-bottom:2px;}
+.mod_subnav li a{display:block;width:133px;height:37px;line-height:37px;color:#999;font-size:14px;text-align:center;background:url(../../images/quwcs/subnav_new.png) no-repeat;}
+.mod_subnav li a:hover{color:#FF8B00;}
+.mod_subnav li a.current{padding-right:6px;color:#fff;background-position:0 -38px;font-weight:bold;}
+.mod_subnav li a.current:hover{color:#fff;text-decoration:none;}
+/* mod_test */
+.mod_test{height:129px;border:2px solid #CBE8FF;background:#F5FBFF url(../../images/quwcs/bg_test.jpg) no-repeat left center;}
+.test{padding:45px 0 0 34px;height:37px;font-size:14px;}
+.test input, .test span, .test label{float:left;}
+.test input{font-size:14px;}
+.test span, .test label{margin-top:7px;}
+.sex{width:14px;height:14px;margin-top:11px;*margin-top:10px;margin-left:4px;}
+.test label{padding:0 10px 0 2px;}
+.test .txt{width:38px;padding:0 7px;height:24px;line-height:24px;border:2px solid #FFA73E;margin:4px 15px 0 2px;display:inline;}
+.test .btn{width:123px;height:37px;border:0 none;cursor:pointer;background-position:0 0;}
+.test .btn_hover{background-position:0 -38px;}
+.test .sp{padding-left:10px;}
+.st_outer{float:left;*background:#fff;*border:2px solid #FFA73E;padding-bottom:3px\9;*padding:3px 3px 2px;width:55px;margin-right:20px;*margin-right:10px;margin-top:4px;margin-left:7px;display:inline;}
+.st_inner{*position:relative;*width:55px;*height:18px;*overflow:hidden;*font-size:0;}
+.st_inner select{border:2px solid #FFA73E;color:#333;*margin:-1px;padding:2px;font-size:14px;width:65px;*width:57px;}
+/* mod_result */
+.mod_result{width:700px;height:203px;padding:0 30px;background:url(../../images/quwcs/bg_result.jpg) no-repeat;}
+.mod_result h6{text-align:center;padding:30px 0;line-height:30px;font-size:14px;border-bottom:1px dotted #D4D4D3;}
+.mod_result h6 span{font-size:30px;}
+.ready{font-size:14px;margin-top:20px;}
+.ready dt{float:left;width:340px;text-align:right;padding-top:12px;}
+.ready dt span{font-size:20px;margin-right:10px;}
+.ready dd{float:left;width:315px;padding-left:45px;}
+.ready dd p{padding-left:33px;line-height:30px;background-position:-98px -84px;}
+.ready dd p a{color:#3B5997;}
+.ready dd p a:hover{color:#fd5151;}
+/* mod_star */
+.mod_star{width:608px;height:297px;border:1px solid #D1EBFF;padding:0 75px;background:url(../../images/quwcs/bg_star.jpg) repeat-x center bottom;}
+.mod_star h3{padding:20px 0 10px;font-size:20px;}
+.mod_star ul{float:left;width:272px;color:#656565;}
+.mod_star li{float:left;padding-left:10px;line-height:30px;background-position:-120px -123px;vertical-align:top;}
+.mod_star li span{float:left;height:30px;overflow:hidden;}
+.mod_star li .sp1{width:49px;}
+.mod_star li .sp2{width:80px;}
+.mod_star li .sp3{width:90px;}
+.mod_star li .sp4{width:40px;}
+.mod_star li .sp5{width:110px;}
+.mod_star li .sp6{width:60px;}
+.br{border-right:1px solid #D9EFFF;padding-right:31px;}
+.bl{border-left:1px solid #fff;padding-left:31px;}
+.ml90{margin-left:90px;}
+.mod_star dt{float:left;width:144px;padding-right:58px;}
+.mod_star dt img{padding:2px;border:1px solid #E4E4E4;}
+.mod_star dd{float:left;width:316px;font-size:14px;line-height:30px;}
+.mod_star dd a{color:#fd5151;text-decoration:underline;}
+/* mod_zodiac */
+.mod_zodiac{height:388px;margin-top:-1px;background:url(../../images/quwcs/bg_zodic.jpg) no-repeat;}
+.mod_zodiac_tips{height:50px;line-height:50px;border:2px solid #CBE8FF;color:#FF8300;font-size:16px;font-weight:bold;text-align:center;background:#F5FBFF;}
+.mod_zodiac_tips span{margin-right:25px;}
+.animal{width:487px;height:289px;margin:0 auto;padding-top:47px;}
+.animal a{float:left;width:163px;height:73px;margin:0 -1px -1px 0;background:url(../../images/quwcs/animal.png) no-repeat;}
+.animal a:hover{position:relative;}
+.animal a.aries{background-position:0 0;}
+.animal a.taurus{background-position:0 -75px;}
+.animal a.gemini{background-position:0 -150px;}
+.animal a.cancer{background-position:0 -225px;}
+.animal a.leo{background-position:0 -300px;}
+.animal a.virgo{background-position:0 -375px;}
+.animal a.libra{background-position:0 -450px;}
+.animal a.scorpio{background-position:0 -525px;}
+.animal a.sagittarius{background-position:0 -600px;}
+.animal a.capricorn{background-position:0 -675px;}
+.animal a.aquarius{background-position:0 -750px;}
+.animal a.pisces{background-position:0 -825px;}
+.animal a.aries:hover{background-position:-167px 0;}
+.animal a.taurus:hover{background-position:-167px -75px;}
+.animal a.gemini:hover{background-position:-167px -150px;}
+.animal a.cancer:hover{background-position:-167px -225px;}
+.animal a.leo:hover{background-position:-167px -300px;}
+.animal a.virgo:hover{background-position:-167px -375px;}
+.animal a.libra:hover{background-position:-167px -450px;}
+.animal a.scorpio:hover{background-position:-167px -525px;}
+.animal a.sagittarius:hover{background-position:-167px -600px;}
+.animal a.capricorn:hover{background-position:-167px -675px;}
+.animal a.aquarius:hover{background-position:-167px -750px;}
+.animal a.pisces:hover{background-position:-167px -825px;}
+.mod_zodiac .question{padding-top:90px;}
+.mod_zodiac .question p{text-align:center;font-size:16px;}
+.mod_zodiac .question p a{display:inline-block;width:133px;height:34px;line-height:34px;margin:45px 9px 0;color:#656565;text-align:center;font-size:14px;font-family:Microsoft YaHei;font-weight:bold;background-position:0 -171px;}
+.mod_zodiac .question p a:hover{background-position:0 -206px;color:#fff;}
+.result{padding-top:54px;}
+.result p{font-size:16px;text-align:center;}
+.result p a{color:#fd5151;font-weight:bold;}
+.result dl{width:480px;margin:45px auto 0;padding-top:20px;background:url(../../images/quwcs/bg_r_line.jpg) no-repeat center top;}
+.result dt, .result dd{float:left;width:223px;}
+.result dt{padding:25px 17px 0 0;}
+.result dd{padding-left:17px;}
+.result dt .animal{width:163px;height:73px;padding:0 0 0 60px;}
+.result dt .animal a{margin:0;}
+.result dd li{padding-left:17px;height:30px;line-height:30px;overflow:hidden;background-position:-125px -246px;}
+.result dd li a{color:#395996;font-size:14px;}
+/* caree */
+.caree_test{height:84px;padding-left:40px;background:#F5FBFF;}
+.caree_test input{margin-left:15px;}
+.caree_test .txt{width:60px;}
+/* mod_iq */
+.mod_iq{padding:47px 56px 50px;border:1px solid #DBEFFF;border-top:0 none;}
+.mod_iq dt{float:left;width:224px;padding-top:8px;}
+.mod_iq dd{float:left;width:422px;color:#656565;line-height:32px;font-size:14px;}
+.mod_iq p{margin-top:30px;height:40px;text-align:center;}
+.mod_iq p a{display:inline-block;width:129px;height:40px;line-height:40px;border:0 none;cursor:pointer;background-position:0 -299px;}
+.mod_iq_item{background:#F5FBFF;border:1px solid #DBEFFF;border-top:0 none;zoom:1;}
+.mod_iq_item dl{border-top:1px dashed #CBE8FF;}
+.mod_iq_item dl.nobt{border-top:0 none;}
+.mod_iq_item dt{float:left;width:95px;padding-top:25px;color:#FF8300;font-size:24px;font-family:Arial;font-weight:bold;text-align:center;}
+.mod_iq_item dd{float:left;width:613px;padding:20px 25px;color:#656565;font-size:14px;background:#fff;}
+.mod_iq_item dd ol, .mod_iq_item dd li{list-style:decimal inside none;font-size:16px;}
+.mod_iq_item dd li{margin-top:20px;color:#333;vertical-align:top;}
+.mod_iq_item dd li p{margin-top:10px;color:#FF8300;font-weight:bold;}
+.mod_iq_item dd li span{*padding-left:15px;}
+.mod_iq_item dd li em{border:1px solid #D1D1D1;padding:0 15px;font-weight:bold;}
+.mod_iq_item dd li label{padding-right:10px;}
+.mod_iq_item dd li img{margin-right:20px;}
+.mtl{margin:10px 0 0 208px;}
+.iq_submit, .iq_cancel{height:34px;line-height:34px;border:0 none;font-size:14px;cursor:pointer;}
+.iq_submit{width:170px;margin-right:5px;color:#fff;background-position:0 -381px;}
+.iq_cancel{width:95px;color:#999;background-position:0 -416px;}
+.iq_time{position:fixed;top:331px;left:50%;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+331));margin-left:328px;display:inline-block;width:72px;height:49px;line-height:49px;padding:0 0 5px 55px;z-index:990;color:#FF8300;font-size:24px;font-weight:bold;background:url(../../images/quwcs/iq_time.png) no-repeat;}
+.popup_iq{position:fixed;left:50%;top:100px;margin-left:-150px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+100));width:299px;height:428px;z-index:1000;}
+.popup_iq_inner{position:relative;top:-5px;left:-4px;width:247px;height:411px;border:1px solid #9DD4FF;padding:15px 25px 0;color:#656565;background:#fff;}
+.popup_iq_inner p{font-size:14px;line-height:28px;}
+.popup_iq_score{margin-top:15px;padding:6px 0;height:221px;background:#EAF6FF;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;}
+.popup_iq_score h6{padding-left:15px;height:24px;border-bottom:1px dashed #CBE8FF;font-size:14px;font-weight:bold;}
+.popup_iq_inner .popup_iq_score p{line-height:24px;padding-left:15px;overflow:hidden;zoom:1;}
+.popup_iq_inner .popup_iq_score p.first{border-top:1px dashed #fff;}
+.popup_iq_inner .popup_iq_score p em{float:left;width:87px;}
+.popup_iq_inner p.last{text-align:center;}
+.popup_iq_inner p.last input{width:65px;height:27px;margin-top:13px;line-height:27px;font-size:12px;color:#333;cursor:pointer;}
+.mask{position:fixed;_position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.5;filter:Alpha(opacity=50);z-index:999;}
+/* xming */
+.xming{padding:38px 0 0 180px;z-index:88;height:92px;background-image:url(../../images/quwcs/xming.png)}
+.xming_form input{float:left;}
+.xming_txt{padding:4px 14px;width:314px;height:30px;border:2px solid #FFA01A;line-height:30px;color:#999;font-size:14px;}
+.xming_txt_hover{color:#333;}
+.xming_btn{width:105px;height:42px;border:0 none;cursor:pointer;background:url(../../images/quwcs/xmingbg.png) 0 0 no-repeat;}
+.xming_btn_hover{background-position:-107px 0;}
+.xming_list{border:1px solid #dcf0ff; background:url(../../images/quwcs/xmingcf.png) no-repeat; height:252px;padding:20px 0 0 80px;color:#666;line-height:24px;font-size:14px;}
+.xming_list b{display:block;height:30px;line-height:30px;font-weight:100;}
+.xming_list em{font-style:normal;color:#ff8b00;}
+.xming_list b em{font-weight:bold;margin:0 5px;}
+.rp_w{background:#fff url(../../images/quwcs/rp_bg.png) bottom repeat-x;border:1px solid #dbefff;height:500px;}
+/* cerebrum */
+.cerebrum{background:#F5FBFF url(../../images/quwcs/bg_cerebrum.png) no-repeat;}
+.cerebrum .xming_form{padding:37px 0 0 180px;}
+.mod_cerebrum_intro{padding:18px 0 18px 28px;border:1px solid #CBE8FF;background:#fff url(../../images/quwcs/rp_bg.png) bottom repeat-x;}
+.mod_cerebrum_intro img{float:left;width:300px;margin-top:9px;}
+.mod_cerebrum_intro ul{float:left;width:430px;font-size:14px;line-height:36px;}
+.mod_cerebrum_intro li{float:left;width:115px;padding-left:25px;}
+.mod_cerebrum_intro li.first{float:none;color:#338BCF;font-weight:bold;line-height:32px;}
+.mod_cerebrum_intro li span{margin-right:15px;}
+.cerebrum_share{padding:15px 14px 0;}
+.cerebrum_share textarea{padding:8px 20px;width:686px;height:48px;border:1px solid #9CCDF5;color:#656565;font-size:14px;line-height:24px;resize:none;overflow:auto;}
+.cerebrum_share p{padding-top:7px;color:#656565;}
+.cerebrum_share p input, .cerebrum_share p a, .cerebrum_share p label{float:right;}
+.cerebrum_share p .again{width:75px;height:29px;line-height:29px;font-size:12px;cursor:pointer;color:#656565;}
+.cerebrum_share p a{width:112px;height:29px;margin-right:10px;background:url(../../images/quwcs/weibo.png) no-repeat;}
+.cerebrum_share p .fellow{margin:9px 5px 0 0;width:14px;height:14px;}
+.cerebrum_share p label{margin:7px 28px 0 0;}

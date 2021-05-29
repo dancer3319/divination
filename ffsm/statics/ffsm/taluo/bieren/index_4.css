@@ -1,0 +1,247 @@
+body {
+    background-color: #FFFFFF;
+}
+section.page {
+    width: 100%;
+    position: relative;
+    background-color: #2a1f5a;
+}
+section.main-wrap {
+    position: relative;
+    width: 100%;
+}
+
+img.order_btn {
+    position: absolute;
+    top: 5.2rem;
+    right: 0;
+    width: 1rem;
+    height: auto;
+    z-index: 99;
+}
+
+div.banner-wrap {
+    width: 100%;
+    margin-bottom: -3.8rem;
+}
+
+div.banner-wrap img.banner {
+    width: 100%;
+    height: auto;
+}
+p.guide-text{
+    margin-top: 0.4rem;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+img.start-btn {
+    display: block;
+    width: 11rem;
+    height: auto;
+    margin-top: 0.6rem;
+    margin-bottom: 0.4rem;
+}
+
+img.start-zoom{
+    -webkit-animation: zoom 0.9s linear infinite alternate;
+    -o-animation: zoom 0.9s linear infinite alternate;
+    animation: zoom 0.9s linear infinite alternate;
+}
+@keyframes zoom {
+    form {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+    }
+}
+
+@-webkit-keyframes zoom {
+    form {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+    }
+}
+
+div.content-wrap {
+    width: 100%;
+    padding: 0 0.3rem;
+}
+
+div.content-wrap div.content-box {
+    width: 100%;
+}
+
+div.content-wrap img.border {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div.content-wrap img.border-top {
+    margin-bottom: -1px;
+}
+
+div.content-wrap img.border-bot {
+    margin-top: -1px;
+}
+
+div.content-wrap div.content-panel {
+    width: 100%;
+    background-image: url('/statics/ffsm/taluo/bieren/img/border_mid.png');
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+}
+
+div.content-wrap img.title {
+    display: block;
+    width: 10rem;
+    height: auto;
+    margin: 0.4rem 0rem;
+}
+
+div.content-wrap div.content {
+    width: 100%;
+    padding: 0rem 0.6rem;
+}
+
+div.content-wrap img.parse-desc {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div.content-wrap img.parse-list {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*评论区样式*/
+div.content-wrap p.comment-title{
+    width: 100%;
+    color: #715ae4;
+    font-weight: bold;
+    font-size: 22px;
+    white-space:nowrap;
+}
+div.content-wrap p.comment-title em{
+    font-weight: bold;
+    color: #e0804a;
+}
+div.content-wrap div.detail-data{
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 0.6rem 0;
+}
+div.content-wrap div.detail-data span{
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    background-color: #8c76e5;
+    border-radius: 6px;
+    padding: 0.1rem 0.35rem;
+}
+div.content-wrap div.detail-data span img{
+    display: block;
+    width: 0.6rem;
+    height: auto;
+    margin-right: 0.1rem;
+}
+div.content-wrap div.detail-data span em{
+    color: #ffff00;
+}
+div.content-wrap div.labels{
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #cecece;;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+div.content-wrap div.labels span{
+    padding: 0.2rem 0.2rem;
+    background-color: #fad1ba;
+    border-radius: 1rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+div.content-wrap div.labels span:last-child{
+    margin-right: 0;
+}
+div.content-wrap div.labels div.span-line{
+    width: 100%;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+div.content-wrap div.upto-wrap {
+    width: 100%;
+    position: relative;
+    height: 440px;
+    overflow: hidden;
+    font-size: 16px;
+}
+@media screen and (max-width: 340px) {
+    div.content-wrap p.comment-title{
+        font-size: 18px;
+    }
+    div.content-wrap div.detail-data{
+        font-size: 14px;
+    }
+    div.content-wrap div.labels{
+        font-size: 12px;
+    }
+    div.content-wrap div.upto-wrap {
+        font-size: 14px;
+    }
+}
+
+div.content-wrap ul.comment-list {
+    width: 100%;
+}
+
+div.content-wrap ul.comment-list li {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    border-bottom: 1px solid #7c7972;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    height: 100px !important;
+}
+
+div.content-wrap ul.comment-list li p.user {
+    color: #8749E3;
+    margin-bottom: 0.2rem;
+}
+
+div.content-wrap ul.comment-list li P.detail {
+    color: #54524e;
+}
+
+/*评论区样式*/
+
+
+div.float-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+div.float-wrap div.float-btn {
+    width: 100%;
+    max-width: 640px;
+    height: 2.4rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,993 @@
+/* line 17, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/joke.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 10, ../sass/joke.scss */
+.blank10 {
+  height: 10px;
+  width: 100%;
+}
+
+/* line 11, ../sass/joke.scss */
+.blank20 {
+  height: 20px;
+  width: 100%;
+}
+
+/* line 12, ../sass/joke.scss */
+.blank50 {
+  height: 50px;
+  width: 100%;
+}
+
+/* line 13, ../sass/joke.scss */
+h1, h2, h3, h4, h5 {
+  font-family: arial,"Microsoft yahei";
+  *font-family: "Microsoft yahei,arial";
+}
+
+/* line 17, ../sass/joke.scss */
+cite {
+  font-style: normal;
+}
+
+/* line 23, ../sass/joke.scss */
+#jokeNav, #jokeContent .contentIn .conTop, #jokeContent .contentIn .conTop .main .item, #jokeContent .contentIn .conTop .main .item .itemCon, .detail .praise .praIcon, .dtBottom, .dtBottom .detailFl, .picListMd, .webUrlMd .urlList {
+  zoom: 1;
+}
+/* line 25, ../sass/joke.scss */
+#jokeNav:after, #jokeContent .contentIn .conTop:after, #jokeContent .contentIn .conTop .main .item:after, #jokeContent .contentIn .conTop .main .item .itemCon:after, .detail .praise .praIcon:after, .dtBottom:after, .dtBottom .detailFl:after, .picListMd:after, .webUrlMd .urlList:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+/* line 33, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .itemFl .itemPic a, #jokeContent .contentIn .conTop .main .item .itemCon .itemFl .longPic .loadMore b {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 66, ../sass/joke.scss */
+.mainPage a, .picListMd ul li a, .picListMd ul li a img {
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+}
+
+/* line 70, ../sass/joke.scss */
+.jokeWrap {
+  background: #f9f2e2;
+}
+
+/* line 75, ../sass/joke.scss */
+#jokeHd {
+  background: url(../images/hdBg.png) #ffe6a4;
+  height: 110px;
+}
+/* line 78, ../sass/joke.scss */
+#jokeHd .jokeHdIn {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 82, ../sass/joke.scss */
+#jokeHd .jokeHdIn .logo {
+  float: left;
+  width: 550px;
+}
+/* line 85, ../sass/joke.scss */
+#jokeHd .jokeHdIn .logo a {
+  outline: none;
+  display: block;
+  width: 550px;
+  height: 110px;
+  background: url(../images/jokeBg.png) no-repeat -20px -12px;
+}
+/* line 91, ../sass/joke.scss */
+#jokeHd .jokeHdIn .logo a span {
+  display: none;
+}
+/* line 96, ../sass/joke.scss */
+#jokeHd .jokeHdIn .search {
+  padding-right: 20px;
+  float: right;
+  width: 220px;
+}
+/* line 100, ../sass/joke.scss */
+#jokeHd .jokeHdIn .search .searBox {
+  position: relative;
+  margin-top: 35px;
+}
+/* line 103, ../sass/joke.scss */
+#jokeHd .jokeHdIn .search .searBox .serText {
+  float: left;
+  border: none;
+  width: 145px;
+  height: 16px;
+  padding: 10px 5px;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* line 113, ../sass/joke.scss */
+#jokeHd .jokeHdIn .search .searBox .line {
+  position: absolute;
+  right: 63px;
+  top: 8px;
+  display: block;
+  width: 1px;
+  height: 20px;
+  background: #dadada;
+  z-index: 1;
+}
+/* line 123, ../sass/joke.scss */
+#jokeHd .jokeHdIn .search .searBox .serBtn {
+  float: left;
+  border: 1px solid #fff;
+  margin: 0px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  width: 60px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: url(../images/jokeBg.png) no-repeat -14px -160px white;
+}
+
+/* line 142, ../sass/joke.scss */
+#jokeNav {
+  background: #ffcd48;
+  background: -webkit-linear-gradient(top, #ffcd48, #ffbe0f);
+  background: -moz-linear-gradient(top, #ffcd48, #ffbe0f);
+  background: -ms-linear-gradient(top, #ffcd48, #ffbe0f);
+  background: linear-gradient(top, #ffcd48, #ffbe0f);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFCD48', endColorstr='#FFFFBE0F');
+  border-top: 1px solid #ffb00a;
+  border-bottom: 1px solid #ffb00a;
+  width: 100%;
+  box-shadow: 0px 1px 1px #ccc;
+}
+/* line 149, ../sass/joke.scss */
+#jokeNav ul {
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 153, ../sass/joke.scss */
+#jokeNav li {
+  float: left;
+}
+/* line 155, ../sass/joke.scss */
+#jokeNav li a {
+  font-family: arial,"Microsoft yahei";
+  *font-family: "Microsoft yahei",arial;
+  padding: 0 20px;
+  display: block;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: #5c3e13;
+  font-size: 18px;
+}
+/* line 165, ../sass/joke.scss */
+#jokeNav li a:hover {
+  color: #fff;
+  background: #5c3e13;
+  position: relative;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  transition: background 0.3s ease-in;
+  -moz-transition: background 0.3s ease-in;
+  -webkit-transition: background 0.3s ease-in;
+  -o-transition: background 0.3s ease-in;
+  -ms-transition: background 0.3s ease-in;
+}
+/* line 176, ../sass/joke.scss */
+#jokeNav li .active {
+  color: #fff;
+  background: #5c3e13;
+  position: relative;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/* line 191, ../sass/joke.scss */
+#jokeContent .contentIn {
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 196, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main {
+  width: 640px;
+  float: left;
+}
+/* line 199, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item {
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 10px;
+  width: 640px;
+  padding-bottom: 20px;
+  transition: box-shadow 0.3s ease-in;
+  -moz-transition: box-shadow 0.3s ease-in;
+  -webkit-transition: box-shadow 0.3s ease-in;
+  -o-transition: box-shadow 0.3s ease-in;
+  -ms-transition: box-shadow 0.3s ease-in;
+}
+/* line 208, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item strong {
+  color: #ffbd0d;
+}
+/* line 211, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .title {
+  padding: 20px 20px 0 20px;
+  width: 450px;
+  margin-bottom: 20px;
+}
+/* line 215, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .title a {
+  line-height: 24px;
+  color: #5c3e13;
+  font-size: 18px;
+}
+/* line 219, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .title a span {
+  color: red;
+}
+/* line 225, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon {
+  padding: 0 20px;
+}
+/* line 228, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .itemFl {
+  width: 450px;
+  float: left;
+}
+/* line 231, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .itemFl .itemPic {
+  color: #5c3e13;
+  font-size: 14px;
+  line-height: 30px;
+}
+/* line 235, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .itemFl .itemPic a {
+  position: relative;
+}
+/* line 238, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .itemFl .itemPic a img {
+  max-width: 450px;
+}
+/* line 248, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .itemFl .longPic .loadMore {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  height: 30px;
+  left: 0;
+  width: 100%;
+  background: #ffd86f;
+  text-align: center;
+}
+/* line 257, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .itemFl .longPic .loadMore b {
+  cursor: pointer;
+  color: #fff;
+  height: 32px;
+  line-height: 18px;
+  width: 77px;
+  font-size: 12px;
+  background: url(../images/jokeBg.png) no-repeat -30px -348px;
+}
+/* line 270, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .itemFr {
+  width: 110px;
+  float: right;
+}
+/* line 275, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .imageloading {
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background: #f4f4f4;
+  position: relative;
+}
+/* line 283, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item .itemCon .imageloading img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -5px;
+}
+/* line 293, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .item:hover {
+  box-shadow: 0px 0px 4px #ffcd48;
+}
+/* line 298, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .sidebar {
+  width: 320px;
+  float: right;
+  margin-left: 20px;
+}
+/* line 302, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .sidebar .sidMd {
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+/* line 308, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .sidebar .sidTitle {
+  margin-bottom: 10px;
+  color: #5c3e13;
+}
+/* line 312, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .sidebar p {
+  color: #5c3e13;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 324, ../sass/joke.scss */
+.detail .praise {
+  width: 110px;
+}
+/* line 326, ../sass/joke.scss */
+.detail .praise .praIcon {
+  margin-bottom: 10px;
+}
+/* line 329, ../sass/joke.scss */
+.detail .praise .praIcon a {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../images/jokeBg.png) no-repeat;
+}
+/* line 336, ../sass/joke.scss */
+.detail .praise .praIcon .upNum {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  color: red;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 24px;
+  display: none;
+  opacity: 1;
+}
+/* line 347, ../sass/joke.scss */
+.detail .praise .praIcon .peak {
+  background-position: -30px -228px;
+  float: left;
+}
+/* line 351, ../sass/joke.scss */
+.detail .praise .praIcon .peakHv {
+  background-position: -30px -278px;
+  cursor: default;
+  float: left;
+}
+/* line 356, ../sass/joke.scss */
+.detail .praise .praIcon .weak {
+  float: right;
+  background-position: -108px -232px;
+}
+/* line 360, ../sass/joke.scss */
+.detail .praise .praIcon .weakHv {
+  float: right;
+  cursor: default;
+  background-position: -108px -282px;
+}
+/* line 365, ../sass/joke.scss */
+.detail .praise .praIcon .mouseDef {
+  cursor: default;
+}
+/* line 370, ../sass/joke.scss */
+.detail .praiseTxt {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 5px;
+}
+/* line 374, ../sass/joke.scss */
+.detail .praiseTxt .peakTxt {
+  color: #f4c64a;
+  float: left;
+}
+/* line 378, ../sass/joke.scss */
+.detail .praiseTxt .weakTxt {
+  float: right;
+}
+/* line 383, ../sass/joke.scss */
+.detail .plan {
+  width: 100%;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #d2d2d2;
+  margin-bottom: 20px;
+}
+/* line 390, ../sass/joke.scss */
+.detail .plan .long {
+  display: block;
+  height: 6px;
+  border-radius: 5px;
+  background: #f3cc64;
+}
+/* line 399, ../sass/joke.scss */
+.detail .share a {
+  display: block;
+  width: 110px;
+  height: 30px;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 12px;
+  text-decoration: none;
+  overflow: hidden;
+}
+/* line 408, ../sass/joke.scss */
+.detail .share a i {
+  margin-right: 5px;
+  display: block;
+  width: 36px;
+  height: 36px;
+  float: left;
+  background: url(../images/jokeBg.png) no-repeat;
+}
+/* line 416, ../sass/joke.scss */
+.detail .share a span {
+  display: block;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 423, ../sass/joke.scss */
+.detail .share .sinaBtn {
+  background: #f04444;
+  margin-bottom: 10px;
+}
+/* line 426, ../sass/joke.scss */
+.detail .share .sinaBtn i {
+  background-position: -102px -162px;
+}
+/* line 429, ../sass/joke.scss */
+.detail .share .sinaBtn:hover {
+  background: #e21616;
+}
+/* line 433, ../sass/joke.scss */
+.detail .share .qqBtn {
+  background: #ffc52a;
+}
+/* line 435, ../sass/joke.scss */
+.detail .share .qqBtn i {
+  background-position: -170px -159px;
+}
+/* line 438, ../sass/joke.scss */
+.detail .share .qqBtn:hover {
+  background: #f6b812;
+}
+/* line 444, ../sass/joke.scss */
+.detail .comment a {
+  font-size: 12px;
+  color: #b9b9b9;
+  text-decoration: none;
+}
+/* line 448, ../sass/joke.scss */
+.detail .comment a i {
+  margin-right: 5px;
+  display: block;
+  width: 36px;
+  height: 25px;
+  float: left;
+  background: url(../images/jokeBg.png) -253px -168px no-repeat;
+}
+/* line 456, ../sass/joke.scss */
+.detail .comment a span {
+  float: left;
+  display: block;
+  height: 25px;
+  line-height: 25px;
+}
+/* line 462, ../sass/joke.scss */
+.detail .comment a:hover {
+  color: #666;
+}
+/* line 465, ../sass/joke.scss */
+.detail .comment a:hover i {
+  background-position: -491px -168px;
+}
+
+/* line 474, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .detailItem .itemCon {
+  padding: 0px;
+}
+/* line 476, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .detailItem .itemCon .itemPic {
+  padding: 20px;
+  text-align: center;
+}
+/* line 479, ../sass/joke.scss */
+#jokeContent .contentIn .conTop .main .detailItem .itemCon .itemPic img {
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+/* line 487, ../sass/joke.scss */
+.dtBottom {
+  padding: 10px 20px;
+  width: 600px;
+  background: #fff;
+}
+/* line 492, ../sass/joke.scss */
+.dtBottom .detailFl {
+  float: left;
+  width: 500px;
+}
+/* line 496, ../sass/joke.scss */
+.dtBottom .detailFl .praise {
+  float: left;
+  margin-right: 30px;
+}
+/* line 500, ../sass/joke.scss */
+.dtBottom .detailFl .share {
+  float: left;
+  width: 240px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+/* line 505, ../sass/joke.scss */
+.dtBottom .detailFl .share a {
+  float: left;
+  margin-right: 10px;
+}
+/* line 510, ../sass/joke.scss */
+.dtBottom .detailFl .comment {
+  float: left;
+  margin-top: 20px;
+}
+/* line 516, ../sass/joke.scss */
+.dtBottom .detailFr {
+  width: 100px;
+  float: right;
+}
+/* line 519, ../sass/joke.scss */
+.dtBottom .detailFr .nextPage {
+  display: block;
+  width: 90px;
+  height: 68px;
+  line-height: 68px;
+  font-size: 18px;
+  text-indent: 13px;
+  color: #5c3e13;
+  background: url(../images/jokeBg.png) no-repeat -203px -230px;
+  transition: margin 0.2s ease-in;
+  -moz-transition: margin 0.2s ease-in;
+  -webkit-transition: margin 0.2s ease-in;
+  -o-transition: margin 0.2s ease-in;
+  -ms-transition: margin 0.2s ease-in;
+}
+/* line 533, ../sass/joke.scss */
+.dtBottom .detailFr .nextPage:hover {
+  position: relative;
+  margin-left: 5px;
+  color: #fff;
+  background: url(../images/jokeBg.png) no-repeat -364px -230px;
+}
+
+/* line 544, ../sass/joke.scss */
+.commentCon {
+  border: 1px solid #b9b9b9;
+}
+/* line 546, ../sass/joke.scss */
+.commentCon #commentArea {
+  outline: none;
+  border: none;
+  max-width: 580px;
+  font-size: 14px;
+  color: #5c3e13;
+  padding: 5px;
+}
+/* line 554, ../sass/joke.scss */
+.commentCon .comBtm {
+  background: #f3f3f3;
+  border-top: 1px solid #b9b9b9;
+  height: 40px;
+}
+/* line 558, ../sass/joke.scss */
+.commentCon .comBtm .face {
+  width: 50px;
+  float: left;
+  border-right: 1px solid #b9b9b9;
+  position: relative;
+}
+/* line 563, ../sass/joke.scss */
+.commentCon .comBtm .face .faceCon {
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: -1px;
+  width: 315px;
+  border: 1px solid #ccc;
+  padding: 6px;
+  top: 40px;
+  right: 0px;
+  background: url(../images/face.jpg) no-repeat white;
+  box-shadow: 0 0 3px 0 #ccc;
+}
+/* line 576, ../sass/joke.scss */
+.commentCon .comBtm .face .faceCon .faceShow {
+  display: none;
+  width: 52px;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  right: 5px;
+  top: 5px;
+}
+/* line 584, ../sass/joke.scss */
+.commentCon .comBtm .face .faceCon .faceShow span {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  height: 18px;
+  color: #666;
+  line-height: 18px;
+}
+/* line 593, ../sass/joke.scss */
+.commentCon .comBtm .face .faceCon ul {
+  overflow: hidden;
+  margin-right: -1px;
+  height: 141px;
+}
+/* line 597, ../sass/joke.scss */
+.commentCon .comBtm .face .faceCon ul li {
+  margin-right: 1px;
+  margin-bottom: 1px;
+  width: 34px;
+  height: 34px;
+  float: left;
+}
+/* line 603, ../sass/joke.scss */
+.commentCon .comBtm .face .faceCon ul li a {
+  display: block;
+  width: 34px;
+  height: 34px;
+  float: left;
+}
+/* line 608, ../sass/joke.scss */
+.commentCon .comBtm .face .faceCon ul li a:hover {
+  border: 1px solid #ffc52a;
+}
+/* line 615, ../sass/joke.scss */
+.commentCon .comBtm .face .faceBtn {
+  outline: none;
+  display: block;
+  height: 40px;
+  background: url(../images/jokeBg.png) no-repeat -407px -116px;
+}
+/* line 620, ../sass/joke.scss */
+.commentCon .comBtm .face .faceBtn:hover {
+  background-position: -407px -160px;
+}
+/* line 625, ../sass/joke.scss */
+.commentCon .comBtm .face .active {
+  background: url(../images/jokeBg.png) no-repeat -407px -158px;
+}
+/* line 629, ../sass/joke.scss */
+.commentCon .comBtm .txtNum {
+  float: right;
+  display: none;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #5c3e13;
+  font-family: "Georgia";
+  font-size: 24px;
+  font-style: italic;
+}
+/* line 641, ../sass/joke.scss */
+.commentCon .comBtm .subBtn {
+  float: right;
+  background: #ffc52a;
+  width: 80px;
+  height: 30px;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  margin: 5px 5px 0 0;
+  cursor: pointer;
+  outline: none;
+}
+/* line 652, ../sass/joke.scss */
+.commentCon .comBtm .subBtn:hover {
+  background: #ffcd48;
+}
+/* line 656, ../sass/joke.scss */
+.commentCon .comBtm .disableBtn {
+  background: #ccc;
+}
+/* line 658, ../sass/joke.scss */
+.commentCon .comBtm .disableBtn:hover {
+  background: #ccc;
+}
+
+/* line 667, ../sass/joke.scss */
+.mainPage {
+  text-align: center;
+}
+/* line 669, ../sass/joke.scss */
+.mainPage a {
+  background: #fff;
+  display: inline-block;
+  padding: 8px 10px;
+  color: #5c3e13;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+/* line 677, ../sass/joke.scss */
+.mainPage a:hover {
+  background: #ffdc7f;
+}
+/* line 681, ../sass/joke.scss */
+.mainPage .active {
+  background: #ffc52a;
+  color: #fff;
+}
+
+/* line 688, ../sass/joke.scss */
+.picListMd {
+  background: #fff;
+  padding: 15px;
+  padding-bottom: 0px;
+  border-radius: 15px;
+}
+/* line 694, ../sass/joke.scss */
+.picListMd ul {
+  margin-right: -20px;
+}
+/* line 696, ../sass/joke.scss */
+.picListMd ul li {
+  float: left;
+  margin-bottom: 20px;
+  width: 150px;
+  margin-right: 10px;
+}
+/* line 703, ../sass/joke.scss */
+.picListMd ul li a img {
+  width: 150px;
+  height: 90px;
+}
+/* line 707, ../sass/joke.scss */
+.picListMd ul li a img:hover {
+  box-shadow: 0 0 4px #ffcd48;
+}
+/* line 711, ../sass/joke.scss */
+.picListMd ul li a cite {
+  height: 24px;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  display: block;
+}
+/* line 724, ../sass/joke.scss */
+.picListMd ul li a:hover cite {
+  color: #5c3e13;
+}
+
+/* line 733, ../sass/joke.scss */
+.picListSmall {
+  padding: 15px 10px;
+  padding-bottom: 0px;
+}
+/* line 736, ../sass/joke.scss */
+.picListSmall ul li {
+  margin-right: 7px;
+}
+
+/* line 742, ../sass/joke.scss */
+.commentMd {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+/* line 746, ../sass/joke.scss */
+.commentMd .title {
+  margin-bottom: 20px;
+}
+/* line 748, ../sass/joke.scss */
+.commentMd .title h3 {
+  color: #5c3e13;
+}
+/* line 753, ../sass/joke.scss */
+.commentMd .commentShow .comShowTitle {
+  color: #5c3e13;
+  font-size: 18px;
+  border-bottom: 1px solid #f3f3f3;
+  line-height: 30px;
+}
+/* line 760, ../sass/joke.scss */
+.commentMd .commentShow .comShowCon li {
+  padding: 10px 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+/* line 763, ../sass/joke.scss */
+.commentMd .commentShow .comShowCon li .comActive {
+  float: left;
+  margin-right: 10px;
+}
+/* line 767, ../sass/joke.scss */
+.commentMd .commentShow .comShowCon li .comCon {
+  overflow: hidden;
+  zoom: 1;
+  font-family: "\5b8b\4f53";
+  min-height: 60px;
+}
+/* line 772, ../sass/joke.scss */
+.commentMd .commentShow .comShowCon li .comCon h5 {
+  font-size: 12px;
+  color: #a6a6a6;
+  margin-bottom: 5px;
+}
+/* line 777, ../sass/joke.scss */
+.commentMd .commentShow .comShowCon li .comCon p {
+  font-size: 14px;
+  color: #5c3e13;
+  line-height: 20px;
+}
+
+/* line 789, ../sass/joke.scss */
+.webUrlMd {
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+/* line 793, ../sass/joke.scss */
+.webUrlMd .title {
+  margin-bottom: 20px;
+}
+/* line 795, ../sass/joke.scss */
+.webUrlMd .title h3 {
+  font-size: 18px;
+  color: #585858;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 24px;
+}
+/* line 805, ../sass/joke.scss */
+.webUrlMd .urlList ul li {
+  width: 146px;
+  margin-right: 10px;
+  float: left;
+  margin-bottom: 15px;
+}
+/* line 810, ../sass/joke.scss */
+.webUrlMd .urlList ul li a {
+  color: #585858;
+  display: block;
+  width: 146px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 817, ../sass/joke.scss */
+.webUrlMd .urlList ul li a:hover {
+  color: #5c3e13;
+}
+
+/* line 827, ../sass/joke.scss */
+#backTop {
+  display: none;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* line 836, ../sass/joke.scss */
+#backTop a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../images/jokeBg.png) no-repeat -514px -235px #cccccc;
+  transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -webkit-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  -ms-transition: background-color 0.3s ease-in;
+}
+/* line 842, ../sass/joke.scss */
+#backTop a:hover {
+  background-color: #ffc52a;
+}
+
+/* line 849, ../sass/joke.scss */
+.search {
+  padding: 10px;
+}
+/* line 851, ../sass/joke.scss */
+.search p {
+  font-size: 22px;
+  color: #5c3e13;
+}
